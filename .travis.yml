@@ -1,10 +1,10 @@
-#Enable C++ support
+# Enable C++ support
 language: cpp
 
-#Compilter Selection
+# Compiler selection
 compiler:
-	- g++
+  - gcc
 
 #Build steps
 script:
-	- g++ helloWorld.cpp -o fish
+	- gcc helloWorld.cpp -o fish
