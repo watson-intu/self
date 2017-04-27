@@ -7,4 +7,4 @@ compiler:
 
 #Build steps
 script:
-	g++ helloWorld.cpp -o fish
+	- g++ helloWorld.cpp -o fish
