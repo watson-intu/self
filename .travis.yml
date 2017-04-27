@@ -3,8 +3,8 @@ language: cpp
 
 # Compiler selection
 compiler:
-  - gcc
+  - g++
 
 #Build steps
 script:
-  - gcc helloWorld.cpp -o fish
+  - g++ helloWorld.cpp -o fish
