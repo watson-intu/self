@@ -33,10 +33,10 @@
 
 ### Getting the files
 
-Download the code to your computer. You can do download the code in either of the following ways:
+Clone the Intu git repository onto your local machine by running the following two commands in your terminal:
 
-  * Download the .zip file of this repository to a local directory.
-  * Clone this repository locally.
+  * `git clone --branch master --recursive git@github.com:watson-intu/self.git`
+  * `git submodule update --init --recursive`
 
 ### Release Notes
 * You may need to delete the "wdc" directory to get latest due to that directory being converted into a sub-module.
