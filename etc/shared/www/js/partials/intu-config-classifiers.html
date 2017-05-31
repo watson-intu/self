@@ -1,0 +1,22 @@
+<div>
+	<div class="page-title"><h1 class="text-left">CONFIGURATION | Classifiers</h1></div>
+	<div class="container">
+		<div class="row">
+			<div ng-repeat="classifier in classifiers" class="col-md-12">
+				<a href="" class="expand"><p>{{ classifier.Type_ }}</p></a>
+				<div class="row"><textarea ng-model="classifier" json-text class="agent-details"></textarea></div>
+				<div class="row">
+					<div class="col-md-2">
+						<div class="btn">Cancel</div>
+					</div>
+					<div class="col-md-2">
+						<div class="btn btn-primary" ng-click="updateAgent( classifier );">Save</div>
+					</div>
+					<div class="col-md-2 col-md-offset-6">
+						<div class="btn btn-success">Verify</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

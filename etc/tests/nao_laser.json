@@ -1,0 +1,10 @@
+{
+  "Type_" : "Laser",
+  "m_LaserSensors" : [
+    "Device/SubDeviceList/Platform/LaserSensor/Front/Shovel/Seg01/X/Sensor/Value",
+    "Device/SubDeviceList/Platform/LaserSensor/Front/Vertical/Right/Seg01/X/Sensor/Value",
+    "Device/SubDeviceList/Platform/LaserSensor/Front/Vertical/Left/Seg01/X/Sensor/Value"
+  ],
+  "m_Interval" : 1.0,
+  "m_DistanceThreshold": 2.0
+}

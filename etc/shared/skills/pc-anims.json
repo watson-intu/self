@@ -1,0 +1,49 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [
+	{
+		"key": "show_laugh",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_laugh",
+			"m_GestureId": "show_laugh",
+			"m_GestureParams": null,
+			"m_SkillName": "show_laugh",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_anger",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_anger",
+			"m_GestureId": "show_anger",
+			"m_GestureParams": null,
+			"m_SkillName": "show_anger",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_embarrassment",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_embarrassment",
+			"m_GestureId": "show_embarrassment",
+			"m_GestureParams": null,
+			"m_SkillName": "show_embarrassment",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_happiness",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_happiness",
+			"m_GestureId": "show_happiness",
+			"m_GestureParams": null,
+			"m_SkillName": "show_happiness",
+			"m_bReplaceParams": false
+		}
+	}
+	]
+}

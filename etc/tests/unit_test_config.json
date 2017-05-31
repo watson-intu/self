@@ -1,0 +1,167 @@
+{
+  "Type_": "Config",
+  "m_Libs": [ "platform_win", "opencv_plugin" ],
+  "m_ServiceConfigs": [
+    {
+	  "m_ServiceId" : "KafkaConsumerV1",
+	  "m_CustomMap" : [
+		{
+			"key" : "client.id",
+			"value" : "Intu"
+		},
+		{
+			"key" : "group.id",
+			"value" : "ssa"
+		},
+		{
+			"key" : "bootstrap.servers",
+			"value" : "kr-sanjayko1.sl.cloud9.ibm.com:9092"
+		}
+	  ]
+	},
+    {
+      "m_URL": "https://ibmgraph-alpha.ng.bluemix.net/9a44b2d3-0e07-4c8b-a218-be8a764560b4",
+      "m_Password": "ffc2882b-3ea7-422e-b6c0-1367b623bb9a",
+      "m_ServiceId": "GraphV1",
+      "m_User": "9079e901-c84a-4dfa-af97-74827e97e47c"
+    },
+    {
+      "m_URL": "http://qualcomm-interact.mybluemix.net",
+      "m_Password": "",
+      "m_ServiceId": "InteractV1",
+      "m_User": ""
+    },
+    {
+      "m_URL": "http://rg-gateway04.mybluemix.net",
+      "m_Password": "",
+      "m_ServiceId": "RobotGatewayV1",
+      "m_User": ""
+    },
+    {
+      "m_URL": "tcp://9.53.163.57:31337",
+      "m_Password": "",
+      "m_ServiceId": "WatsonAvatarV1",
+      "m_User": ""
+    },
+    {
+      "m_Password": "",
+      "m_ServiceId": "FacialRecognition",
+      "m_URL": "https://apius.faceplusplus.com",
+      "m_User": ""
+    },
+    {
+      "m_URL": "https://stream.watsonplatform.net/speech-to-text/api",
+      "m_Password": "hL5LxK9LAGOn",
+      "m_ServiceId": "SpeechToTextV1",
+      "m_User": "f46b8ed7-5912-4aff-9a9f-fd7e194b56ff"
+    },
+    {
+      "m_URL": "https://stream.watsonplatform.net/text-to-speech/api",
+      "m_Password": "69n1PkyLdx6c",
+      "m_ServiceId": "TextToSpeechV1",
+      "m_User": "eab409fa-5092-4b9a-83d5-dbceec52b51f"
+    },
+    {
+      "m_URL": "http://9.53.162.225:8393/api",
+      "m_Password": "",
+      "m_ServiceId": "WEXV1",
+      "m_User": ""
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/dialog/api",
+      "m_Password": "FA6G4wU9bNCW",
+      "m_ServiceId": "DialogV1",
+      "m_User": "21896655-090f-4767-a8e6-718f7aa3f2cc"
+    },
+    {
+      "m_URL": "https://hilton-robot-app-dev.mybluemix.net/wim/hc/v1/speech-to-text",
+      "m_Password": "r0b0tsrul3",
+      "m_ServiceId": "ConversationServiceV1",
+      "m_User": "apiuser"
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+      "m_Password": "tXmdjSceuITt",
+      "m_User": "558d7ee8-abbd-4241-878e-7872663261e3",
+      "m_ServiceId": "RetrieveAndRankV1"
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+      "m_Password": "2xdTXa40clLF",
+      "m_User": "24821e45-27ab-4e59-bf5d-49b05c8d11aa",
+      "m_ServiceId": "RetrieveAndRankV2"
+    },
+    {
+      "m_URL": "http://cap-sg-prd-1.integration.ibmcloud.com:16952/match",
+      "m_Password": "",
+      "m_User": "",
+      "m_ServiceId": "MergersAndAcquisitionsV1"
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/tone-analyzer/api",
+      "m_Password": "V6yAt0kheGxm",
+      "m_User": "e15a2700-808b-447b-84f2-6bd07e686fc2",
+      "m_ServiceId": "ToneAnalyzerV1"
+    },
+    {
+      "m_Password": "",
+      "m_ServiceId": "WeatherInsights",
+      "m_URL": "https://api.weather.com",
+      "m_User": "4eed80da52cca70e6f80c92596819a7c"
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/relationship-extraction-beta/api",
+      "m_Password": "GjdOsET77XEn",
+      "m_ServiceId": "RelationshipExtractionV1",
+      "m_User": "6e6b3d7c-6351-48c0-b3d6-58f266614b69"
+    },
+    {
+      "m_URL": "https://gateway-a.watsonplatform.net/visual-recognition/api",
+      "m_Password": "",
+      "m_ServiceId": "VisualRecognitionV1",
+      "m_User": "f92990ce3e1fe8b10c0d1310f376cf842d963dcf"
+    },
+    {
+      "m_Password": "6VnoevgsB82J",
+      "m_ServiceId": "LanguageTranslator",
+      "m_URL": "https://gateway.watsonplatform.net/language-translator/api",
+      "m_User": "cac9e396-8836-4c7c-b085-9393398f68ea"
+    },
+    {
+      "m_Password": "GqY1q4ANvlDN",
+      "m_ServiceId": "ConversationV1",
+      "m_URL": "https://gateway.watsonplatform.net/conversation/api",
+      "m_User": "56e26d53-2b98-4923-96c6-a75a6334e553"
+    },
+    {
+      "m_URL": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+      "m_Password": "mzo799T5zE3D",
+      "m_ServiceId": "NaturalLanguageClassifierV1",
+      "m_User": "b9b0a5bd-21e0-4285-ae5c-357fdfdcf399"
+    },
+    {
+      "m_URL": "wss://nexmo-poc.mybluemix.net/ws-embodiment",
+      "m_Password": "",
+      "m_ServiceId": "TelephonyV1",
+      "m_User": ""
+    },
+    {
+      "m_Password": "",
+      "m_ServiceId": "AlchemyV1",
+      "m_URL": "http://gateway-a.watsonplatform.net/calls",
+      "m_User": "8acabec395e5a8382b87018480ae49e1d05be77e"
+    },
+    {
+      "m_Password": "MHWGZqTi8dHS",
+      "m_ServiceId": "PersonalityInsightsV1",
+      "m_URL": "https://gateway.watsonplatform.net/personality-insights/api",
+      "m_User": "6d2142ad-fb98-4fa0-be6c-174cc8aced50"
+    },
+    {
+      "m_Password": "",
+      "m_ServiceId": "DeepQAV1",
+      "m_URL": "http://cap-sg-prd-1.integration.ibmcloud.com:15517/WatsonApp/deepqa",
+      "m_User": ""
+    }
+  ]
+}

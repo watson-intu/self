@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Package|Win32">
+      <Configuration>Package</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88D51400-FDB1-43BB-823F-84CD0D4D18FD}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectName>package</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <RootNamespace>package</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Package|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Package|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeOutput>Package.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>..\..\bin\w32\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">
+    <NMakeOutput>Package.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>..\..\bin\w32\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeOutput>Package.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>..\..\bin\w32\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>del /Q /S "$(OutDir)*.*"
+copy "$(ProjectDir)vc_redist.x86.exe" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.dll" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.exe" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.pdb" "$(OutDir)"
+rmdir /S /Q "$(OutDir)etc\"
+xcopy /S /Y /D "$(ProjectDir)..\..\etc" "$(OutDir)etc\"
+xcopy /S /Y "$(ProjectDir)..\..\scripts\w32_scripts\*.*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>set /p VERSION=&lt;"$(SolutionDir)..\version.txt"
+set BIN=$(SolutionDir)..\bin
+
+set PACKAGES_DIR=$(SolutionDir)..\packages\
+set PACKAGE_ID=Self-w32
+set PACKAGE_DIR=%PACKAGES_DIR%%PACKAGE_ID%
+set PACKAGE_ZIP=%PACKAGE_ID%.zip
+
+set SDK_ID=Self-SDK-w32
+set SDK_DIR=$(SolutionDir)..\packages\%SDK_ID%
+set SDK_ZIP=%SDK_ID%.zip
+
+set STORE_URL=http://75.126.4.99/xray/?action=
+
+rmdir /S /Q %SDK_DIR%
+rmdir /S /Q %PACKAGE_DIR%
+
+mkdir "%SDK_DIR%\lib\Debug\"
+copy "$(SolutionDir)Debug\*.lib" "%SDK_DIR%\lib\Debug\"
+mkdir "%SDK_DIR%\lib\Release\"
+copy "$(SolutionDir)Release\*.lib" "%SDK_DIR%\lib\Release\"
+xcopy /S /Y /D "$(SolutionDir)..\src\*.h" "%SDK_DIR%\include\self\"
+xcopy /S /Y /D "$(SolutionDir)..\wdc\src\*.h" "%SDK_DIR%\include\wdc\"
+xcopy /S /Y /D "$(SolutionDir)..\bin\w32\Debug" "%SDK_DIR%\bin\Debug\"
+xcopy /S /Y /D "$(SolutionDir)..\bin\w32\Release" "%SDK_DIR%\bin\Release\"
+
+mkdir "%PACKAGE_DIR%"
+xcopy /S /Y /D "$(SolutionDir)..\bin\w32\Release" "%PACKAGE_DIR%\"
+
+cd "%PACKAGES_DIR%"
+del %SDK_ZIP%
+%BIN%\zip -r %SDK_ZIP% %SDK_ID%
+
+echo "Uploading to %STORE_URL%/upload&amp;packageId=%SDK_ZIP%&amp;version=%VERSION%"
+%BIN%\curl -u labDemo:demo2000 -i -F name=file -F filedata=@%SDK_ZIP% "%STORE_URL%/upload&amp;packageId=%SDK_ZIP%&amp;version=%VERSION%"
+echo "Setting version %STORE_URL%/setVersions&amp;packageId=%SDK_ZIP%&amp;alphaVersion=%VERSION%"
+%BIN%\curl -u labDemo:demo2000 -i "%STORE_URL%/setVersions&amp;packageId=%SDK_ZIP%&amp;alphaVersion=%VERSION%"
+
+del %PACKAGE_ZIP%
+cd %PACKAGE_DIR%
+%BIN%\zip -r ..\%PACKAGE_ZIP% .
+
+cd "%PACKAGES_DIR%"
+echo Uploading to %STORE_URL%/upload&amp;packageId=%PACKAGE_ZIP%&amp;version=%VERSION%
+%BIN%\curl -u labDemo:demo2000 -i -F name=file -F filedata=@%PACKAGE_ZIP% "%STORE_URL%/upload&amp;packageId=%PACKAGE_ZIP%&amp;version=%VERSION%"
+echo Setting version %STORE_URL%/setVersions&amp;packageId=%PACKAGE_ZIP%&amp;alphaVersion=%VERSION%
+%BIN%\curl -u labDemo:demo2000 -i "%STORE_URL%/setVersions&amp;packageId=%PACKAGE_ZIP%&amp;alphaVersion=%VERSION%"
+rmdir /S /Q $(SolutionDir)..\bin\Package
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>del /Q /S "$(OutDir)*.*"
+copy "$(ProjectDir)vc_redist.x86.exe" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.dll" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.exe" "$(OutDir)"
+copy "$(SolutionDir)$(IntDir)*.pdb" "$(OutDir)"
+rmdir /S /Q "$(OutDir)etc\"
+xcopy /S /Y /D "$(ProjectDir)..\..\etc" "$(OutDir)etc\"
+xcopy /S /Y "$(ProjectDir)..\..\scripts\w32_scripts\*.*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\config.json" />
+    <None Include="..\..\etc\shared\bootstrap.json" />
+    <None Include="..\..\etc\shared\concierge\concierge_nlc.csv" />
+    <None Include="..\..\etc\shared\date_time_zonespec.csv" />
+    <None Include="..\..\etc\shared\gestures\default.json" />
+    <None Include="..\..\etc\shared\gestures\nao-anims.json" />
+    <None Include="..\..\etc\shared\gestures\nao-joints.json" />
+    <None Include="..\..\etc\shared\gestures\nao-locomotion.json" />
+    <None Include="..\..\etc\shared\gestures\nao-postures.json" />
+    <None Include="..\..\etc\shared\gestures\raspi-anims.json" />
+    <None Include="..\..\etc\shared\plans\default.json" />
+    <None Include="..\..\etc\shared\plans\wayblazer.json" />
+    <None Include="..\..\etc\shared\plans\yelp.json" />
+    <None Include="..\..\etc\shared\platforms\w32\platform.json" />
+    <None Include="..\..\etc\shared\self_conversation_v1.json" />
+    <None Include="..\..\etc\shared\self_nlc_v1.csv" />
+    <None Include="..\..\etc\shared\self_nlc_v2.csv" />
+    <None Include="..\..\etc\shared\self_requests.json" />
+    <None Include="..\..\etc\shared\skills\default.json" />
+    <None Include="..\..\etc\shared\skills\nao-anims.json" />
+    <None Include="..\..\etc\shared\skills\nao-joints.json" />
+    <None Include="..\..\etc\shared\skills\nao-locomotion.json" />
+    <None Include="..\..\etc\shared\skills\nao-postures.json" />
+    <None Include="..\..\etc\shared\skills\raspi-anims.json" />
+    <None Include="..\..\etc\tests\local_dialog.json">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+    </None>
+    <None Include="..\..\etc\tests\unit_test_config.json">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+    </None>
+    <None Include="vc_redist.x86.exe">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(OutDir)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(OutDir)"</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(OutDir)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(OutDir)"</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy "%(FullPath)" "$(OutDir)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy "%(FullPath)" "$(OutDir)"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Identity)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Identity)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">$(OutDir)%(Identity)</Outputs>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\etc\tests\pizza_sample.xml">
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)etc\tests\%(Filename)%(Extension)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Package|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)etc\tests\</Message>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ForceBuild.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\etc\shared\concierge\concierge_dialog.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

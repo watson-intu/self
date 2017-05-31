@@ -1,0 +1,345 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "show_demo_start",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_start",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"start\"}"
+      }
+    },
+    {
+      "key": "show_demo_stop",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_stop",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"stop\"}"
+      }
+    },
+    {
+      "key": "show_demo_restart",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_restart",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"restart\"}"
+      }
+    },
+    {
+      "key": "show_demo_pause",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_pause",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"pause\"}"
+      }
+    },
+    {
+      "key": "show_demo_reload",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_reload",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"debug\", command:\"reload\"}"
+      }
+    },
+    {
+      "key": "show_demo_watson",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_watson",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Watson\"}"
+      }
+    },
+    {
+      "key": "show_demo_cloud",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_cloud",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Cloud\"}"
+      }
+    },
+    {
+      "key": "show_demo_platforms",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_platforms",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Platforms\"}"
+      }
+    },
+    {
+      "key": "show_demo_masters",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_masters",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Masters\"}"
+      }
+    },
+    {
+      "key": "show_demo_security",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_security",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Security\"}"
+      }
+    },
+    {
+      "key": "show_demo_watson_stt",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_watson_stt",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Watson-STT\"}"
+      }
+    },
+    {
+      "key": "show_demo_watson_visual",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_watson_visual",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Watson-Visual\"}"
+      }
+    },
+    {
+      "key": "show_demo_platforms_devices",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_platforms_devices",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Platforms-Devices\"}"
+      }
+    },
+    {
+      "key": "show_demo_platforms_wearables",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_platforms_wearables",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Platforms-Wearables\"}"
+      }
+    },
+    {
+      "key": "show_demo_platforms_4k",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_platforms_4k",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Platforms-4K\"}"
+      }
+    },
+    {
+      "key": "show_demo_cloud_content",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_cloud_content",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Cloud-ContentPublishing\"}"
+      }
+    },
+    {
+      "key": "show_demo_cloud_devops",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_cloud_devops",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Cloud-DevOps\"}"
+      }
+    },
+    {
+      "key": "show_demo_cloud_hybrid",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_cloud_hybrid",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Cloud-Hybrid\"}"
+      }
+    },
+    {
+      "key": "show_demo_masters_track",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_masters_track",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Masters-Track\"}"
+      }
+    },
+    {
+      "key": "show_demo_masters_leader",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_masters_leader",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Masters-LeaderBoard\"}"
+      }
+    },
+    {
+      "key": "show_demo_masters_greens",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_masters_greens",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Masters-Greens Undulations\"}"
+      }
+    },
+    {
+      "key": "show_demo_masters_cards",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_masters_cards",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"play\", chapterName:\"Masters-PlayerCards\"}"
+      }
+    },
+    {
+      "key": "show_demo_resume",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "show_demo_resume",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"navigation\", action:\"resume\"}"
+      }
+    },
+    {
+      "key": "person_detected",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "person_detected",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{ type: \"presence\", action:\"enter\", personDetected: \"true\", person: ${name}}"
+      }
+    },
+    {
+      "key": "qa_teetime",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_teetime",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/scores/tee-times?playerName=${name}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "send_qa_response",
+      "value": {
+        "Type_": "RestGesture",
+        "m_GestureId": "send_qa_response",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "POST",
+        "m_Body": "{type: \"modal\", visual: ${visual}}"
+      }
+    },
+    {
+      "key": "qa_current_leaders",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_current_leaders",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/scores/current-leaders",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_web_metrics",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_web_metrics",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/masters/web-analytics/clicks/today",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_stats_hole",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_stats_hole",
+        "m_URL": "http://masters-cognitive-messaging.mybluemix.net/services/masters/message",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_stats_putt",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_stats_putt",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/stats/putt/max/${time}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_stats_shots",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_stats_hole",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/scores/stats/${name}/${time}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_stats_drive",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_stats_drive",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/stats/drive/max/${time}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_current_hole",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_current_hole",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/scores/players/current-hole?playerName=${name}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_hole_difficulty",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_hole_difficulty",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/holes/difficulty/hole?timePeriod=${time}&level=${level}",
+        "m_Type": "GET"
+      }
+    },
+    {
+      "key": "qa_projected_cut",
+      "value": {
+        "Type_": "QARestGesture",
+        "m_GestureId": "qa_projected_cut",
+        "m_URL": "http://events-data-api.mybluemix.net/v1/golf/masters/cut-line",
+        "m_Type": "GET"
+      }
+    }
+  ]
+}

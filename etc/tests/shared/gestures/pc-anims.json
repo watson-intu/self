@@ -1,0 +1,37 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "show_laugh",
+      "value": {
+        "Type_": "SoundGesture",
+        "m_GestureId": "show_laugh",
+        "m_Sound": "shared/sounds/joke-sting.wav"
+      }
+    },
+    {
+      "key": "show_anger",
+      "value": {
+        "Type_": "SoundGesture",
+        "m_GestureId": "show_anger",
+        "m_Sound": "shared/sounds/anger.wav"
+      }
+    },
+    {
+      "key": "show_embarrassment",
+      "value": {
+        "Type_": "SoundGesture",
+        "m_GestureId": "show_embarrassment",
+        "m_Sound": "shared/sounds/embarrassment.wav"
+      }
+    },
+    {
+      "key": "show_happiness",
+      "value": {
+        "Type_": "SoundGesture",
+        "m_GestureId": "show_happiness",
+        "m_Sound": "shared/sounds/happiness.wav"
+      }
+    }
+  ] 
+}

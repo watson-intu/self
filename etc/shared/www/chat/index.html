@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Intu In The Cloud</title> 
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<script src="js/Map.js" type="text/javascript"></script>
+		<script src="js/TopicClient.js" type="text/javascript"></script>
+		<script src="js/Thing.js" type="text/javascript"></script>
+		<script src="js/Blackboard.js" type="text/javascript"></script>
+		<script src="js/SensorManager.js" type="text/javascript"></script>		
+		<script src="js/KeyboardSensor.js" type="text/javascript"></script>		
+		<script src="js/GestureManager.js" type="text/javascript"></script>
+		<script src="js/SpeechGesture.js" type="text/javascript"></script>
+		<script src="js/AgentSociety.js" type="text/javascript"></script>
+		<script src="js/ExampleAgent.js" type="text/javascript"></script> 
+		<script type="text/javascript">
+
+			function sendText() {
+				var textObj = document.getElementById('usermsg');
+				if(textObj.value != '') {
+					keyboard.sendData(textObj.value);
+					textObj.value = '';
+				}
+				return true;
+			}
+
+			function addChatText(by, text) {
+				var ca = document.getElementById('chatbox');
+				var p = document.createElement("div");
+
+				if(by != null) {
+					var span = document.createElement("span");
+					span.innerHTML = by + ': ';
+					p.appendChild(span);
+				}
+
+				var htmlText = document.createElement("span");
+				htmlText.innerHTML = text;
+				p.appendChild(htmlText);
+				ca.appendChild(p);
+			}
+		</script>
+	</head>
+	<body>
+		<script data-main="../js/Main" type="text/javascript" async="true"></script>
+		<script type="text/javascript">
+			var topicClient = TopicClient.getInstance();
+			var gestureManager = GestureManager.getInstance();
+			var agentSociety = AgentSociety.getInstance();
+			var sensorManager = SensorManager.getInstance();
+			var speechGesture = new SpeechGesture("tts", GUID());
+			var exampleAgent = new ExampleAgent("ExampleAgent", GUID());
+			var keyboard = new KeyboardSensor();
+			agentSociety.start();
+			agentSociety.addAgent(exampleAgent, false);
+			gestureManager.start();
+			gestureManager.addGesture(speechGesture, true);	
+			sensorManager.start();	
+			sensorManager.addSensor(keyboard, true);
+		</script> 
+		<div id="wrapper">
+			<div id="menu">
+				<p class="welcome">Welcome, <b>John</b></p>
+				<p class="logout"><a id="exit" href="#">Exit</a></p>
+				<div style="clear:both"></div>
+			</div>
+			<div id="chatbox"></div>
+			<input name="usermsg" type="text" id ="usermsg" size="63" />
+			<button onclick='sendText()'>Send</button>
+		</div>
+	</body>
+</html>

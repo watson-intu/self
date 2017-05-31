@@ -1,0 +1,122 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "sound",
+      "value": {
+        "Type_": "SoundGesture",
+        "m_GestureId": "sound"
+      }
+    },
+    {
+      "key": "sms",
+      "value": {
+        "Type_": "SMSGesture",
+        "m_GestureId": "sms"
+      }
+    },
+    {
+      "key": "email",
+      "value": {
+        "Type_": "EmailGesture",
+        "m_GestureId": "email"
+      }
+    },
+    {
+      "key": "tts",
+      "value": {
+        "Type_": "SpeechGesture",
+        "m_GestureId": "tts"
+      }
+    },
+    {
+      "key": "grab",
+      "value": {
+        "Type_": "GraspGesture",
+        "m_GestureId": "grab"
+      }
+    },
+    {
+      "key": "wait",
+      "value": {
+        "Type_": "WaitGesture",
+        "m_GestureId": "wait",
+        "m_DelayInterval": 5
+      }
+    },
+    {
+      "key": "update_status",
+      "value": {
+        "Type_": "StatusGesture",
+        "m_GestureId": "update_status",
+        "m_StateMap": {
+          "IDLE": "0xFFFFFF",
+          "PROCESSING": "0x000033",
+          "FINISHED": "0xFFFFFF"
+        }
+      }
+    },
+    {
+      "key": "upgrade_self",
+      "value": {
+        "Type_": "SelfUpdateGesture"
+      }
+    },
+    {
+      "key" : "volume_up",
+      "value": {
+        "Type_": "VolumeGesture",
+        "m_fChange": 10
+      }
+    },
+    {
+      "key" : "volume_down",
+      "value": {
+        "Type_": "VolumeGesture",
+        "m_fChange": -10
+      }
+    },
+    {
+      "key" : "volume_mute",
+      "value": {
+        "Type_": "VolumeGesture",
+        "m_fTargetVolume": 0
+      }
+    },
+    {
+      "key" : "volume_shout",
+      "value": {
+        "Type_": "VolumeGesture",
+        "m_fTargetVolume": 100
+      }
+    },
+    {
+      "key" : "volume_default",
+      "value": {
+        "Type_": "VolumeGesture",
+        "m_fTargetVolume": 70
+      }
+    },
+    {
+      "key" : "system_reboot",
+      "value": {
+        "Type_": "SystemGesture",
+        "m_SystemId": "reboot"
+      }
+    },
+    {
+      "key" : "system_shutdown",
+      "value": {
+        "Type_": "SystemGesture",
+        "m_SystemId": "shutdown"
+      }
+    },
+    {
+      "key": "display",
+      "value": {
+        "Type_": "DisplayGesture",
+        "m_GestureId": "display"
+      }
+    }
+  ]
+}

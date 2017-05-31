@@ -1,0 +1,6 @@
+# Precache phrases will be sent to conversation proxy on startup to prime the cache
+# You can start lines with # to add comments
+how are you
+tell me joke
+do you have a girlfriend
+do you have a boyfriend

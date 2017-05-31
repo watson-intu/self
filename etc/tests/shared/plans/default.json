@@ -1,0 +1,1396 @@
+{
+	"Type_": "PlanManager",
+	"m_Plans": [{
+		"key": "dialog_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "{answer/response/0} {answer/response/1}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "dialog_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "answer/response/0",
+					"m_Op": "NE",
+					"m_Value": null
+				},
+				{
+					"m_Name": "answer/response/0/id",
+					"m_Op": "EQ",
+					"m_Value": null
+				},
+				{
+					"m_Name": "answer/answers/0",
+					"m_Op": "EQ",
+					"m_Value": null
+				}]
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "emotion_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Gesture",
+					"m_Type": "{emotion}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "emotion_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Emotion",
+				"m_GoalNameOp": "EQ"
+			},
+				{
+					"Type_": "GoalStateCondition",
+					"m_State": "ADDED",
+					"m_StateOp": "EQ"
+				}]
+		}
+	},
+	{
+		"key": "photography_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [
+				{
+					"Type_": "CreateAction",
+					"m_ActionFlags": 0,
+					"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+					"m_CompletedState": "COMPLETED",
+					"m_FailedState": "FAILED",
+					"m_GoalParams": null,
+					"m_InitialState": "",
+					"m_MinPostCondition": 0.5,
+					"m_MinPreCondition": 0.5,
+					"m_Object": {
+						"Type_": "Say",
+						"m_Text": "One... Two... Three... Say Cheese!"
+					},
+					"m_ReplaceParams": true,
+					"m_bAttachToRoot": false,
+					"m_fImportance": 1
+				},
+				{
+					"Type_": "CreateAction",
+					"m_ActionFlags": 0,
+					"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+					"m_CompletedState": "COMPLETED",
+					"m_FailedState": "FAILED",
+					"m_GoalParams": null,
+					"m_InitialState": "",
+					"m_MinPostCondition": 0.5,
+					"m_MinPreCondition": 0.5,
+					"m_Object": {
+						"Type_": "Say",
+						"m_Text": "Cheeeese!"
+					},
+					"m_ReplaceParams": true,
+					"m_bAttachToRoot": false,
+					"m_fImportance": 1
+				}
+			],
+			"m_PlanId": "photography_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Photography",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "game_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [
+				{
+					"Type_": "CreateAction",
+					"m_ActionFlags": 0,
+					"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+					"m_CompletedState": "COMPLETED",
+					"m_FailedState": "FAILED",
+					"m_GoalParams": null,
+					"m_InitialState": "",
+					"m_MinPostCondition": 0.5,
+					"m_MinPreCondition": 0.5,
+					"m_Object": {
+						"Type_": "Say",
+						"m_Text": "Ok let's play the game, guess what animal this is!"
+					},
+					"m_ReplaceParams": true,
+					"m_bAttachToRoot": false,
+					"m_fImportance": 1
+				},
+				{
+					"Type_": "UseSkillAction",
+					"m_ActionFlags": 0,
+					"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+					"m_MinPostCondition": 0.5,
+					"m_MinPreCondition": 0.5,
+					"m_ReplaceParams": true,
+					"m_Skill": "sound",
+					"m_SkillParams": {
+						"Type_": "ParamsMap",
+						"sound": "{sound}"
+					}
+				}
+			],
+			"m_PlanId": "game_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Game",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "time_answer_with_city",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "The current time in {city} is {time} {meridium}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "time_answer_with_city",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Time",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			},
+			{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "time",
+					"m_Op": "NE",
+					"m_Value": null
+				},
+				{
+					"m_Name": "city",
+					"m_Op": "NE",
+					"m_Value": null
+				}]
+			}]
+		}
+	},
+	{
+		"key": "time_answer_without_city",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "The current time is {time} {meridium}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "time_answer_without_city",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Time",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			},
+			{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "time",
+					"m_Op": "NE",
+					"m_Value": null
+				},
+				{
+					"m_Name": "city",
+					"m_Op": "EQ",
+					"m_Value": null
+				}]
+			}]
+		}
+	},
+	{
+		"key": "time_failure",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "That is a great question, but I am still learning the time for that location"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "time_failure",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Time",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			},
+			{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "time",
+					"m_Op": "EQ",
+					"m_Value": null
+				}]
+			}]
+		}
+	},
+	{
+		"key": "weather_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "It is currently {sky_cover}, with a temperature of {temperature} degrees fahrenheit"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "weather_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Weather",
+				"m_GoalNameOp": "EQ"
+			},
+				{
+					"Type_": "GoalStateCondition",
+					"m_State": "ADDED",
+					"m_StateOp": "EQ"
+				}]
+		}
+	},
+	{
+		"key": "news_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Display",
+					"m_Data": "{news_data}",
+					"m_DisplayType": "news"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "news_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "News",
+				"m_GoalNameOp": "EQ"
+			},
+				{
+					"Type_": "GoalStateCondition",
+					"m_State": "ADDED",
+					"m_StateOp": "EQ"
+				}]
+		}
+	},
+	{
+		"key": "question_failure",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "I don't know the answer to {question/m_Text}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "question_failure",
+			"m_PreConditions": [{
+				"Type_": "GoalStateCondition",
+				"m_State": "FAILED",
+				"m_StateOp": "EQ"
+			},
+			{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Question",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+    {
+      "key": "configuration_failure",
+      "value": {
+        "Type_": "Plan",
+        "m_Actions": [
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 0,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "sound",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "sound": "./etc/shared/sounds/configure-services.wav"
+            }
+          }
+        ],
+        "m_PlanId": "configuration_failure",
+        "m_PreConditions": [{
+          "Type_": "GoalNameCondition",
+          "m_GoalName": "ConfigurationFailure",
+          "m_GoalNameOp": "EQ"
+        }]
+      }
+    },
+    {
+      "key": "battery_low",
+      "value": {
+        "Type_": "Plan",
+        "m_Actions": [
+          {
+            "Type_": "CreateAction",
+            "m_ActionFlags": 0,
+            "m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+            "m_CompletedState": "COMPLETED",
+            "m_FailedState": "FAILED",
+            "m_GoalParams": null,
+            "m_InitialState": "",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_Object": {
+              "Type_": "Say",
+              "m_Text": "Oh no! I am not being charged right now. Please plug me into a battery charger"
+            },
+            "m_ReplaceParams": true,
+            "m_bAttachToRoot": false,
+            "m_fImportance": 1
+          },
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "sms",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "message": "Robot {name} - Mac ID: {mac} has been unplugged and has a current charge level of {value}%. Please contact the administrator to plug the robot back in.",
+              "number": "15555555555"
+            }
+          },
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "email",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "subject": "Action Required: Low Battery on Robot {name} - Mac ID: {mac}",
+              "message": "Robot {name} - Mac ID: {mac} has been unplugged and has a current charge level of {value}%. Please contact the administrator to plug the robot back in."
+            }
+          }
+        ],
+        "m_PlanId": "battery_low",
+        "m_PreConditions": [{
+          "Type_": "GoalNameCondition",
+          "m_GoalName": "BatteryLow",
+          "m_GoalNameOp": "EQ"
+        }]
+      }
+    },
+    {
+      "key": "temperature_abnormal",
+      "value": {
+        "Type_": "Plan",
+        "m_Actions": [
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "sms",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "message": "Robot {name} - Mac ID: {mac} has an abnormal temperature. {sensor} is at {value}C. The normal range is 20-80C for the head and 20-60C for other body parts. It is resting for 30min in an attempt to recover.",
+              "number": "15555555555"
+            }
+          },
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "email",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "subject": "Alert: Abnormal Temperature on Robot {name} - Mac ID: {mac}",
+              "message": "Robot {name} - Mac ID: {mac} has an abnormal temperature. {sensor} is at {value}C. The normal range is 20-80C for the head and 20-60C for other body parts. It is resting for 30min in an attempt to recover."
+            }
+          }
+        ],
+        "m_PlanId": "temperature_abnormal",
+        "m_PreConditions": [{
+          "Type_": "GoalNameCondition",
+          "m_GoalName": "TemperatureAbnormal",
+          "m_GoalNameOp": "EQ"
+        }]
+      }
+    },
+	{
+		"key": "sensor_error_critical",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [
+              {
+                "Type_": "UseSkillAction",
+                "m_ActionFlags": 8,
+                "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_ReplaceParams": true,
+                "m_Skill": "sms",
+                "m_SkillParams": {
+                  "Type_": "ParamsMap",
+                  "message": "Robot {name} - Mac ID: {mac} has a failure on its {sensor}. It is resting for 30min in an attempt to recover from this critical error.",
+                  "number": "15555555555"
+                }
+              },
+              {
+                "Type_": "UseSkillAction",
+                "m_ActionFlags": 8,
+                "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_ReplaceParams": true,
+                "m_Skill": "email",
+                "m_SkillParams": {
+                  "Type_": "ParamsMap",
+                  "subject": "Alert: Sensor Failure on Robot {name} - Mac ID: {mac}",
+                  "message": "Robot {name} - Mac ID: {mac} has a failure on its {sensor}. It is resting for 30min in an attempt to recover from this critical error."
+                }
+              }
+            ],
+			"m_PlanId": "sensor_error_critical",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "SensorErrorCritical",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+    {
+      "key": "sensor_error_repair",
+      "value": {
+        "Type_": "Plan",
+        "m_Actions": [
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "sms",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "message": "Robot {name} - Mac ID: {mac} has had repeated issues. Resting the robot has not fixed the problem. The robot needs to be sent in for repair.",
+              "number": "15555555555"
+            }
+          },
+          {
+            "Type_": "UseSkillAction",
+            "m_ActionFlags": 8,
+            "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+            "m_MinPostCondition": 0.5,
+            "m_MinPreCondition": 0.5,
+            "m_ReplaceParams": true,
+            "m_Skill": "email",
+            "m_SkillParams": {
+              "Type_": "ParamsMap",
+              "subject": "Action Required: Repair needed for Robot {name} - Mac ID: {mac}",
+              "message": "Robot {name} - Mac ID: {mac} has had repeated issues. Resting the robot has not fixed the problem. The robot needs to be sent in for repair."
+            }
+          }
+        ],
+        "m_PlanId": "sensor_error_repair",
+        "m_PreConditions": [{
+          "Type_": "GoalNameCondition",
+          "m_GoalName": "SensorErrorRepair",
+          "m_GoalNameOp": "EQ"
+        }]
+      }
+    },
+	{
+		"key": "network_failure",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "I have been disconnected from the network. Would you please make sure the wifi is up and running."
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "network_failure",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "NetworkFailure",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "sleep",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "I'm tired, time for me to go dream about electric sheep."
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "posture_rest",
+				"m_SkillParams": null
+			}],
+			"m_PlanId": "sleep",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Sleep",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "fallen_robot_recovery_failure",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "I have fallen down. Please put me in a crouch position and restart me to enable my abilities again!"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "posture_rest",
+				"m_SkillParams": null
+			}],
+			"m_PlanId": "fallen_robot_recovery_failure",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "FallenRobotRecoveryFailure",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "rest",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "My body is sore, time for me to rest."
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "posture_rest",
+				"m_SkillParams": null
+			}],
+			"m_PlanId": "rest",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Rest",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "wake",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "Ah, I feel so much better."
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "posture_wake_up",
+				"m_SkillParams": null
+			}],
+			"m_PlanId": "wake",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Wake",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "service_failure",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Gesture",
+					"m_Type": "posture_rest"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "service_failure",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "ServiceFailure",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "service_recovery",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 8,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Gesture",
+					"m_Type": "posture_wake_up"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "service_recovery",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "ServiceRecovery",
+				"m_GoalNameOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "simple_request",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "{verb}",
+				"m_SkillParams": null
+			}],
+			"m_PlanId": "simple_request",
+			"m_PreConditions": [{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "intent",
+					"m_Op": "EQ",
+					"m_Value": "request"
+				}]
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "identify_object",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "3172aa8b-e9bc-450b-a59d-b3d9f4875425",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "{imageClassificationResponse}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "identify_object",
+			"m_PreConditions": [{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "imageClassificationResponse",
+					"m_Op": "NE",
+					"m_Value": null
+				}]
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "wex_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Display",
+					"m_Data": "{atom:entry}",
+					"m_DisplayType": "wex"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": null,
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "Here you go"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "wex_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "WEX",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "reminder_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "TelephonyIntent",
+					"m_Text": "hello"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "reminder_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Reminder",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "wda_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "8169e84d-f71b-4e58-ae6f-d4c4f037210a",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "{answer/response/0}"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "wda_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "answer/pipelineType",
+					"m_Op": "EQ",
+					"m_Value": "wda"
+				}]
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "wea_answer",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "Here you go"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Display",
+					"m_Data": "[{question},{answer}]",
+					"m_DisplayType": "wea"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "wea_answer",
+			"m_PreConditions": [{
+				"Type_": "GoalParamsCondition",
+				"m_LogicalOp": "AND",
+				"m_Params": [{
+					"m_Name": "answer/pipelineType",
+					"m_Op": "EQ",
+					"m_Value": "wea"
+				}]
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+	{
+		"key": "anomaly_co2",
+		"value": {
+			"Type_": "Plan",
+			"m_Actions": [{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "sound",
+				"m_SkillParams": {
+					"Type_": "ParamsMap",
+					"sound": "/home/nao/self/latest/etc/shared/sounds/tos-redalert.wav"
+				}
+			},
+			{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "",
+				"m_FailedState": "",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Gesture",
+					"m_Type": "show_need_for_attention"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			},
+			{
+				"Type_": "UseSkillAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_ReplaceParams": true,
+				"m_Skill": "sms",
+				"m_SkillParams": {
+					"Type_": "ParamsMap",
+					"message": "A increase in the level of CO2 has been detected!",
+					"number": "15129681266"
+				}
+			},
+			{
+				"Type_": "CreateAction",
+				"m_ActionFlags": 0,
+				"m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+				"m_CompletedState": "COMPLETED",
+				"m_FailedState": "FAILED",
+				"m_GoalParams": {
+					"Type_": "ParamsMap"
+				},
+				"m_InitialState": "",
+				"m_MinPostCondition": 0.5,
+				"m_MinPreCondition": 0.5,
+				"m_Object": {
+					"Type_": "Say",
+					"m_Text": "I have detected an increase in CO2 levels, lets investigate!"
+				},
+				"m_ReplaceParams": true,
+				"m_bAttachToRoot": false,
+				"m_fImportance": 1
+			}],
+			"m_PlanId": "anomaly_co2",
+			"m_PreConditions": [{
+				"Type_": "GoalNameCondition",
+				"m_GoalName": "Anomaly_CO2",
+				"m_GoalNameOp": "EQ"
+			},
+			{
+				"Type_": "GoalStateCondition",
+				"m_State": "ADDED",
+				"m_StateOp": "EQ"
+			}]
+		}
+	},
+    {
+        "key": "outgoing_call",
+        "value": {
+            "Type_": "Plan",
+            "m_Actions": [{
+                "Type_": "CreateAction",
+                "m_ActionFlags": 0,
+                "m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+                "m_CompletedState": "COMPLETED",
+                "m_FailedState": "FAILED",
+                "m_GoalParams": null,
+                "m_InitialState": "",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_Object": {
+                    "Type_": "Say",
+                    "m_Text": "Dialing"
+                },
+                "m_ReplaceParams": true,
+                "m_bAttachToRoot": false,
+                "m_fImportance": 1
+            },
+            {
+                "Type_": "CreateAction",
+                "m_ActionFlags": 0,
+                "m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+                "m_CompletedState": "COMPLETED",
+                "m_FailedState": "FAILED",
+                "m_GoalParams": null,
+                "m_InitialState": "",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_Object": {
+                    "Type_": "TelephonyIntent",
+                    "m_TelephonyAction" : "PROCESSING",
+                    "m_ToNumber" : "15555555555"
+                },
+                "m_ReplaceParams": true,
+                "m_bAttachToRoot": false,
+                "m_fImportance": 1
+            }],
+            "m_PlanId": "outgoing_call",
+            "m_PreConditions": [{
+                "Type_": "GoalNameCondition",
+                "m_GoalName": "OutgoingCall",
+                "m_GoalNameOp": "EQ"
+            },
+            {
+                "Type_": "GoalStateCondition",
+                "m_State": "ADDED",
+                "m_StateOp": "EQ"
+            }]
+        }
+    },
+    {
+        "key": "incoming_call",
+        "value": {
+            "Type_": "Plan",
+            "m_Actions": [{
+                "Type_": "CreateAction",
+                "m_ActionFlags": 0,
+                "m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+                "m_CompletedState": "COMPLETED",
+                "m_FailedState": "FAILED",
+                "m_GoalParams": null,
+                "m_InitialState": "",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_Object": {
+                    "Type_": "Say",
+                    "m_Text": "You have an incoming call. Would you like to answer?"
+                },
+                "m_ReplaceParams": true,
+                "m_bAttachToRoot": false,
+                "m_fImportance": 1
+            },
+            {
+                "Type_": "CreateAction",
+                "m_ActionFlags": 0,
+                "m_ActionId": "fc0c580c-a737-415a-8842-ad3d73c883cd",
+                "m_CompletedState": "COMPLETED",
+                "m_FailedState": "FAILED",
+                "m_GoalParams": null,
+                "m_InitialState": "",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_Object": {
+                    "Type_": "Confirm",
+                    "m_ConfirmType" : "PhoneCall"
+                },
+                "m_ReplaceParams": true,
+                "m_bAttachToRoot": false,
+                "m_fImportance": 1
+            }],
+            "m_PlanId": "incoming_call",
+            "m_PreConditions": [{
+                "Type_": "GoalNameCondition",
+                "m_GoalName": "IncomingCall",
+                "m_GoalNameOp": "EQ"
+            },
+            {
+                "Type_": "GoalStateCondition",
+                "m_State": "ADDED",
+                "m_StateOp": "EQ"
+            }]
+        }
+    },
+    {
+        "key": "ending_call",
+        "value": {
+            "Type_": "Plan",
+            "m_Actions": [
+            {
+                "Type_": "UseSkillAction",
+                "m_ActionFlags": 0,
+                "m_ActionId": "86c617ba-0efc-4078-b309-214158cf5a23",
+                "m_MinPostCondition": 0.5,
+                "m_MinPreCondition": 0.5,
+                "m_ReplaceParams": true,
+                "m_Skill": "sms",
+                "m_SkillParams": {
+                    "Type_": "ParamsMap",
+                    "message": "Your phone call has completed",
+                    "number": "15555555555"
+              }
+          }],
+          "m_PlanId": "ending_call",
+          "m_PreConditions": [{
+                "Type_": "GoalNameCondition",
+                "m_GoalName": "EndingCall",
+                "m_GoalNameOp": "EQ"
+          },
+          {
+                "Type_": "GoalStateCondition",
+                "m_State": "ADDED",
+                "m_StateOp": "EQ"
+          }]
+      }
+    }
+	],
+	"m_fMinPlanScore": 0.5
+}

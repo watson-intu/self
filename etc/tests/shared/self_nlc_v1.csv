@@ -1,0 +1,3627 @@
+can you about,animate_bow
+can you bow down,animate_bow
+take a bow,animate_bow
+take about,animate_bow
+can you drink water,animate_drink
+drink some water,animate_drink
+rehydrate,animate_drink
+can you flex for us,animate_flex
+flex your muscles,animate_flex
+can you lift some weights,animate_lift_weights
+lift weights,animate_lift_weights
+act like a monster,animate_monster
+be mystical,animate_mystical
+can you be mystical,animate_mystical
+can you provide mystical sound,animate_mystical
+play mystical music,animate_mystical
+can you play the guitar for us,animate_play_guitar
+play the guitar,animate_play_guitar
+act like a spaceship,animate_spaceship
+pretend to be a spaceship,animate_spaceship
+act like a zombie,animate_zombie
+bend knees all the was backward,bend_knees_all_the_was_backward
+bend knees all the way forward,bend_knees_all_the_way_forward
+bend knees backward,bend_knees_backward
+bend knees forward,bend_knees_forward
+bend left elbow all the way in,bend_left_elbow_all_the_way_in
+bend left elbow all the way out,bend_left_elbow_all_the_way_out
+bend left elbow in,bend_left_elbow_in
+bend left elbow out,bend_left_elbow_out
+bend right elbow all the way in,bend_right_elbow_all_the_way_in
+bend right elbow all the way out,bend_right_elbow_all_the_way_out
+bend right elbow in,bend_right_elbow_in
+bend right elbow out,bend_right_elbow_out
+close the lab door,close_lab_door
+What is your name,dialog
+are you joking,dialog_are_you_kidding
+are you kidding,dialog_are_you_kidding
+are you alright,dialog_are_you_okay
+are you okay,dialog_are_you_okay
+you okay,dialog_are_you_okay
+are you religious,dialog_are_you_religious
+do you believe in god,dialog_are_you_religious
+are you sleeping,dialog_are_you_there
+are you there,dialog_are_you_there
+you standing right here,dialog_are_you_there
+you there,dialog_are_you_there
+can I ask you a question,dialog_ask_question
+I'm having a bad day,dialog_bad_day
+It's a beautiful outside,dialog_beautiful_day
+and by,dialog_bye
+and I,dialog_bye
+by,dialog_bye
+bye,dialog_bye
+bye pepper,dialog_bye
+goodbye,dialog_bye
+I,dialog_bye
+I have to go now,dialog_bye
+I will see you later,dialog_bye
+if I,dialog_bye
+it by,dialog_bye
+see you later,dialog_bye
+calm down,dialog_calm_down
+can you dance,dialog_can_you_dance
+Connie can you do the Y. M. C. A.,dialog_can_you_dance
+do a dance,dialog_can_you_dance
+do you dance,dialog_can_you_dance
+are you listening to me,dialog_can_you_hear_me
+can you hear me,dialog_can_you_hear_me
+can you sing,dialog_can_you_sing
+can you sing,dialog_can_you_sing
+can you sing for me,dialog_can_you_sing
+will you sing,dialog_can_you_sing
+would you sing for me,dialog_can_you_sing
+have you had your coffee this morning,dialog_coffee
+why are you sleepy,dialog_coffee
+you need some coffee this morning,dialog_coffee
+you seem a little slow this morning,dialog_coffee
+what is the color of the sky,dialog_color_of_sky
+that you are very cool,dialog_compliment
+that's impressive ,dialog_compliment
+you are awesome,dialog_compliment
+you are cool,dialog_compliment
+you are cute,dialog_compliment
+you got me,dialog_compliment
+you look nice today,dialog_compliment
+you're awesome,dialog_compliment
+you're cool,dialog_compliment
+you're cute,dialog_compliment
+you're really cute,dialog_compliment
+Do you have any kids,dialog_do_you_have_kids
+Do you have children,dialog_do_you_have_kids
+Tell me about your children,dialog_do_you_have_kids
+Connie are you single,dialog_do_you_have_partner
+Do you have a girlfriend,dialog_do_you_have_partner
+Do you have a partner,dialog_do_you_have_partner
+your boyfriend,dialog_do_you_have_partner
+Do you like animals,dialog_do_you_like_animals
+Do you like pets,dialog_do_you_like_animals
+Do you like music,dialog_do_you_like_music
+Do you love me,dialog_do_you_love_me
+I love economy,dialog_do_you_love_me
+Do you like board games,dialog_do_you_play_games
+Do you play video games,dialog_do_you_play_games
+It's a dreary day,dialog_dreary_day
+don't fall off,dialog_falling
+are you male or female ,dialog_gender
+afternoon,dialog_good_afternoon
+good afternoon,dialog_good_afternoon
+how is your afternoon,dialog_good_afternoon
+how is your afternoon going,dialog_good_afternoon
+Are you awake,dialog_good_morning
+Good morning,dialog_good_morning
+How are you this morning,dialog_good_morning
+How is your morning going,dialog_good_morning
+morning,dialog_good_morning
+good night,dialog_good_night
+have a good night,dialog_good_night
+I feel great today,dialog_great_day
+I have a question for you,dialog_have_a_question
+a year later,dialog_have_to_go
+he later,dialog_have_to_go
+I got to go,dialog_have_to_go
+I have to go now,dialog_have_to_go
+It was nice talking to you,dialog_have_to_go
+later on he,dialog_have_to_go
+you regulator company,dialog_have_to_go
+I'm having a great day,dialog_having_great_day
+What helpers,dialog_helpers
+he colony,dialog_hi
+he Coney,dialog_hi
+he connie,dialog_hi
+he there connie,dialog_hi
+hello,dialog_hi
+hello coming,dialog_hi
+hello connie,dialog_hi
+hey,dialog_hi
+hi,dialog_hi
+hi connie,dialog_hi
+whats up,dialog_hi
+be quiet,dialog_hold_on
+give me a minute,dialog_hold_on
+give me a second,dialog_hold_on
+hang on,dialog_hold_on
+hold on,dialog_hold_on
+I was talking,dialog_hold_on
+shut up,dialog_hold_on
+Stop,dialog_hold_on
+stop talking,dialog_hold_on
+wait,dialog_hold_on
+wait a minute,dialog_hold_on
+wait a second,dialog_hold_on
+hello how are you,dialog_how_are_you
+hey how are you,dialog_how_are_you
+hi how are you,dialog_how_are_you
+how are you,dialog_how_are_you
+how are you connie.,dialog_how_are_you
+How are you doing today Connie,dialog_how_are_you
+how is,dialog_how_are_you
+hows it going,dialog_how_are_you
+I love Connie how are you,dialog_how_are_you
+help me please,dialog_how_may_I_help_you
+how old are you,dialog_how_old_are_you
+how old are you currently,dialog_how_old_are_you
+how old are you going,dialog_how_old_are_you
+how old were you,dialog_how_old_are_you
+what are you born,dialog_how_old_are_you
+what is your age,dialog_how_old_are_you
+I am in love,dialog_i_am_in_love
+I love you,dialog_i_am_in_love
+i am well,dialog_i_am_well
+I am interested in animals,dialog_interest
+I am interested in businuess,dialog_interest
+I am interested in food,dialog_interest
+I am interested in technology,dialog_interest
+I am interested in travel,dialog_interest
+my interest is animals,dialog_interest
+my interest is business,dialog_interest
+my interest is food,dialog_interest
+my interest is technology,dialog_interest
+my interest is travel,dialog_interest
+can you give an introduction,dialog_introduction
+I wish to have a conversation with you,dialog_introduction
+introduce yourself,dialog_introduction
+what can you do,dialog_introduction
+what do you do,dialog_introduction
+what do you do,dialog_introduction
+where is the smartest guy,dialog_introduction
+Is this girl your frined,dialog_is_friend
+Is this guy your friend,dialog_is_friend
+do I look good,dialog_looking_good
+do I look sharp,dialog_looking_good
+how do I look,dialog_looking_good
+what do you think of my dress,dialog_looking_good
+what do you think of my suit,dialog_looking_good
+can you do math,dialog_math_question
+can you do math,dialog_math_question
+can you help me with my math,dialog_math_question
+do you understand math,dialog_math_question
+two plus one ,dialog_math_question
+what is 20 minus 1,dialog_math_question
+what is 5 plus 2,dialog_math_question
+what is one plus one,dialog_math_question
+what is the derivate of,dialog_math_question
+what is the integral of,dialog_math_question
+what is two times five,dialog_math_question
+what is zero divided zero,dialog_math_question
+tell me the meaning of life,dialog_meaning_of_life
+what is the meaning of life,dialog_meaning_of_life
+nice meeting you,dialog_nice_meeting_you
+pleasure to meet you,dialog_nice_meeting_you
+are you Alexa,dialog_no
+can I have you robot,dialog_no
+its okay,dialog_no_problem
+no problem,dialog_no_problem
+I'm not feeling well,dialog_not_feeling_well
+I don't think you understood my question,dialog_not_my_question
+That is great but that was not my question,dialog_not_my_question
+That was not my question,dialog_not_my_question
+what is your favorite number,dialog_number
+okay,dialog_okay
+Can you sing,dialog_sing_song
+Sing me a song,dialog_sing_song
+can you swear,dialog_swear
+Let's talk about your underwear,dialog_talk_about_underwear
+Do you know any jokes,dialog_tell_me_a_joke
+I want to hear a joke,dialog_tell_me_a_joke
+tell me a joke,dialog_tell_me_a_joke
+are you a terminator,dialog_terminator
+thank you,dialog_thank_you
+thanks,dialog_thank_you
+i am bored,dialog_this_is_boring
+this is boring,dialog_this_is_boring
+can I touch you,dialog_touch_you
+can you do any tricks,dialog_tricks
+what tricks do you know,dialog_tricks
+I could use a laugh,dialog_use_a_laugh
+Do you like sports,dialog_what_are_favorite_sports
+do you like to play soccer,dialog_what_are_favorite_sports
+What sports do you like,dialog_what_are_favorite_sports
+what are you looking at,dialog_what_do_you_see
+what do you see,dialog_what_do_you_see
+what book do you prefer,dialog_what_is_favorite_book
+what book is your favorite,dialog_what_is_favorite_book
+What do you like to read,dialog_what_is_favorite_book
+What is your favorite book,dialog_what_is_favorite_book
+what color do you like,dialog_what_is_favorite_color
+what is your favorite color,dialog_what_is_favorite_color
+what do you like to drink,dialog_what_is_favorite_drink
+What is your favorite drink,dialog_what_is_favorite_drink
+what's your favorite thing to drink,dialog_what_is_favorite_drink
+what do you like to eat,dialog_what_is_favorite_food
+what is your favorite food,dialog_what_is_favorite_food
+what is your favorite thing to eat,dialog_what_is_favorite_food
+What's your favorite food,dialog_what_is_favorite_food
+what film do you like to watch,dialog_what_is_favorite_movie
+What is your favorite movie,dialog_what_is_favorite_movie
+what movie is your favorite,dialog_what_is_favorite_movie
+what is your favorite song,dialog_what_is_favorite_music
+what music do you like,dialog_what_is_favorite_music
+what is your favorite tv show,dialog_what_is_favorite_tv_show
+what are we up to,dialog_what_is_happening
+what are you up to,dialog_what_is_happening
+what is going on,dialog_what_is_happening
+what is happening,dialog_what_is_happening
+whats happening,dialog_what_is_happening
+whats up,dialog_what_is_happening
+Can you read my future,dialog_what_is_my_future
+How does my future look,dialog_what_is_my_future
+Tell me about my future,dialog_what_is_my_future
+though the numbers of the next week lottery,dialog_what_is_my_future
+well be the next president of America,dialog_what_is_my_future
+What is my future,dialog_what_is_my_future
+Who is gonna win the Super Bowl,dialog_what_is_my_future
+What are your thoughts on the environment,dialog_what_is_opinion_of_environment
+What do you think about the environment,dialog_what_is_opinion_of_environment
+What are your thoughts on the president,dialog_what_is_opinion_of_president
+What do you think about the president,dialog_what_is_opinion_of_president
+do you have a nickname,dialog_what_is_your_name
+once you name,dialog_what_is_your_name
+what do you go by,dialog_what_is_your_name
+what is your name,dialog_what_is_your_name
+what is your real name,dialog_what_is_your_name
+what's your name,dialog_what_is_your_name
+would you like to be called anything else,dialog_what_is_your_name
+you named after Conrad Hilton,dialog_what_is_your_name
+What do you like,dialog_what_makes_you_happy
+What makes you happy,dialog_what_makes_you_happy
+What makes you smile,dialog_what_makes_you_happy
+do you have the time,dialog_what_time_is_it
+what time is it,dialog_what_time_is_it
+where are we,dialog_where_are_you
+where are you,dialog_where_are_you
+corny way where you are from,dialog_where_are_you_from
+where are you from,dialog_where_are_you_from
+where do you come from,dialog_where_are_you_from
+where were you assembled,dialog_where_are_you_from
+where were you born,dialog_where_are_you_from
+who created you,dialog_where_are_you_from
+Do you have any sisters,dialog_who_are_your_siblings
+How many sibilings do you have,dialog_who_are_your_siblings
+Who are your brothers,dialog_who_are_your_siblings
+Who is your favorite actor,dialog_who_is_favorite_actor
+Who is your favorite male actor,dialog_who_is_favorite_actor
+Who is your favorite actress,dialog_who_is_favorite_actress
+your favorite actress,dialog_who_is_favorite_actress
+Who is your father,dialog_who_is_your_father
+who is your father,dialog_who_is_your_father
+can you be my therapist,dialog_wish_you_were_therapist
+I wish you were my therapist,dialog_wish_you_were_therapist
+you want to be my shrink,dialog_wish_you_were_therapist
+you are an idiot,dialog_yay
+you are doing really well,dialog_yay
+your kind of an idiot connie,dialog_yay
+are you having a good evening,dialog_yes
+are you listening,dialog_yes
+can you understand what I say to you,dialog_yes
+do you like me,dialog_yes
+you are crazy,dialog_you_are_crazy
+you're crazy,dialog_you_are_crazy
+you are very helpful,dialog_you_are_helpful
+you have helped me,dialog_you_are_helpful
+you're helpful,dialog_you_are_helpful
+you are a liar,dialog_you_are_lying
+you're lying,dialog_you_are_lying
+you are not impressing me,dialog_you_are_not_impressing
+you are not impressive,dialog_you_are_not_impressing
+you are sexy,dialog_you_are_sexy
+you are weird,dialog_you_are_weird
+you're a weirdo,dialog_you_are_weird
+you are welcome,dialog_you_are_welcome
+you're welcome,dialog_you_are_welcome
+I think you could use more training,dialog_you_need_more_training
+maybe you need more training,dialog_you_need_more_training
+you need more training,dialog_you_need_more_training
+you need to learn more,dialog_you_need_more_training
+what is zero divided by zero,dialog_zero_divided_by_zero
+what is zero divided by zero,dialog_zero_divided_by_zero
+this is not a car,forget_object
+this is not a cow,forget_object
+this is not a cup,forget_object
+this is not a drink,forget_object
+this is not a frog,forget_object
+this is not a goat,forget_object
+this is not a lagoon,forget_object
+this is not a pen,forget_object
+this is not a pencil,forget_object
+this is not a phone,forget_object
+this is not a pig,forget_object
+this is not a sheep,forget_object
+this is not a swimming pool,forget_object
+this is not a wagon,forget_object
+forget how to enter lab mode,forget_skill
+forget how to fist bump,forget_skill
+forget how to high five,forget_skill
+forget how to jump,forget_skill
+forget how to pick up the screwdriver,forget_skill
+forget how to poke,forget_skill
+forget how to shake,forget_skill
+forget how to shake hand,forget_skill
+forget how to shake hands,forget_skill
+forget how to wave,forget_skill
+forget how to wave to the crowd,forget_skill
+close left hand now,l_hand_close
+close your left hand,l_hand_close
+lower your left arm,l_hand_descend
+lower your left hand,l_hand_descend
+put your left arm down,l_hand_descend
+put your left hand down,l_hand_descend
+extend your left arm,l_hand_extend
+extend your left hand,l_hand_extend
+put your left arm out,l_hand_extend
+put your left hand out,l_hand_extend
+open left hand now,l_hand_open
+open your left hand,l_hand_open
+put your left arm up,l_hand_raise
+put your left hand up,l_hand_raise
+raise your left arm,l_hand_raise
+raise your left hand,l_hand_raise
+move your left arm back to chest,l_hand_retract
+move your left hand back to chest,l_hand_retract
+retract your left arm,l_hand_retract
+retract your left hand,l_hand_retract
+lean all the way backward,lean_all_the_way_backward
+lean all the way forward,lean_all_the_way_forward
+lean all the way left,lean_all_the_way_left
+lean all the way right,lean_all_the_way_right
+lean backward,lean_backward
+lean forward,lean_forward
+lean left,lean_left
+lean right,lean_right
+call me in case of an emergency my number is seven eight nine six six four one,learn_number
+call my cell at five one two seven one eight nine nine two four in case of an emergency,learn_number
+in case of an emergency call my cell phone at five one two six three three two nine seven eight,learn_number
+when there is an emergency contact me at six nine six seven five three one one nine nine,learn_number
+no this is a cow,learn_object
+no this is a cup,learn_object
+no this is a drink,learn_object
+no this is a fist,learn_object
+no this is a goat,learn_object
+no this is a robot,learn_object
+no this is a sheep,learn_object
+no this is a tooth,learn_object
+this is a burrito,learn_object
+this is a cane,learn_object
+this is a cell phone,learn_object
+this is a circus,learn_object
+this is a cup,learn_object
+this is a dog,learn_object
+this is a lamp,learn_object
+this is a milkshake,learn_object
+this is a monitor,learn_object
+this is a pen,learn_object
+this is a pencil,learn_object
+this is a piece of paper,learn_object
+this is a water bottle,learn_object
+this is john andersen,learn_object
+did you understand that as a question,learn_question
+I just asked you a question,learn_question
+that was a question,learn_question
+that was chat,learn_question
+that was dialog,learn_question
+I just told you a request_skill,learn_request
+that was a request,learn_request
+that was a request_skill,learn_request
+I need to take my medicine at four can you please remind me,learn_schedule
+I need to water the grass at six can you let me know,learn_schedule
+remind me to take my Advil at one o'clock,learn_schedule
+remind me to take my aspirin at three,learn_schedule
+remind me to take my blood thinner medicine at one o'clock,learn_schedule
+set a reminder that I have to go out with my friends for a beer at five,learn_schedule
+that is how you dance,learn_skill
+that is how you draw,learn_skill
+that is how you lie,learn_skill
+that is how you pick up,learn_skill
+that is how you point,learn_skill
+that is how you run,learn_skill
+that is how you turn,learn_skill
+that is hwo you crawl,learn_skill
+this is how you drink,learn_skill
+this is how you fall,learn_skill
+this is how you grab,learn_skill
+this is how you plug,learn_skill
+this is how you sit,learn_skill
+this is how you turn the knob,learn_skill
+this is how you walk,learn_skill
+this is how you wave,learn_skill
+this is hwo you screw,learn_skill
+I just told you a statement,learn_statement
+that was a statement,learn_statement
+left arm relax,left_arm_relax
+put your left arm down,left_arm_relax
+left arm waiver,left_arm_wave
+left arm wave,left_arm_wave
+left arm waved,left_arm_wave
+left arm waves,left_arm_wave
+left arm way,left_arm_wave
+wave your left arm,left_arm_wave
+left arm wave position,left_arm_wave_position
+go back,locomotion_backward
+walk backwards,locomotion_backward
+go forward,locomotion_forward
+walk forward,locomotion_forward
+walk forward,locomotion_forward
+walk straight,locomotion_forward
+please turn left now,locomotion_left
+turn left,locomotion_left
+pan left,locomotion_pan_left
+walk sideways left,locomotion_pan_left
+pan right,locomotion_pan_right
+walk sideways right,locomotion_pan_right
+can you please turn right,locomotion_right
+turn right,locomotion_right
+look all the way down,look_all_the_way_down
+look all the way left,look_all_the_way_left
+look all the way right,look_all_the_way_right
+look all the way up,look_all_the_way_up
+look down,look_down
+look forward,look_forward
+look left,look_left
+look right,look_right
+look straight,look_straight
+look up,look_up
+ trying to find out from you is like pulling teeth,negative_feedback
+$ i do not like talking to you,negative_feedback
+$ I do not like you,negative_feedback
+Are you being rude,negative_feedback
+are you broken,negative_feedback
+are you flawed,negative_feedback
+are you going to improve,negative_feedback
+Are you insulting,negative_feedback
+bad,negative_feedback
+bad Connie,negative_feedback
+bad job,negative_feedback
+bad job,negative_feedback
+broken,negative_feedback
+bug in your program,negative_feedback
+cannot be bothered,negative_feedback
+dislike of watson,negative_feedback
+do i get a more personal response,negative_feedback
+do no think you are doing a good job,negative_feedback
+do not annoy me,negative_feedback
+do not find you helpful,negative_feedback
+do not find you terribly helpful,negative_feedback
+do not think your doing a good job,negative_feedback
+how about having a person answer the questions,negative_feedback
+how rude,negative_feedback
+i am disappointed with your technology,negative_feedback
+i am not happy using this,negative_feedback
+i am not happy with you,negative_feedback
+i did not enjoy,negative_feedback
+i do not care for watson,negative_feedback
+i do not like that,negative_feedback
+I do not like Watson,negative_feedback
+i do not like you,negative_feedback
+i don't,negative_feedback
+i don't think so,negative_feedback
+I give up,negative_feedback
+i hate talking to you,negative_feedback
+I have had more than enough,negative_feedback
+i no longer want to talk to you,negative_feedback
+i will not be back,negative_feedback
+if only you were smarter,negative_feedback
+is that a bug in your program,negative_feedback
+it has not been helpful,negative_feedback
+nah,negative_feedback
+no,negative_feedback
+no need to be rude,negative_feedback
+no the other one,negative_feedback
+no you have not been helpful,negative_feedback
+nope,negative_feedback
+not good,negative_feedback
+not happy with Connie,negative_feedback
+not happy with you,negative_feedback
+not helpful,negative_feedback
+not like that,negative_feedback
+not much help,negative_feedback
+not much use,negative_feedback
+only react to the last line,negative_feedback
+only reacting to the last line,negative_feedback
+quit annoying me,negative_feedback
+rubbish,negative_feedback
+something wrong with you,negative_feedback
+something wrong with your brain,negative_feedback
+stop annoying me,negative_feedback
+stop kidding everyone that someone wants to help,negative_feedback
+Stop pestering me,negative_feedback
+taking your time on answering my question,negative_feedback
+that is absolutely dreadful,negative_feedback
+that is bollocks,negative_feedback
+that is not a very good response,negative_feedback
+that is not helpful,negative_feedback
+that is rude,negative_feedback
+that is very rude,negative_feedback
+that isn't right,negative_feedback
+that was not helpful,negative_feedback
+that's not good,negative_feedback
+there is something wrong with you,negative_feedback
+there is something wrong you,negative_feedback
+things clearly have not gone well for me,negative_feedback
+This does not work,negative_feedback
+this is a really non helpful tool,negative_feedback
+this is a useless facility,negative_feedback
+this is annoying,negative_feedback
+this is bad,negative_feedback
+this is crazy,negative_feedback
+this is not going very well,negative_feedback
+This is not good,negative_feedback
+this is not working,negative_feedback
+this is pointless shit,negative_feedback
+this is really annoying,negative_feedback
+this is terrible,negative_feedback
+this is the worst,negative_feedback
+this is useless,negative_feedback
+this is wrong,negative_feedback
+this pointless shit,negative_feedback
+this site look so fake,negative_feedback
+this site looks fake,negative_feedback
+this site looks so fake,negative_feedback
+this was a waste of time,negative_feedback
+time waster,negative_feedback
+wasting valuable time,negative_feedback
+Watson is not very good,negative_feedback
+watson technology is pretty classy...not,negative_feedback
+what a waste of pretty flash,negative_feedback
+what in the hell,negative_feedback
+what the heck,negative_feedback
+why are you confused,negative_feedback
+Why are you so annoying,negative_feedback
+why do you have such a useless facility,negative_feedback
+wtf,negative_feedback
+wth,negative_feedback
+You annoy me,negative_feedback
+you are * indecision,negative_feedback
+you are a bad robot,negative_feedback
+you are a klutz,negative_feedback
+you are a lousy robot,negative_feedback
+you are a poor robot,negative_feedback
+you are a waste of time,negative_feedback
+you are a weak intelligence,negative_feedback
+You are an annoyance,negative_feedback
+you are annoying,negative_feedback
+You are annoying ,negative_feedback
+you are awful,negative_feedback
+you are bad,negative_feedback
+you are bad at,negative_feedback
+You are being rude,negative_feedback
+you are broken,negative_feedback
+you are challenged,negative_feedback
+you are contradicting,negative_feedback
+you are corny,negative_feedback
+you are crap,negative_feedback
+you are doing a bad job,negative_feedback
+you are doing bad,negative_feedback
+You are flawed,negative_feedback
+You are frustrating,negative_feedback
+you are hopeless,negative_feedback
+you are incapable,negative_feedback
+You are incompetent,negative_feedback
+you are incomplete,negative_feedback
+you are indecisive,negative_feedback
+you are inferior,negative_feedback
+You are infuriating,negative_feedback
+You are irritating,negative_feedback
+you are losing,negative_feedback
+you are lousy at being a robot,negative_feedback
+you are making me angry,negative_feedback
+you are making me sad,negative_feedback
+you are messed up,negative_feedback
+you are messy,negative_feedback
+you are no assistance,negative_feedback
+you are no help,negative_feedback
+you are not a decent robot,negative_feedback
+you are not a good robot,negative_feedback
+you are not good,negative_feedback
+you are not great,negative_feedback
+you are not helpful,negative_feedback
+you are not perfect at all,negative_feedback
+you are not put together,negative_feedback
+you are not so good,negative_feedback
+you are not so great,negative_feedback
+you are of no help,negative_feedback
+You are rude,negative_feedback
+you are so rude,negative_feedback
+you are so useless,negative_feedback
+You are starting to get annoying,negative_feedback
+you are superficial,negative_feedback
+you are the weakest robot,negative_feedback
+you are the worst robot,negative_feedback
+you are useless,negative_feedback
+You are very annoying,negative_feedback
+you are very rude,negative_feedback
+you are weak,negative_feedback
+you are woefully bad,negative_feedback
+you are worse than,negative_feedback
+you are worthless,negative_feedback
+you cannot answer a simple question,negative_feedback
+you cannot sell anything,negative_feedback
+you cannot sell nothing,negative_feedback
+you did not help at all,negative_feedback
+you do not think about,negative_feedback
+you do not work well,negative_feedback
+you have a bug,negative_feedback
+you have a flaw,negative_feedback
+you have not assisted me,negative_feedback
+you have something broken,negative_feedback
+you lousy,negative_feedback
+you make me angry,negative_feedback
+you make me sad,negative_feedback
+you make me sad and angry,negative_feedback
+your answer did not help at all,negative_feedback
+your training sucks,negative_feedback
+%HESITATION,nonsense
+%HESITATION connection,nonsense
+%HESITATION final,nonsense
+%HESITATION I'm now going to,nonsense
+%HESITATION idea so utterances,nonsense
+%HESITATION on to try something,nonsense
+%HESITATION scuffled with,nonsense
+%HESITATION so,nonsense
+%HESITATION we've opened on,nonsense
+a couple,nonsense
+a higher level of annoyance that norm,nonsense
+a loss books,nonsense
+a lot more of the,nonsense
+a lot of,nonsense
+a lot of artwork,nonsense
+a lot of the times was,nonsense
+a participant,nonsense
+a tiny or,nonsense
+a verbal menu,nonsense
+about,nonsense
+about %HESITATION to,nonsense
+after,nonsense
+Ali rampage,nonsense
+all,nonsense
+all eligible,nonsense
+all eligible leann,nonsense
+all I could,nonsense
+all systems,nonsense
+all that stuff we're doing I'm trying to figure out what are,nonsense
+all the,nonsense
+all this darkness,nonsense
+all those out,nonsense
+along,nonsense
+alright so chef Watson is this,nonsense
+alright so piazza doesn't like that,nonsense
+alright so that's kind of our robots where we're at with this on,nonsense
+alright teaches one everything oughtn't,nonsense
+also,nonsense
+also make it date thinking,nonsense
+also see,nonsense
+although,nonsense
+an athlete whether,nonsense
+and,nonsense
+and basically,nonsense
+and I don't all park,nonsense
+and I have and that's a good example,nonsense
+and I think one of,nonsense
+and intimate writes about what that means now says,nonsense
+and just,nonsense
+and our,nonsense
+and provide,nonsense
+and so that,nonsense
+and then you say you know,nonsense
+and this,nonsense
+and those three right now variables,nonsense
+and you couldn't find service so is having a hard time,nonsense
+any story that,nonsense
+anyone else,nonsense
+anyone the time,nonsense
+anything about,nonsense
+are,nonsense
+are just so number I was talking about,nonsense
+are on the move stay like this,nonsense
+are six,nonsense
+are you,nonsense
+area,nonsense
+as for objects virtual room rewards,nonsense
+as the,nonsense
+audience station,nonsense
+author's note this,nonsense
+back out to all the I don't know our time,nonsense
+because this is automatically,nonsense
+besides,nonsense
+better proxy I don't know of points of discussion right now but later this may not be I think,nonsense
+bill Dorman said by dividing the total,nonsense
+block,nonsense
+brain I business is the stuff also you know considering,nonsense
+but,nonsense
+but all I've got,nonsense
+but for the auditor scenario,nonsense
+but I feel,nonsense
+but I thought it would be just another demos,nonsense
+but I would like to,nonsense
+but if it only fills itself after,nonsense
+but it's,nonsense
+but it's not possibly trying applauded me,nonsense
+but it's this,nonsense
+but let's get this wrong and then,nonsense
+but not always,nonsense
+but now I know the workings last night,nonsense
+but on hands,nonsense
+but on the,nonsense
+but on the other side,nonsense
+but on your leann,nonsense
+but that's not on a,nonsense
+but that's what's,nonsense
+but there's a very fine job people say out of the,nonsense
+but we chicks so you get a chance before you have a lawyer,nonsense
+but when you can use something,nonsense
+but when you go up to come to here they only know so many things would you know if this is,nonsense
+but you have,nonsense
+but you have a verbal menu which is a failed,nonsense
+but you know it's,nonsense
+can,nonsense
+can get,nonsense
+can go,nonsense
+can I ask,nonsense
+can I knew everybody from the conference lines or see,nonsense
+can questions later,nonsense
+can you know,nonsense
+cap'n,nonsense
+check out some wires,nonsense
+close,nonsense
+could be a particular after it will have suggested place should you make it have shorter memory,nonsense
+could be done is right maybe it's,nonsense
+delays,nonsense
+developers,nonsense
+do I deserve the result of lots of laps,nonsense
+do then why don't,nonsense
+do they do they,nonsense
+do things talk to,nonsense
+do you know,nonsense
+do you still like bird where's the anything like perfect,nonsense
+do you support Richard though,nonsense
+do you want,nonsense
+does,nonsense
+does seasonal,nonsense
+does that,nonsense
+does the answer,nonsense
+don't,nonsense
+don't ask about some,nonsense
+down,nonsense
+dragging,nonsense
+earlier this and attacks over somebody look you know what that you asked for privacy,nonsense
+either like,nonsense
+either time,nonsense
+entity relationship you know classify those out,nonsense
+even privacy where,nonsense
+every now and it'll suck randomly talk,nonsense
+every statements,nonsense
+everybody stop,nonsense
+except,nonsense
+except that it will be,nonsense
+existing home,nonsense
+famous novelist,nonsense
+faster,nonsense
+finding,nonsense
+first it was to get it perfect so Hussein for the purpose of this debate that you give a shot,nonsense
+first thing,nonsense
+first you would as opposed,nonsense
+five,nonsense
+for,nonsense
+for the most part Elsie's perfect's,nonsense
+friends,nonsense
+functional honest,nonsense
+general,nonsense
+girl please,nonsense
+giving,nonsense
+going to build a whole infrastructure,nonsense
+great,nonsense
+he lifted out it's good stuff is,nonsense
+he those two questions lifted its,nonsense
+he's all like this,nonsense
+he's not including,nonsense
+her personal,nonsense
+here,nonsense
+Hong,nonsense
+how,nonsense
+how did that,nonsense
+how to get everything,nonsense
+how will that is like status of the book at all,nonsense
+how would supersede,nonsense
+I am around I am always happy when I am thinking again,nonsense
+I asked what,nonsense
+I but I,nonsense
+I can barely,nonsense
+I can get do,nonsense
+I decided that is,nonsense
+I didn't ask you that,nonsense
+I don't does it look no,nonsense
+I don't have you seen parties should be something,nonsense
+I don't know about everyone vannatter,nonsense
+I don't know which also burns like clearly how can I talk about,nonsense
+I don't really good,nonsense
+I don't think for something,nonsense
+I drive by a fly ball go whatever the,nonsense
+I dug out years ago I,nonsense
+I feel like you go about saying,nonsense
+I figured this is my,nonsense
+I guess,nonsense
+I just solutions,nonsense
+I just will follow look at the list recently,nonsense
+I know if you lose talk,nonsense
+I know the answer,nonsense
+I know your intellect,nonsense
+I mean ideally be nice to have arranged her,nonsense
+I mean if I might not do that you know but,nonsense
+I mean something,nonsense
+I often,nonsense
+I stood,nonsense
+I think at one point I never doubted that he was going to make it,nonsense
+I think erupted,nonsense
+I think it's annoying as well,nonsense
+I think that,nonsense
+I think that you know like,nonsense
+I think this is it only,nonsense
+I thought it contest,nonsense
+I thought there,nonsense
+I thought we had maybe like so,nonsense
+I would I would think it would,nonsense
+I would like,nonsense
+I would like to,nonsense
+I your real life experience that would you know in,nonsense
+I'd,nonsense
+I'd just,nonsense
+I'd like there was one did suggest,nonsense
+I'm all for this purpose,nonsense
+I'm always,nonsense
+I'm going,nonsense
+I'm kind of a sense of all the penalties are like no,nonsense
+I'm looking for,nonsense
+I'm sorry,nonsense
+I'm trying to figure out,nonsense
+I'm with words,nonsense
+if credit,nonsense
+if I am really hoping I can get five,nonsense
+if I can only,nonsense
+if I think about substance,nonsense
+if I were to go maybe account,nonsense
+if they don't,nonsense
+if you,nonsense
+if you can do it a process they or eliminated helps with,nonsense
+if you don't like off,nonsense
+if you say things you know related to weather like relies on China rain,nonsense
+if you schedule work at on is,nonsense
+if you want notifying on,nonsense
+in Europe results back maybe have a little gesture like,nonsense
+in the lobby there anything,nonsense
+is Dallas was working now so we'll try to get that,nonsense
+is everything,nonsense
+is it always listen to the Beatles also supporting you,nonsense
+is it going to be utilitarian,nonsense
+is it safe but it's,nonsense
+is not responding to things or feel,nonsense
+is that,nonsense
+is that a reasonable,nonsense
+is there,nonsense
+is there a problem are some of the smaller one,nonsense
+is there any reason you wouldn't say something else not,nonsense
+is there any way,nonsense
+is whenever things go awry,nonsense
+it,nonsense
+it amounts to suspects,nonsense
+it helps us quite a bit,nonsense
+it in the timeouts,nonsense
+it is,nonsense
+it is abilities,nonsense
+it is useless,nonsense
+it oughtn't,nonsense
+it out a secondary and Alcee retired nonsense,nonsense
+it was,nonsense
+it was a really,nonsense
+it was easy,nonsense
+it would take,nonsense
+it your fixed,nonsense
+it'll,nonsense
+it'll ignored,nonsense
+it'll make it you will local stuff,nonsense
+it'll people does not generally you is or Starbucks and signaled to the robot robot,nonsense
+it'll take a key phrases like love life realized that all certain,nonsense
+it's,nonsense
+it's a,nonsense
+it's a different style for different phones,nonsense
+it's about the language Nassau executives see the system,nonsense
+it's actually,nonsense
+it's going dialogues,nonsense
+it's good,nonsense
+it's just,nonsense
+it's just when you,nonsense
+it's kind of,nonsense
+it's like,nonsense
+it's my considered talk to see some,nonsense
+it's not efficient,nonsense
+it's not like prominence of the,nonsense
+it's probably somewhere entirely,nonsense
+it's very everything on saying,nonsense
+it's Yankees will work on the image processing for this free butter pecan also museum grabbing,nonsense
+Jude auto is has the hams,nonsense
+just,nonsense
+just because it was suffocating,nonsense
+just because you,nonsense
+just leann,nonsense
+just like just,nonsense
+just sort of a Protestant trying to figure out,nonsense
+last,nonsense
+leann,nonsense
+learn from center learn from,nonsense
+let's counselors to get lost lost,nonsense
+let's get,nonsense
+like cases I was little testing for a highly more realistically by,nonsense
+like Selassie's question,nonsense
+like some,nonsense
+like the ones,nonsense
+like will say something my honorable log,nonsense
+look ani,nonsense
+lots,nonsense
+make sure that it,nonsense
+maybe,nonsense
+maybe what,nonsense
+model,nonsense
+Moses,nonsense
+most,nonsense
+mostly customers,nonsense
+moving,nonsense
+my,nonsense
+my answer machine not much of the,nonsense
+my problem for Albanian there unless the inexorably,nonsense
+NATO,nonsense
+never picks it up,nonsense
+next,nonsense
+next year,nonsense
+nobody,nonsense
+nobody asked whether,nonsense
+nobody wants,nonsense
+not that this,nonsense
+not whenever we train,nonsense
+now the first thing that I want,nonsense
+okay,nonsense
+okay also,nonsense
+okay cap'n,nonsense
+okay listing,nonsense
+okay Luciano,nonsense
+on,nonsense
+on this,nonsense
+on this particular do not,nonsense
+once,nonsense
+once we started,nonsense
+once you have it,nonsense
+one of them aloneness,nonsense
+one of these guys,nonsense
+only pick the probation podiums,nonsense
+ordeal is about a,nonsense
+orthodontist of the robot,nonsense
+our partners,nonsense
+Palestinian for,nonsense
+parents,nonsense
+perhaps,nonsense
+perhaps most,nonsense
+plan goes how I know I know how to handle,nonsense
+please note,nonsense
+points responses to,nonsense
+politics,nonsense
+pony,nonsense
+pretty fast,nonsense
+probably down forcibly six hour,nonsense
+probably like actually one,nonsense
+probably would,nonsense
+problems,nonsense
+Providence,nonsense
+rating,nonsense
+ray made the point,nonsense
+reasonably exorcism is definitions are profits were,nonsense
+refused,nonsense
+remiss usually municipal goes like this screw so little Jews rusher includes several we don't have this issue,nonsense
+request,nonsense
+responded whether,nonsense
+right,nonsense
+right it,nonsense
+right now I don't know what's going,nonsense
+rob is the guy that center for the better the,nonsense
+robots,nonsense
+say,nonsense
+say I love you can speak normally but not like,nonsense
+says exemplifies re application,nonsense
+screen,nonsense
+Scully the problems,nonsense
+Seattle problem noise assignments foreplay,nonsense
+second dialogue,nonsense
+second one was,nonsense
+see,nonsense
+seems happy,nonsense
+select,nonsense
+sh,nonsense
+she conte,nonsense
+she had printed happen,nonsense
+she's the only one,nonsense
+shortest,nonsense
+show so I know he showed he knows he show I've never thought has,nonsense
+since you know,nonsense
+small seems I want potatoes,nonsense
+smiles tested all stop,nonsense
+snarling inside,nonsense
+so,nonsense
+so all I have to do is give it some nonsensical utterances,nonsense
+so anybody who has any,nonsense
+so because you are getting satisfactory answers a good purpose of going to say that I'm going to,nonsense
+so beside the road eaters detectives over the next also biologic excellent tomorrow,nonsense
+so can I get more of last,nonsense
+so does well,nonsense
+so for the immediate time,nonsense
+so go free,nonsense
+so goes last night I,nonsense
+so I clearly am,nonsense
+so I does this vessel here,nonsense
+so I felt that we sit,nonsense
+so I still,nonsense
+so I think that situation I understand,nonsense
+so I think the,nonsense
+so it is,nonsense
+so it's like this,nonsense
+so it's uses a concierge so they put it out there plans on and,nonsense
+so let's,nonsense
+so like whatever I tell it to raise an army that's,nonsense
+so next I think we need to fix for ninety,nonsense
+so not sure if you see it,nonsense
+so now you have,nonsense
+so once again actively is focus on bugs certain things out,nonsense
+so or something,nonsense
+so policies like figure out,nonsense
+so stuff they've been,nonsense
+so that,nonsense
+so that is what I,nonsense
+so that lousy,nonsense
+so that you have a little bit snotty,nonsense
+so that's,nonsense
+so that's a question you,nonsense
+so that's that's what I'm trying,nonsense
+so the idea being by life,nonsense
+so the second part of,nonsense
+so the simple,nonsense
+so there is,nonsense
+so there's there's so's missing,nonsense
+so these are some questions,nonsense
+so this,nonsense
+so this goes down,nonsense
+so this thing has a built in system were prototype you know you can,nonsense
+so was there something that includes,nonsense
+so we didn't also so artistic,nonsense
+so we just it was a matching set of words that help Thursday,nonsense
+so we're not getting,nonsense
+so what I want to do with a little less,nonsense
+so what if they simply applied for what accepted my status,nonsense
+so what we try not only that you don't know the Serbs,nonsense
+so what we're trying to do is always listening,nonsense
+so what's TGI,nonsense
+so whatever box,nonsense
+so while,nonsense
+so with our language pacifier's if we use that goes a long way towards,nonsense
+so you can,nonsense
+so you know is using the local trains go,nonsense
+so you say,nonsense
+so your aloneness,nonsense
+so your treasury,nonsense
+some,nonsense
+some boys giving a snickers leann,nonsense
+some items are good,nonsense
+some of the,nonsense
+some of the bugs I know it's not the most exciting glorious,nonsense
+somebody,nonsense
+someplace in place you know,nonsense
+something,nonsense
+something else here suppose you receive a penalty will be able to answer,nonsense
+something is,nonsense
+something out of it,nonsense
+something that affects into is like,nonsense
+something that we have,nonsense
+something to make it more experience,nonsense
+son of,nonsense
+sorry,nonsense
+sorry fifty,nonsense
+sorry for,nonsense
+sort of,nonsense
+sort of thing have Yassin's,nonsense
+speaker out,nonsense
+split between good about,nonsense
+stacking,nonsense
+Stansky,nonsense
+start,nonsense
+starting,nonsense
+states cap'n,nonsense
+stay,nonsense
+Steve transcribe the ideas that when you get in these,nonsense
+still,nonsense
+still oughtn't shall,nonsense
+still research,nonsense
+still we need to know what's the what's stored locally,nonsense
+strong hands everyone,nonsense
+student Maggie,nonsense
+stuff,nonsense
+submit,nonsense
+such,nonsense
+supposing actually,nonsense
+sure it's per but anyways right now what we're with %HESITATION belong statement,nonsense
+symbolizing,nonsense
+talked over me a lot,nonsense
+technical,nonsense
+testing,nonsense
+Texas,nonsense
+text,nonsense
+that,nonsense
+that are,nonsense
+that fastest we did before so the capital code,nonsense
+that I,nonsense
+that is,nonsense
+that is not a bug consultants are chemically it's it's not necessarily hot that sentence but,nonsense
+that means,nonsense
+that said lots and does,nonsense
+that we have a,nonsense
+that's,nonsense
+that's a different,nonsense
+that's an efficiency divisions,nonsense
+that's fine,nonsense
+that's interesting,nonsense
+that's like a real,nonsense
+that's that's saying a lot so we're going to be,nonsense
+that's where,nonsense
+that's within this,nonsense
+the,nonsense
+the bagel place that is the most was that is,nonsense
+the city,nonsense
+the city does,nonsense
+the closer you see the words are area don't want,nonsense
+the developers not,nonsense
+the developers they'll have stickers on the back,nonsense
+the fifth open,nonsense
+the help they just barely plaintiffs kicked off all data visible on the one,nonsense
+the law here,nonsense
+the liberals,nonsense
+the number to do just that,nonsense
+the one,nonsense
+the one thing your friends,nonsense
+the other part is one problem though,nonsense
+the population,nonsense
+the reason,nonsense
+the reasons,nonsense
+the responsible,nonsense
+the robot,nonsense
+the so,nonsense
+the update on its books but I would like to request is whenever you are logging roads,nonsense
+then,nonsense
+then it came,nonsense
+there are two questions depends on the call including you,nonsense
+there is,nonsense
+there is always you know these,nonsense
+there is an infection in their survivor,nonsense
+there is some,nonsense
+there should,nonsense
+they,nonsense
+they are as a person,nonsense
+they are working on that there should be some testing,nonsense
+they do you,nonsense
+they look cool our wisdom,nonsense
+they others of us service,nonsense
+they see robots go when they don't,nonsense
+they're very similar that's,nonsense
+think about annexes,nonsense
+thirty answering,nonsense
+this,nonsense
+this accident rollerblade's lawyers in your business avoiding you go back basically lose lose,nonsense
+this area,nonsense
+this four seconds,nonsense
+this is,nonsense
+this is a problem that we Casey,nonsense
+this is good,nonsense
+this means that as deeply ,nonsense
+this morning I usually just,nonsense
+this obligated scatter within communities,nonsense
+this results,nonsense
+this robust Lebanese,nonsense
+those those rules are,nonsense
+three dimensional space of the room is from,nonsense
+three tasks unclear that I think,nonsense
+through the years,nonsense
+total whispers,nonsense
+try to make bus,nonsense
+trying to figure space hotels we're trying to help you because,nonsense
+trying to make,nonsense
+unfortunately anybody's,nonsense
+unless,nonsense
+until it does the dishes,nonsense
+user,nonsense
+vannatter,nonsense
+verses,nonsense
+Wagner said each interaction,nonsense
+waiting for them sternly needs to maybe this is something that's like a promotion,nonsense
+we all,nonsense
+we can do I train in for that search just being able,nonsense
+we dishes,nonsense
+we fought so I'd like,nonsense
+we have a,nonsense
+we may at this last night,nonsense
+we see,nonsense
+we started,nonsense
+we talking about here,nonsense
+we train system lately,nonsense
+we will,nonsense
+we work with,nonsense
+we're,nonsense
+we're all people you actually just because we,nonsense
+we're going to the robot,nonsense
+we're looking for,nonsense
+we're probably doing,nonsense
+we're working I was working with and like,nonsense
+well,nonsense
+well I said earlier,nonsense
+well it looks like to network,nonsense
+well it was,nonsense
+well it was a,nonsense
+well it was just a signature,nonsense
+well it wouldn't,nonsense
+well itself architecture that I kind of worried,nonsense
+well maybe,nonsense
+well please list if you after that last request,nonsense
+well so probably pick up umbrella in in,nonsense
+well there's a sweeping point they will never die,nonsense
+well what we do about,nonsense
+what,nonsense
+what about,nonsense
+what are the three things what the expectations were improvement which was like let's say,nonsense
+what are you know,nonsense
+what awards does,nonsense
+what does it include the responsible director longtime horse,nonsense
+what I want,nonsense
+what I'm skeptical,nonsense
+what if you just,nonsense
+what is happening for the Ebersole jokes and we're doing with the date,nonsense
+what is important,nonsense
+what is that sucker reasonable model wrong you go right ahead so,nonsense
+what on this,nonsense
+what place did you just,nonsense
+what the special,nonsense
+what users,nonsense
+what was,nonsense
+what we have is because the scriptures,nonsense
+what we have just working,nonsense
+what we have laws which isn't really before,nonsense
+what we're going to do a little person,nonsense
+what would you do so the battery on,nonsense
+what you want to look,nonsense
+what's in the envelopes,nonsense
+what's it,nonsense
+what's it like look at me limits,nonsense
+what's so,nonsense
+what's the use,nonsense
+what's wrong with the label to love,nonsense
+whatever is online,nonsense
+when you were just,nonsense
+where,nonsense
+where else so so these were as of last night around nine o'clock in so wall,nonsense
+where people people and,nonsense
+where that makes sense to me probably wouldn't make,nonsense
+where's,nonsense
+which is considerably,nonsense
+which probably didn't,nonsense
+who is coming to the text,nonsense
+why,nonsense
+why don't,nonsense
+with each record,nonsense
+work on this to get everything merged,nonsense
+works,nonsense
+would you go to a hotel because here in the Hague you know if I don't have anything,nonsense
+yeah,nonsense
+yeah I guess,nonsense
+yeah like I don't,nonsense
+yeah that's,nonsense
+yeah through only one or stay,nonsense
+yeah total whispers,nonsense
+yeah whenever,nonsense
+you,nonsense
+you can,nonsense
+you can also decided,nonsense
+you can get it out,nonsense
+you can study time but,nonsense
+you can use this,nonsense
+you can you have a historical,nonsense
+you feel totally focused upon receipt elevator,nonsense
+you have several,nonsense
+you have to say all screens,nonsense
+you just available,nonsense
+you know a big,nonsense
+you know I mean is we have sort of what should,nonsense
+you know it's like where did,nonsense
+you know this evening,nonsense
+you pass,nonsense
+you will be,nonsense
+you will be sorry,nonsense
+you would like to see,nonsense
+you'll see,nonsense
+you're going,nonsense
+you've got,nonsense
+zero amount,nonsense
+zero zero zero over thirty I guess,nonsense
+open the conference room door,open_conference_door
+open the lab door,open_lab_door
+open the storage room door,open_storage_door
+open the tuxedo door,open_tuxedo_door
+actually your answer is spot on,positive_feedback
+Alright,positive_feedback
+amazing,positive_feedback
+awesome,positive_feedback
+aww that is cute,positive_feedback
+certainly endearing,positive_feedback
+chatting to you is fine,positive_feedback
+cool,positive_feedback
+cool,positive_feedback
+coolest,positive_feedback
+coollier,positive_feedback
+definitely,positive_feedback
+delightful reading,positive_feedback
+fantastic,positive_feedback
+good answer,positive_feedback
+good job,positive_feedback
+good job,positive_feedback
+great answer,positive_feedback
+great job,positive_feedback
+great work,positive_feedback
+happy to be here,positive_feedback
+hello you look great,positive_feedback
+how nice you are,positive_feedback
+I am always happy when I am thinking too,positive_feedback
+I am going to leave now and enjoy my vacation days,positive_feedback
+i am impressed,positive_feedback
+i am very happy with you,positive_feedback
+i appreciate this,positive_feedback
+I don't need assistance,positive_feedback
+I like,positive_feedback
+I like this,positive_feedback
+i like this bot,positive_feedback
+i love this,positive_feedback
+I read about you connie,positive_feedback
+i really like this,positive_feedback
+I saw a dinosaur,positive_feedback
+i'll order you,positive_feedback
+is helpful,positive_feedback
+is it great to hear,positive_feedback
+it is a good answer,positive_feedback
+it is good to hear,positive_feedback
+looks so cool,positive_feedback
+nice work,positive_feedback
+nicely put,positive_feedback
+nicely said,positive_feedback
+of course it is amazing,positive_feedback
+oh that is good,positive_feedback
+Okay fair enough,positive_feedback
+perfect,positive_feedback
+right on,positive_feedback
+say something to me,positive_feedback
+smarty,positive_feedback
+sure,positive_feedback
+thank you are cool,positive_feedback
+thank you for being nice,positive_feedback
+thanking you for being nice,positive_feedback
+thanks you are so smart,positive_feedback
+thanks your so smart,positive_feedback
+that is cool,positive_feedback
+that is correct,positive_feedback
+that is correct,positive_feedback
+that is cute,positive_feedback
+that is fine,positive_feedback
+that is good,positive_feedback
+that is good to hear,positive_feedback
+that is great to hear,positive_feedback
+that is helpful,positive_feedback
+that is neat,positive_feedback
+that is right,positive_feedback
+that is very good,positive_feedback
+that sounds like a personal problem,positive_feedback
+that was a great answer,positive_feedback
+that was helpful,positive_feedback
+that was nice,positive_feedback
+that was nicely put,positive_feedback
+that was so cute,positive_feedback
+that's really good,positive_feedback
+this is awesome,positive_feedback
+this is cool,positive_feedback
+this is great,positive_feedback
+this is hot,positive_feedback
+This is super,positive_feedback
+this is wonderful,positive_feedback
+very apt,positive_feedback
+very clever you must get that asked often,positive_feedback
+very clever you must get that question a lot,positive_feedback
+very good,positive_feedback
+was helpful,positive_feedback
+well done,positive_feedback
+what a great thing,positive_feedback
+wow deep,positive_feedback
+wow that is great,positive_feedback
+wow you are a good dancer,positive_feedback
+wow you are impressive,positive_feedback
+wow you are very impressive,positive_feedback
+yeah,positive_feedback
+yep,positive_feedback
+yes,positive_feedback
+yes it is amazing,positive_feedback
+yes it was quite an experiment,positive_feedback
+yes its really amazing,positive_feedback
+yes that one,positive_feedback
+you always impress me,positive_feedback
+you amaze me,positive_feedback
+you are a great agent,positive_feedback
+you are a great dancer,positive_feedback
+you are a wonderful robot,positive_feedback
+You are advanced,positive_feedback
+you are amazing,positive_feedback
+you are awesome,positive_feedback
+you are better than sam,positive_feedback
+you are certainly endearing,positive_feedback
+you are clever,positive_feedback
+you are cool,positive_feedback
+you are endearing,positive_feedback
+you are friendly,positive_feedback
+you are good at dancing,positive_feedback
+you are heaps great,positive_feedback
+you are heaps uber,positive_feedback
+you are impressive,positive_feedback
+you are incredible,positive_feedback
+you are kind,positive_feedback
+you are nice,positive_feedback
+you are perfectly correct,positive_feedback
+you are perfectly right,positive_feedback
+you are right,positive_feedback
+you are smart,positive_feedback
+you are so bright,positive_feedback
+you are so cool,positive_feedback
+you are so kind to me,positive_feedback
+you are so nice,positive_feedback
+you are so smart,positive_feedback
+you are so sweet,positive_feedback
+you are so thoughtful,positive_feedback
+you are so wonderful to me,positive_feedback
+you are sweet,positive_feedback
+you are the best,positive_feedback
+you are the nicest robot i have ever met,positive_feedback
+you are very charming,positive_feedback
+you are very clear,positive_feedback
+you are very clever,positive_feedback
+you are very endearing,positive_feedback
+you are very friendly,positive_feedback
+you are very helpful,positive_feedback
+you are very impressive,positive_feedback
+you are very intelligent,positive_feedback
+you are very nice,positive_feedback
+you are wonderful,positive_feedback
+you have made me happy,positive_feedback
+you have nice posture,positive_feedback
+you have saved my life,positive_feedback
+you look cool,positive_feedback
+you look like a man,positive_feedback
+you rock,positive_feedback
+you seem like a smart girl,positive_feedback
+you seem to be intelligent,positive_feedback
+you seem very intelligent,positive_feedback
+you're very nice,positive_feedback
+your a great dancer,positive_feedback
+your ai is so good,positive_feedback
+your answer is spot on,positive_feedback
+your answer was correct,positive_feedback
+your awesome,positive_feedback
+your good at dancing,positive_feedback
+your intuitive nature has paid off,positive_feedback
+your mind is enough for me,positive_feedback
+your mind's enough for me,positive_feedback
+your minds enough for me,positive_feedback
+your so bright,positive_feedback
+your so smart,positive_feedback
+can you crouch,posture_crouch
+can you please crouch,posture_crouch
+could you crouch,posture_crouch
+crouch,posture_crouch
+crouch now,posture_crouch
+would you crouch please,posture_crouch
+can you lie down,posture_lay
+can you please lie down,posture_lay
+can you please lie on your back,posture_lay
+could lie down,posture_lay
+go lie down,posture_lay
+lie down,posture_lay
+lie down now,posture_lay
+would you lie down please,posture_lay
+can you please sit,posture_sit
+can you please sit down,posture_sit
+can you sit,posture_sit
+can you sit down,posture_sit
+could you sit down,posture_sit
+sit down,posture_sit
+sit down now,posture_sit
+would you sit down please,posture_sit
+can you be on your feet,posture_stand
+can you please get up,posture_stand
+can you please stand,posture_stand
+can you please stand up,posture_stand
+can you stand,posture_stand
+can you stand up,posture_stand
+could you stand up,posture_stand
+get up,posture_stand
+please get up,posture_stand
+stand up,posture_stand
+stand up now,posture_stand
+would you stand up please,posture_stand
+1 mm equals how many my what,question
+A body part that starts with G,question
+A cell with abundant peroxisomes would most likely be involved in what,question
+A charge that does not move is called,question
+A general term for any disease causing organism is,question
+A localized group of organisms that belong to the same species is called a what,question
+A means of bringing fairly large particles into the cell,question
+A mixture composed of particles dispersed in a medium,question
+A person who talks too much is called verbose What Is a person who writes too much called what,question
+A person with this occupation prepares and dispenses drugs,question
+A Piedmont is a physical region found where,question
+A process that requires the addition of energy is,question
+a restaurant,question
+A series of events in which one organism eats one another,question
+About one quart 0.908 dry quart is equivalent to what,question
+According to Darwin Natural Selection is based on what found in populations,question
+After how many miles Must Change timing belt,question
+Air resistance is a type of friction,question
+An animal that eats the remains of dead animals,question
+An antimicrobial that inhibits hepatic P450 microsome enzymes,question
+An object slowing down has a What acceleration,question
+An organism living in or on another person,question
+and long have you been here in the hotel,question
+Animals that start with Q,question
+Another name for a boat park,question
+Another word for talent,question
+Anthony Michael Hall and Kelly LeBrock starred in Science,question
+Are baby cots available for the rooms,question
+Are bookings for groups possible online,question
+Are children allowed in the Bar areas,question
+Are high chairs available in the restaurants,question
+Are offices available for rent at the hotel,question
+Are protozoan capable of asexual or sexual reproduction,question
+Are secretarial and other business services such as translation available,question
+Are special requests such as gluten-free meals or feather-free pillows manageable,question
+Are there any countries truly in peace,question
+Are there any hidden treasures you'd recommend,question
+are there any running trails near by,question
+Are there any running trails nearby,question
+Are there tours,question
+Are your hotel rates per room or per person,question
+At the end of World War 2 the Allies agreed on the creation of what organization to settle future disputes,question
+At what wave height did the pile installation at NRB need to cease,question
+Being a lightweight with a high melting point this group II metal is an ideal hardening agent,question
+Blood leaving the right ventricle enters the what,question
+Branch of government that carries out the law,question
+Britain and France both claimed what valley,question
+By when do I have to cancel my booking if I have to,question
+Can I book tee times online,question
+Can I book two rooms of different categories,question
+Can I cancel only certain parts of my reservation,question
+Can I check-in without my reservation number,question
+Can I get the email address for customer service,question
+can I get the email for customer service,question
+Can I get the number for customer service,question
+Can I go running somewhere,question
+Can I go visit the white house,question
+Can I have breakfast even if I am not staying in your hotel,question
+Can I have dinner even if I am not staying in your hotel,question
+can I order take out food,question
+Can I order take out food,question
+Can I reserve a parking lot,question
+Can the hotel reconfirm my ongoing flight and make arrangement for domestic and international flights,question
+Can you bring lunch in for my meeting,question
+can you call a taxi for me,question
+Can you call me a baby sitter,question
+Can you cater lunch for my meeting,question
+can you clean the floor,question
+Can you get me a baby sitter,question
+can you get me a cookie,question
+can you give me a cookie,question
+can you give me information about becoming a Hilton advantage member,question
+can you give me information about becoming a Hilton reward member,question
+can you help me,question
+can you light my cigarette,question
+can you point me to the bar,question
+can you point me to the bathroom,question
+Can you point me to the Metro,question
+can you point me to the restaurant,question
+Can you point me to where that is,question
+can you recommed,question
+can you recommed a golf place,question
+can you recommend a club,question
+can you recommend a hamburger restaurant,question
+Can you recommend a private guide,question
+can you recommend a restaurant,question
+can you recommend lawn care,question
+can you recommend where I can get some good,question
+can you speak Akan,question
+can you speak Amharic,question
+can you speak Arabic,question
+can you speak Assamese,question
+can you speak Awadhi,question
+can you speak Azerbaijani,question
+can you speak Balochi,question
+can you speak Belarusian,question
+can you speak Bengali,question
+can you speak Bhojpuri,question
+can you speak Burmese,question
+can you speak Cebuano,question
+can you speak Chewa,question
+can you speak Chhattisgarhi,question
+can you speak Chittagonian,question
+can you speak Czech,question
+can you speak Deccan,question
+can you speak Dhundhari,question
+can you speak Dutch,question
+can you speak Eastern Min,question
+can you speak English,question
+can you speak French,question
+can you speak Fula,question
+can you speak Gan Chinese,question
+can you speak German,question
+can you speak Greek,question
+can you speak Gujarati,question
+can you speak Haitian Creole,question
+can you speak Hakka,question
+can you speak Haryanvi,question
+can you speak Hausa,question
+can you speak Hiligaynon,question
+can you speak Hindi,question
+can you speak Hmong,question
+can you speak Hungarian,question
+can you speak Igbo,question
+can you speak Ilocano,question
+can you speak Italian,question
+can you speak Japanese,question
+can you speak Javanese,question
+can you speak Jin,question
+can you speak Kannada,question
+can you speak Kazakh,question
+can you speak Khmer,question
+can you speak Kinyarwanda,question
+can you speak Kirundi,question
+can you speak Konkani,question
+can you speak Korean,question
+can you speak Kurdish,question
+can you speak Madurese,question
+can you speak Magahi,question
+can you speak Maithili,question
+can you speak Malagasy,question
+can you speak Malay,question
+can you speak Malayalam,question
+can you speak Mandarin,question
+can you speak Marathi,question
+can you speak Marwari,question
+can you speak Mossi,question
+can you speak Nepali,question
+can you speak Northern Min,question
+can you speak Odia,question
+can you speak Oromo,question
+can you speak Pashto,question
+can you speak Persian,question
+can you speak Polish,question
+can you speak Portuguese,question
+can you speak Punjabi,question
+can you speak Quechua,question
+can you speak Romanian,question
+can you speak Russian,question
+can you speak Saraiki,question
+can you speak Serbo-Croatian,question
+can you speak Shona,question
+can you speak Sindhi,question
+can you speak Sinhalese,question
+can you speak Somali,question
+can you speak Southern Min,question
+can you speak Spanish,question
+can you speak Sundanese,question
+can you speak Swedish,question
+can you speak Sylheti,question
+can you speak Tagalog,question
+can you speak Tamil,question
+can you speak Telugu,question
+can you speak Thai,question
+can you speak Turkish,question
+can you speak Turkmen,question
+can you speak Ukrainian,question
+can you speak Urdu,question
+can you speak Uyghur,question
+can you speak Uzbek,question
+can you speak Vietnamese,question
+can you speak Wu,question
+can you speak Xhosa,question
+can you speak Xiang,question
+can you speak Yoruba,question
+can you speak Yue,question
+can you speak Zhuang,question
+can you speak Zulu,question
+Can you suggest any landmarks I visit in the Washington dc area,question
+can you suggest any landmarks in the washington dc area close to the hilton,question
+Can you tell me about bars in the area,question
+can you tell me the name of the hotel,question
+can you watch my bags,question
+Car is to traffic light as train is to what,question
+Chances of being in a car crash,question
+Cluster of pigments and proteins that absorbs light,question
+Common name for fibula,question
+Conglomerates form from what kind of rocks,question
+Coniferous tree that has fragrant often red-colored wood,question
+Connie how old is the hotel,question
+Construction of the National Road was financed by what,question
+could you recommend me some,question
+Could you recommend me some good jogging trails around the area,question
+could you recommend some good ethiopian resturants,question
+CVS pharmacy ,question
+Demographic factors such as race ethnicity or region help define political opinion in a process known as political,question
+Diabetes effects which endocrine gland,question
+Diaphragmatic hernia is also know as,question
+Did William R. Thomas' base salary increase during 2013,question
+direction as the net foe,question
+Distance from one point to another,question
+do I have to wear a bathing suit,question
+do you accept visa,question
+do you clean house,question
+do you do wake up calls,question
+Do you do wake up calls,question
+Do you guys have a laundry room,question
+Do you have a fitness center,question
+Do you have a map of this hotel,question
+do you have a pet robot dog,question
+do you have a phone,question
+Do you have a tour desk where I can book excursions during my stay,question
+Do you have accessible rooms,question
+Do you have an early departure fee,question
+Do you have an express check out service,question
+Do you have any restaurant recommendations for me,question
+Do you have any special packages for honeymoons and anniversaries,question
+do you have complementary breakfast,question
+Do you have connecting rooms,question
+Do you have hairdryers in the rooms,question
+Do you have high-speed wired and/or wireless Internet access available,question
+Do you have high-speed wired or wireless Internet access available,question
+Do you have pet-free rooms for those with allergies,question
+Do you have rooms with a bathtub,question
+Do you have special facilities and services available for the disabled guests,question
+Do you have twin triple and quadruple room,question
+do you help clean the rooms,question
+do you know about the ballroom,question
+do you know how to speak chines,question
+do you know how to speak spanish,question
+Do you know where I can borrow or buy a phone charger,question
+do you like humans,question
+do you like this hotel,question
+do you like to eat breakfast,question
+do you like to sleep,question
+do you like to sleep on the floor,question
+do you like working for Hilton,question
+do you like your job,question
+Do you offer child rates,question
+do you recommend any resturants in the hotel,question
+do you speak Akan,question
+do you speak Amharic,question
+do you speak Arabic,question
+do you speak Assamese,question
+do you speak Awadhi,question
+do you speak Azerbaijani,question
+do you speak Balochi,question
+do you speak Belarusian,question
+do you speak Bengali,question
+do you speak Bhojpuri,question
+do you speak Burmese,question
+do you speak Cebuano,question
+do you speak Chewa,question
+do you speak Chhattisgarhi,question
+do you speak Chittagonian,question
+do you speak Czech,question
+do you speak Decdo,question
+do you speak Dhundhari,question
+do you speak Dutch,question
+do you speak Eastern Min,question
+do you speak English,question
+do you speak French,question
+do you speak Fula,question
+do you speak Gan Chinese,question
+do you speak German,question
+do you speak Greek,question
+do you speak Gujarati,question
+do you speak Haitian Creole,question
+do you speak Hakka,question
+do you speak Haryanvi,question
+do you speak Hausa,question
+do you speak Hiligaynon,question
+do you speak Hindi,question
+do you speak Hmong,question
+do you speak Hungarian,question
+do you speak Igbo,question
+do you speak Ilodoo,question
+do you speak Italian,question
+do you speak Japanese,question
+do you speak Javanese,question
+do you speak Jin,question
+do you speak Kannada,question
+do you speak Kazakh,question
+do you speak Khmer,question
+do you speak Kinyarwanda,question
+do you speak Kirundi,question
+do you speak Konkani,question
+do you speak Korean,question
+do you speak Kurdish,question
+do you speak Madurese,question
+do you speak Magahi,question
+do you speak Maithili,question
+do you speak Malagasy,question
+do you speak Malay,question
+do you speak Malayalam,question
+do you speak Mandarin,question
+do you speak Marathi,question
+do you speak Marwari,question
+do you speak Mossi,question
+do you speak Nepali,question
+do you speak Northern Min,question
+do you speak Odia,question
+do you speak Oromo,question
+do you speak Pashto,question
+do you speak Persian,question
+do you speak Polish,question
+do you speak Portuguese,question
+do you speak Punjabi,question
+do you speak Quechua,question
+do you speak Romanian,question
+do you speak Russian,question
+do you speak Saraiki,question
+do you speak Serbo-Croatian,question
+do you speak Shona,question
+do you speak Sindhi,question
+do you speak Sinhalese,question
+do you speak Somali,question
+do you speak Southern Min,question
+do you speak Spanish,question
+do you speak Sundanese,question
+do you speak Swedish,question
+do you speak Sylheti,question
+do you speak Tagalog,question
+do you speak Tamil,question
+do you speak Telugu,question
+do you speak Thai,question
+do you speak Turkish,question
+do you speak Turkmen,question
+do you speak Ukrainian,question
+do you speak Urdu,question
+do you speak Uyghur,question
+do you speak Uzbek,question
+do you speak Vietnamese,question
+do you speak Wu,question
+do you speak Xhosa,question
+do you speak Xiang,question
+do you speak Yoruba,question
+do you speak Yue,question
+do you speak Zhuang,question
+do you speak Zulu,question
+Does a centipede reproduce sexually or a sexually,question
+Does a Salmon breed monthly or yearly,question
+Does ant have a endoskeleton or an exoskeleton,question
+Does manual transmission use your right foot for the brake and accelerator and your left foot for the clutch,question
+Does the internet rate include breakfast,question
+does this hotel allow pets,question
+Does this hotel have a laundry,question
+does this hotel have room service,question
+Double folded membrane surrounding abdominal viscera,question
+During this process hot water changes to Steam,question
+economy,question
+Energy that is stored and waiting to be used later,question
+English colonists were not represented in which law-making body,question
+Fastest racquet sport in the world,question
+find the rainbow,question
+fire,question
+five I would like to make a reservation,question
+Footwear for equines,question
+For how many persons I can make a reservation,question
+for the coffee,question
+front entrance,question
+funny do you have a restaurant,question
+Gamete cells are produced by Cell division called what,question
+Genes contain instructions for assembling which molecules,question
+George Washington supported proposal of which group,question
+Give three examples of alternative fuels,question
+Group that opposed ratification of the Constitution,question
+has this hotel ever had bed bugs,question
+hello Connie how to go to Washington DC,question
+hello funny where is the nearest metro,question
+here was this Hilton built,question
+Hey Rosie if I wanted to go running around here where would I go,question
+his parking free ,question
+honey what time's is the buffet close at this old,question
+How about a bar,question
+how big is the Hilton,question
+How can help patients,question
+how can I get to the Washington monument,question
+How can I get to the White House,question
+How can I order hotel brochures,question
+How can I order hotel flyer,question
+How can I see which features are included in the price,question
+How can watson help patients,question
+How can Watson help patients,question
+How can watson help patients,question
+how can you help me,question
+How do I check in,question
+How do I check into,question
+How do I get a taxi,question
+How do I get to the D A R hall,question
+How do I get to the DAR hall,question
+How do i get to the front desk,question
+How do I get to the Lincoln memorial,question
+How do I get to the Metro,question
+How do i get to the white house,question
+How do I know if the hotel is bookable,question
+How do I not hit the TAO pipeline,question
+How do you abbreviate the word engineer,question
+How do you abbreviate the word honorable,question
+how do you can you tell me the ice the restroom,question
+How do you know if your nose is broken,question
+How do you say augmentor in English,question
+How do you say stapler in spanish,question
+How does a pike breath,question
+how does the temperature,question
+How does Watson help patients,question
+How far do you have to walk to take your pet out,question
+How far is it to Arlington Virginia,question
+How far is Scorpius X-1 from Earth,question
+How far is the Earth from the Sun in feet,question
+How far is the nearest hospital to the hotel,question
+How fast can a katrum kit car go,question
+How fast do wildebeests run,question
+How is energy measure,question
+How is the amount of light entering the eye controlled,question
+How late do they stay open,question
+How late is the Lincoln Memorial open until,question
+how little Carney,question
+How long do you wait for hepatitis results,question
+How long does it take for a paper bag to break down,question
+How long does it take to go out of your Galaxy,question
+How long does the pneumonia vaccine last,question
+How long has rob drydek been skating,question
+How long have mobile phones been around,question
+how long have you worked here,question
+How long is the Pluto subsea umbilical,question
+how long is the Pluto trunkline,question
+How long will it take me to get the restaurant,question
+how long will it take to get to the air port,question
+How many anemometers are at North Rankin Complex,question
+How many babie smake up quintupletes,question
+How many big hospitals are in Houston,question
+How many cats die from diabetes each year,question
+How many contracts were issued for commissioning services on the NR2,question
+How many days did the tow take for the NR2 Topsides from South Korea to Australia,question
+How many days does it take to dehydrate the body during mummification,question
+How many days was vascos trip,question
+How many DCNs were issued for NR2 Topsides Project,question
+How many deaths are related to food borne illness annually,question
+How many decibels are reached by a V8 Supercar,question
+How many employees did Kellogg have in 2009,question
+How many employees did Kellogg have in 2010,question
+How many employees did Kellogg have in 2011,question
+How many employees did Kellogg have in 2012,question
+How many foot is in a yard,question
+how many guest rooms are in this hotel,question
+How many hotel rooms do you have,question
+How many hours does it take the earth to spin on its axis,question
+How many immigrants entered Ellis Island in 1892,question
+How many instruments are there in a trio,question
+How many kinds of sea urchins are there,question
+How many lbs is 10 grams,question
+How many M are in 1 cm,question
+How many maximum security prisons are in the US,question
+How many mile is 5 kilometers,question
+How many minutes in a year,question
+How many MLS in 1 teaspoon used for medication,question
+How many numbers in a Money gram reference code,question
+How many options did Triangle Petroleum award to Jonathan Samuels for the year 2014,question
+how many people are in the use,question
+How many people can stay in one room,question
+How many people worked for Kellogg in 2009,question
+How many people worked for Kellogg in 2010,question
+How many people worked for Kellogg in 2011,question
+How many people worked for Kellogg in 2012,question
+How many people worked for Kellogg in 2013,question
+How many people worked on the first railroad,question
+How many provinces Egypt,question
+How many representatives were in the first House session,question
+How many restricted stocks were awarded to Roger B. Plank in 2013,question
+How many rooms can be booked at once,question
+How many rooms does Hyatt Place Cleveland/Independence have,question
+How many rooms does Hyatt Place Columbia/Harbison have,question
+How many rooms does Hyatt Place Dallas/Plano have,question
+How many sides are in a triangle,question
+How many smart phones in the world,question
+How many soldiers were in the Continental Army,question
+How many stocks did Callon Petroleum award to its CEO for the year 2013,question
+How many stocks did Chevron award to its CEO for the year 2013,question
+How many stocks did ConocoPhillips award to its CEO for the year 2013,question
+How many stocks did Everett R. Dobson receive for the year 2013,question
+How many stocks did Greg Colvin receive for the year 2013,question
+How many stocks did Penn Virginia award to its CEO for the year 2013,question
+How many stores are in the Mall of America,question
+How many users are there on YouTube,question
+How many women play college athletics,question
+How much air pressure is in a 28.5 basketball,question
+How much bonus was paid to Gary L. Thomas in 2013,question
+How much does a 1993 grand am 4 door weigh,question
+How much does a golf tee Weigh In grams,question
+How much does it cost to get into the aviation museum,question
+How much does it cost to get into the Smithsonian,question
+How much does it cost to get into the smithsonian,question
+How much does it cost to rent an ambulance,question
+How Much Does PSP cost in Saudi Arabia currency,question
+How much fee was earned by Everett R. Dobson for the year 2013,question
+How much fee was earned by Gary K. Wright for the year 2013,question
+How much fiber Do teenagers need,question
+How much horsepower does a Yamaha Grizzly 660 have,question
+How much is in a teaspoon,question
+How much is sales tax on a vehicle in Lowndes County Georgia,question
+how much is the room for the hotel,question
+How much lead-time would you prefer in order to book the best restaurants or secure the impossible theater or sporting ticket,question
+How much niacin is there in milk,question
+How much of your exhaled breath is carbon dioxide,question
+How much should an eight year old boy that is 54 inches tall weigh,question
+how much the weekend elite,question
+How much time do you need to get to the airport,question
+How much time should be allowed for a 392-km car trip if the car will be traveling at 120 MH,question
+How much to veterinarians get paid,question
+How much total compensation did A.J. Hirshberg receive for the year 2013,question
+How much total compensation did Justin Bliffen receive for the year 2014,question
+How much total compensation did the Chief Financial Officer of Penn Virginia receive for the year 2012,question
+How much tyranny fluid in T56,question
+How much was a loaf of bread in 1917,question
+How much was Noble Energy's short-term incentive payment to David L. Stover during 2013,question
+How much was the actual production of Pioneer Natural Resources during 2013,question
+How much was the non equity incentive plan compensation of John D. Clayton for the year 2013,question
+How much was the total operating cost per BOE of Pioneer Natural Resources during 2013,question
+How much would it cost me to take the metro to the airport,question
+How often does glycol require bunkering at NR2,question
+how often is the NRC export water sepcification exceeded,question
+How old do you have to be to live alone in the UK,question
+How old is Fred L. Callon,question
+How old is Micheal Vick now,question
+How old is Paul F. Boling,question
+How old is Watson,question
+How safe is walking around the surrounding area alone at night,question
+How smart is this Watson,question
+How tall are the Pluto MCHEs,question
+How tall was Clyde Drexler,question
+How tall were the twin towers,question
+how will watson help patients,question
+I am a Hilton gold member what benefits do I get,question
+I am a hilton gold memeber,question
+I am asking for room number not Facebook status,question
+I am hungry where can I get some tacos,question
+I am interested in going for a light run can you recommend some trails in the area,question
+I am interested in going out for a light run,question
+I am kind of lost I am looking for this room number 307,question
+I am looking for a cocktail bar,question
+I am looking for the Lincoln memorial,question
+I booked on a website other than the hotel website and I need to make a change to my reservation. How do I do this,question
+I can't get the TV in my room to work,question
+I could use a drink,question
+I could use some whiskey,question
+I did not watch these pay per view movies,question
+I don't have towels,question
+I don't know where the lobby is,question
+I don't really like beer,question
+I dont really like beer,question
+I have a headache,question
+I have bought a Groupon-voucher. How can I redeem it in your hotel,question
+I have to pee pee,question
+I hear Washington DC has some good Ethiopian restaurants in the area,question
+I know Connie,question
+I need a crib set up in my room,question
+I need a drink,question
+I need a plunger,question
+I need a taxi,question
+I need advil,question
+I need assistance,question
+I need booze,question
+I need to buy envelopes,question
+I need to buy some shoes,question
+I need to buy some shoes what is the closest shoe store,question
+I need to check in,question
+I need to talk to a manager,question
+I need to use the restroom,question
+I parked my car out front is there a better place to park,question
+I think my room has bed bugs,question
+I want a discount,question
+I want a map,question
+I want a margarita,question
+I want a rum and coke,question
+I want a water bottle,question
+I want directions,question
+I want food,question
+I want pillows,question
+I want some whiskey,question
+I want sushi,question
+I want tickets to the nationals game,question
+I want to extend my stay,question
+I want to get a really good hamburger where can I get one,question
+I want to get a really good hamburger where would I get one,question
+I want to go running,question
+I want to go shopping where should I go,question
+I want to have a drink,question
+I want to use the shuttle,question
+I would like a map of the city,question
+I would like to go eat soon,question
+I would like to go eat soon I hear Washington DC has some good Ethiopian restaurants in the area,question
+I would like to go for a swim,question
+I would like to go swimming,question
+I would say your barbecue worm,question
+I would still like to visit the Lincoln memorial,question
+I'd like to go eat soon,question
+I'm hungry where can I get a burger,question
+I'm hungry where can I get a dinner,question
+I'm hungry where can I get a lunch,question
+I'm hungry where can I get a meal,question
+I'm hungry where can I get a taco,question
+I'm hungry where can I get some good food,question
+I'm hungry where can I get some good tacos,question
+If a person is guilty of thinking his nationality is better than anyone else in one word how would you describe him,question
+If a spring with spring constant K is cut into two equal parts what will be the spring constant of each part,question
+If I order take out food can you tell me when it arrives,question
+If I order take out food can you tell me when the delivery man arrives,question
+If I order take out food would you tell me when it arrived,question
+If you eat too much can you get sick,question
+In 1976 which gymnats scored maximum scores of 10 as she won three gold medals,question
+In badminton what is always an underhand shot,question
+In many states what allows the people to vote on laws passed by the state Legislature and signed by the governor,question
+In Texas how close to a fireplug may a vehicle park,question
+In the book charletts web What is the rats name what,question
+In what sport could you hit a six or bowl a leg spinner,question
+In what year did the 15th Amendment affirm the right to vote,question
+In what year was volleyball invented,question
+In what year were K reg caes made,question
+In which subdivision of the earth will you find bodies of water such as lakes and ponds,question
+In which year Performance Peer index fell as compared to previous years,question
+In which year Performance Peer Index performed best,question
+Incubation period of measles,question
+Insulin and glucagons regulate blood levels of what,question
+Is a babysitting service available,question
+Is a Chihuahua a predator or prey,question
+Is a microphone a solid liquid or gas,question
+Is a onion a protein or a carbohydrate,question
+Is Borrelia burgdorferi an autotroph or heterotroph,question
+Is cocaine an opiate or amphetamine in urinalysis drug testing,question
+is conrad hilton still alive,question
+Is Durham in N.C. Rural or suburban,question
+is he still alive,question
+Is hookah legal in the US,question
+is it raining out,question
+is it sunny out,question
+Is microfilament in a plant or animal cell,question
+Is MO polar,question
+Is my credit card being charged at time of booking,question
+is my ID required at check in,question
+is my passport required at check in,question
+is parking free ,question
+is parking safe,question
+Is parking safe,question
+Is the Andean Condor nocturnal or diurnal,question
+is the pool open today,question
+is the restaurant,question
+Is the state of Mississippi east or west of the Mississppi River,question
+is the swimming hole heated ,question
+is the swimming pool heated ,question
+is the swimming pool open,question
+is there a book store around here,question
+is there a book store nearby,question
+Is there a pet store around here,question
+Is there a safety deposit box available at the hotel,question
+is there a smoking lounge,question
+Is Watson a search engine,question
+Is Watson artificial intelligence,question
+Is Watson Artificial Intelligence,question
+Is watson artificial intelligence,question
+it's not very helpful how do I get to Washington DC ,question
+Main function of a leaf,question
+Malaria and amoebic dysentery are caused by what,question
+Mineral substance found in blood,question
+Most eccentric orbit,question
+Most federal circuits of the federal appellate court system are determined based on what,question
+Most muscular and elastic blood vessel,question
+Most surface ocean current are due to what,question
+Most truck trailers are feet wide,question
+Muscle cells are made up of what,question
+My bath is not getting hot,question
+My bed has bugs,question
+My dog ate all her food,question
+My dog had an accident,question
+My iron is broken,question
+My kid had an accident,question
+My kid had an accident in the bed,question
+my lamp is cracked,question
+my mother,question
+my room door won't open,question
+My room is a mess,question
+My room is freezing,question
+My room is hot,question
+My room is really stuffy,question
+My room smells like someone was smoking in it,question
+My room stinks,question
+My room was not cleaned,question
+My service dog ate all her food,question
+My service dog had an accident,question
+My shower is not getting hot,question
+my toilet is flooding,question
+Name for CAO,question
+Name largest organ of human body,question
+Name of where a cheetah lives,question
+Newtons Law of Motion states that The acceleration of an object as produced by a net force is directly proportional to the magnitude of the net force in the same,question
+no nothing about Hilton,question
+Non woven polypropylene is made from what,question
+Not feeling well I am sorry to hear it,question
+Nudibranchs are members of which group of molluscs,question
+Null this out,question
+On a one way street What color is the broken line,question
+One word for person who receive prize,question
+Operation Desert Storm is the codename for what war,question
+Operation Desert Storm was the codename for what war,question
+Orville and Wilbur Wright ivented the first powered,question
+Other words for medicine,question
+please help me,question
+restaurants ,question
+Richest football player in the world,question
+Room 401 is making too much noise,question
+room service,question
+should I use the stairs,question
+sides,question
+so hello comedy,question
+so she is the real life thinking robot,question
+So where is the Lincoln memorials,question
+Something electrons cannot move through easily,question
+Study of objects beyond earths atmosphere,question
+Sure Can you recommend some good Ethiopian restaurants,question
+sure we were restaurants,question
+tell me about the ballroom,question
+tell me the name of the hotel I am in,question
+Testes and ovaries are known as what,question
+Texas became a state on what,question
+The AC in my room is not working,question
+The authority to interpret the law is called,question
+the ballroom,question
+The bandages used to wrap round the Pharaoh were made of what,question
+The Change of state from a liquid to a gas is called,question
+the Conti,question
+The control center of the cell,question
+the exercise room,question
+The first car which launched in India,question
+The force field created between the poles of a magnet,question
+The force of the atmosphere pressing down is called what,question
+The heater in my room is not working,question
+The hostages in Iran were released on what day,question
+The hottest part of the sun is,question
+The iron in my room is not working,question
+The living organisms in a habitat are called,question
+The lower air cools most rapidly during a what,question
+The measurement of the force of gravity is called what,question
+The method of studying substances that are exposed to continuous exciting radiation is called,question
+The name of the hammer a judge uses,question
+the pool,question
+The power outlets in my room are not working,question
+The process of combining iron with other metals to create a lighter non-rusting material was discovered by who,question
+The reduction in amplitude of a wave due to energy loss is called,question
+The Shasta Daisy plummet and spineless cactus were developed by what,question
+the Smithsonian in Washington ,question
+The term for the distance between two crests of a water wave is the what,question
+The tongue is covered with hairlike projections called what,question
+The TV in my room is broken,question
+The TV in my room will not turn on,question
+The upper house of Congress is the what,question
+The water is hardly coming out of the faucet,question
+The water is hardly coming out of the shower,question
+The window in my room is leaking,question
+The wrist is what to the hand,question
+there are bugs,question
+there is a beet spill in the front lobby can you clean it up,question
+There is a problem with my room,question
+There is no coffee pot in my room,question
+There is no hot water in my room,question
+There is no water in my room,question
+There is no water pressue in the shower,question
+There is someone in my room,question
+There was something left in my room,question
+there's a leak,question
+there's an alligator in my bathtub,question
+These must be strong enough to cause a chemical change to take place,question
+Tissue that provides support and connects all your body parts,question
+To perform an action is to what,question
+To what frequent flyer programmes is the hotel a member,question
+Tool used to separate starlight into colors,question
+Under Franklin D. Roosevelt US Congress passed the first minimum wage law in 1938 If you worked an hour back then what princely sum WOULD YOU EARN,question
+Union,question
+Urea is produced in the process of detoxifying,question
+Urine leaves the body through a tube called,question
+Was the non-GAAP adjusted net income of EOG Resources higher in 2012 or 2013,question
+watch my suitcase,question
+Watson is Watson,question
+Waves on a rope and light waves are two examples of longitudinal waves,question
+well I tell me a little bit about the hotel Connie,question
+Were do you find barnacles,question
+What agreement of government was signed by the pilgrims,question
+What amendment controls fair bail and punishment,question
+What amenities are available for adults,question
+What American sport begins with a tip off,question
+What animal can live anywhere,question
+What animal can morph,question
+What animal cannot stick its tong out,question
+What animal eats a flatfish,question
+What animal eats Blackberries,question
+What animal has five pairs of legs,question
+What animal has the longest legs,question
+What animal have the biggest penis,question
+What animal is on the New Zealand 20 cent coin,question
+What animal kills more people in the US,question
+What animal sleep along winter,question
+What animals eats conchs,question
+What animals live on yew trees,question
+What appliances in your home transform electricity into motion,question
+What are animals without a back bones called,question
+What are bacteria or disease causing viruses called,question
+What are different types of genes called,question
+What are doctors who work with men called,question
+What are drugs that cause a sulfur odor in urine,question
+What are electrons called in the outer most energy level of an atom,question
+What are examples of colloids,question
+What are future possibilities of Watson in Healthcare,question
+What are high bounce balls made of,question
+What are hospitals called in England,question
+What are some hybrid cars,question
+What are some science professions that begin with the letter Q,question
+What are some signs of red tide,question
+What are the additives added to the break fluid,question
+what are the advantages of being a Hilton advantage,question
+What are the carbohydrates malnutrition,question
+what are the flaring constraints on the Pluto PRP,question
+What are the function of vials in laboratory,question
+What are the hours,question
+What are the latest inspection results from the Condensate tanks,question
+What are the parts of the volleyball court,question
+What are the predators of an ox,question
+What are the reception opening hours,question
+What are the safety critical elements that present in the Pluto asset,question
+What are the security requirements for the Solar Equipment Health Monitoring system on NRB,question
+What are the soil conditions beneath Angel,question
+What are the spare riser sizes on the Angel platform,question
+What are the straight branches of stars projecting from the center of galaxies,question
+What are the temperature limits on the Vincent flowlines,question
+What are the titles of the men and women who serve on the high court,question
+What are the top selling hybrid cars in the US,question
+what are the velocity limits for GRE piping for NRB,question
+What are the volleyball net dimensions,question
+What are types of decompers,question
+What are written observations called,question
+What are your cross streets,question
+What area of the brain is made up of the medulla Pons cerebellum thalamus and hypothalamus,question
+What artificial light design is not harmful to wildlife at night,question
+What bacteria in eggs will cause a disease,question
+What baseball team is named after the rocky mountains,question
+What basic unit of structure and function of all living things,question
+what benefits do I receive,question
+What blood cells fight pathogens,question
+What book did Montesquieu write,question
+What branch of government interprets laws,question
+What branch of science represents the human behavior,question
+what can you do for me,question
+what can you help me with,question
+What car is Optimus Prime in Transformers 2,question
+What carries oxygen to the blood,question
+What causes compression,question
+What causes water to change from liquid to gas,question
+What Change in thermal energy lead to phase change,question
+What Chicago entrepreneur was the Monarch of Mastication,question
+What city was the center of the first Russian state,question
+What city were both the Declaration and the Constitution written,question
+What color is at the bottom of a rainbow,question
+What comic strip features the Cobb family,question
+What concept was the belief in Divine Right used to support,question
+What country founded the colony of New York,question
+What country is Mount Elbrus in,question
+What day of the week was January 2 1949,question
+What did Edwin humble create,question
+What didnt go well during the NR2 floatover,question
+What dinosaur has 3 horns,question
+What direction is South Carolina from West Virginia,question
+what do I call you,question
+What do I do about my room not being cleaned,question
+What do scientists call anything that takes up space and has mass,question
+What do you call a four footed animal,question
+What do you call a genetic makeup of an organism,question
+What do you call a massive star that has collapsed and pulled everything into it even light,question
+What do you call a person who studies the car,question
+What do you call a person who talks in his sleep,question
+What do you call a person with attention deficit disorder,question
+What do you call a printer that strikes the paper in order to form an image,question
+What do you call a scientist that studies animal life,question
+What do you call a system of law that is based on precedent and custom,question
+What do you call an organism requiring oxygen,question
+What do you call the amount of space a car takes up,question
+What do you call the disorder by which a person lacks of platelets which causes a wound difficult to dry up,question
+what do you do,question
+what do you have available,question
+What document did the colonists issue in1776 when they felt their rights as Englishmen have been violated,question
+What does a Highwayman wear,question
+What does a microorganism eat,question
+What does Arch. Stand for,question
+What does chromatin Turn Into during mitosis,question
+What does ECM mean on a car,question
+what does hola mean,question
+What Does SR mean on a sports ticket,question
+WHAT DOES the disease TB stand for,question
+What does the E mean in mpg,question
+What does the human body depend upon to cool in hot environments,question
+What does the intensity of a sound describe,question
+What does WPA stand for,question
+What dollar amount WOULD 750 quarters be,question
+What element is a component of your red blood cells which increase oxygen carrying capacity of blood,question
+What endocrine glands are located above each kidney,question
+What facilities are available for children,question
+What family of sports does boccie belong to,question
+What famous product did Dr John S Pemberton invent in his backyard in 1886,question
+What force opposes motion between touching objects,question
+What forms of payment are accepted to pay for my room,question
+What gas combines with oxygen to form water,question
+What genetic word starts with ex,question
+What gland produces tears,question
+What gravitational exists between you and every object in the universe,question
+What has been the largest living animal of all time,question
+What hatches out of blue eggs,question
+What have engineers at Berkeley come up with for use on robots,question
+What have we learned about AGC performance on Pluto,question
+What heats up faster land or water,question
+What hormones do the ovary make,question
+what i watson,question
+What if I am hungry after 11 pm,question
+What instrument system do scientists use to record plate movement,question
+What ion has 37 protons 36 electrons 50 neutrons,question
+What is 1 section in Disneyland that ends with land,question
+What is 13 to the 1 power,question
+What is a African animal with a horned snout called,question
+What is a animal smaller then a thumbnail,question
+What is a branch of science that deals with classifying objects,question
+What is a center of a car wheel tire called,question
+What is a change in the direction of a wave when the wave finds an obstacle or an Edge called,question
+What is a domestic canine,question
+What is a filter funnel used for,question
+What is a force acting through distance,question
+what is a german shepherd,question
+What is a good italian restaurant,question
+What is a good Mexican restaurant,question
+What is a good mexican restaurant,question
+What is a light that is not bright,question
+What is a liquid changing to gas or vapor,question
+What is a Manhattan sports team,question
+What is a mixture composed of particles dispersed in a medium,question
+What is a one wheeled cart for carrying loads,question
+What is a palindrome for the sound of a horn,question
+What IS A Parador,question
+What is a Passageway composed of a series of arches supported by columns,question
+What is a pattern of stars seen from the Earth called,question
+What is a real number that cannot be expressed as a ratio of two integers,question
+What is a recorder in instrumentation system,question
+What is a science name for protein,question
+What is a Scottish barrister called,question
+What is a small object that orbits the sun,question
+What is a Sri Lankan Rose Butterfly,question
+What is a summary called in science,question
+What is a synonym for volleyball,question
+What is a term that means release from pressure,question
+What is a ticker symbol of ConocoPhillips,question
+What is a word that starts with pen and means part of a clock,question
+What is an abbreviation for a substance in the air that can cause diseases in nonsmokers,question
+What is an abrasion wound,question
+What is an organism that feeds on other organisms,question
+What is another name for a small nonrigid airship,question
+What is another name for abdominal thrust,question
+What is another name for an inclined plane,question
+What is another name for the eyepiece on a microscope,question
+What is another name for the upper jaw,question
+What is another name for Tokyo brew,question
+What is another name for World War 2,question
+What is another Scientific word for because,question
+What is another word for survive,question
+What is cognitive computing,question
+What is defined as the amount of matter something has,question
+What is dying without a Will called,question
+What is Earths thinnest layer,question
+What is epithelium connected to underlying connective tissue by,question
+What is formed when one atom loses an electron and another atom accepts that electron,question
+What is found on the tips of fingers,question
+What is it called when the ability to smell is lost,question
+What is it called when you have severe gas build up in your abdomen,question
+what is it like outside,question
+What is LLD stand for,question
+What is located in the midbrain contains reflex centers for vision and hearing,question
+What is measured in decameters,question
+What is most northernmost Eastern state,question
+What is mostly are body made of,question
+What is national flower for Chile,question
+What is Noble Energy's stock ownership requirement for its chief executive officer,question
+What is one historical event that happened in France,question
+What is opposite to shine,question
+What is reflected sound called,question
+WHAT IS RLA,question
+What is Rutgers football mascot,question
+What IS someone from Liechtenstein called,question
+What is svpwm,question
+What is the ability to stretch and return to original position,question
+What is the act or ceremony of installing a president or officer into office,question
+What is the actual symbol for hospital,question
+what is the address,question
+what is the address for this hotel,question
+What is the age of John H. Pinkerton,question
+What is the average life span of Indian men,question
+What is the average speed of an airbag,question
+What is the BAC for a driver under the age of 21 in the state of Florida charged under the Zero-Tolerence Law,question
+What is the best selling candy bar in California,question
+What is the black material on a candle wick,question
+What is the body covering of a fish,question
+What is the capital of china,question
+What is the capital of Japan,question
+What is the capital of texas,question
+What is the capital of Texas,question
+What is the capital of Texas,question
+What is the capital of texas,question
+What is the capital of Vermont,question
+What is the cell name for absorption of water,question
+What is the change of state from gas to liquid,question
+what is the closest restaurant not in the hotel,question
+What is the Co tangent of 60,question
+what is the coating on the GWF-1 riser,question
+What is the coldest part on your body,question
+What is the correct abbreviation for a Masters Degree in technology,question
+What is the correct name for your backbone,question
+What is the date of birth of Lal Bahadur Shastri,question
+what is the deck capacity for ORO expansion of pluto prp,question
+What is the default text format used for the main content of a Web page,question
+What is the designation of G.L. Kirkland,question
+What is the designation of the sand that PLA05 accesses,question
+What is the designation of Thomas E. Voytovich,question
+What is the designation of Tom L. Ward,question
+What is the destination of the Jason 6 Island Earth Project,question
+What is the diameter of the spare j-tubes on the pluto PRP,question
+What is the drinking age in Cameroon,question
+What is the driving force for seafloor spreading,question
+what is the dwg number of the Angel pigging tie-in skid,question
+what is the efficiency of the gas turbines on the pluto LNG plant,question
+What is the electricity maximum demand for the Pluto onshore plant,question
+What is the English term used when two sentences start with the same opening,question
+What is the fastest car in production,question
+What is the fastest route to the airport,question
+What is the first American settlement,question
+What is the first fast car,question
+what is the flare capacity of the pluto PRP,question
+What is the futures spare capacity on NRB topsides,question
+What is the geothermal gradient in the NWS,question
+What is the gradual change of a liquid to a gas,question
+What is the grinding away of rock particles,question
+What is the gross weight of a typical single wide mobile home trailer,question
+What is the largest department in the executive branch,question
+What is the larva of a moth called,question
+What is the legal age for a child to be left alone in Virginia Beach,question
+What is the length of an entire football field diagonally,question
+What is the length of Nganhurra,question
+What is the line of 0 degrees longitude,question
+what is the linepipe material of the Angel pipeline,question
+What is the location of Hyatt Place Chicago/Itasca,question
+What is the location of Hyatt Place Cincinnati-Northeast,question
+What is the location of The Driskill,question
+What is the location of the Grand Hyatt San Antonio,question
+What is the lumen loss during a lamps life,question
+What is the main sport of Puerto Rico,question
+What is the main sport played in Tonga,question
+What is the make of the car used by the Boys gang in Grease,question
+What is the masculine form of a land lady,question
+What is the mass of 1 hydrogen atom,question
+What is the Max fine for a Class C Felony in Missouri,question
+what is the maximum design pressure of the Vincent production risers,question
+What is the maximum design speed for Nganhurra,question
+What is the maximum unimpressed capacity of a digital audio tape DAT cartridge,question
+what is the maximum wave height recorded in the North West Shelf,question
+What is the medical term meaning study of natural drugs,question
+What is the melting point of Stearin,question
+What is the minimum age requirement to check in to the room,question
+What is the minimum height a step or platform can be without needing a barrier,question
+What is the most common cause of chronic renal failure,question
+What is The most expensive monument in the world,question
+What is the most famous cat,question
+What is the most popular sport in the Canadian Shield,question
+What is the most popular sports in Belize,question
+What is the most valuable mineral,question
+What is the most watched college sporting event,question
+What is the Name for goods carried out of a country,question
+What is the name for the covered area you drive your car under to get fuel,question
+What is the name given to the place where law is administered,question
+What is the name of a city that is located in a arid climate zone,question
+What is the name of a sea creatures beginning with N,question
+What is the name of the game played on a volleyball court with a volleyball but it has to bounce before you hit it,question
+What is the name of the inventor of the first electric bulb,question
+What is the name of the offspring of the first cross,question
+What is the name of the person who studies water,question
+What is the name of the tool used to tighten a trailer onto a tow ball,question
+What is the name of the traditional ventilation grill,question
+What is the national symbol of Norway,question
+What is the part of your mouth called the dangles down,question
+what is the phone number for the front desk,question
+What is the Pluto pile foundation depth,question
+What is the populist car,question
+What is the position of Christopher D. Heinson,question
+What is the position of Richard H. Smith,question
+What is the postal code of Istanbul,question
+What is the power to weight ratio for a 150hp bike that weighs 193kg,question
+What is the prime mover in the fluid system,question
+What is the Principal position of R. Curt Dacar,question
+What is the process by which carbon dioxide is moved out of a cell,question
+What is the process in which magma cools and hardens into rock,question
+What is the process of assembling a protein from RNA called,question
+What is the pronunciation rebus for Carbon,question
+What is the recommended Junior punch bag weight,question
+what is the required filtration level for the PCHEs on NRB,question
+What is the resistance of an object to a change in motion,question
+What is the root word for authority,question
+What is the science term for high or low waves from the rest called,question
+What is the scientific name for animals that live under ground,question
+What is the Scientific name for spotted cuscus,question
+What is the scientific name for the Australian bilby,question
+What is the scientific name given to four legged animals,question
+What is the scientific name of hibiscus leaf,question
+What is the scientific name of the coati Munda,question
+What is the Scientific Study of mountains called,question
+What is the Shamu tank made of,question
+What is the site of fertilization,question
+What is the southern Germany town where the allies put the surviving Nazi leaders on trial for crimes against humanity,question
+What is the southernmost state of the forty- eight contiguous states,question
+What is the start up date of the North West Shelf,question
+What is the stock ownership requirement of Noble Energy for its non employee directors,question
+What is the Stress force that pulls rock apart,question
+What is the study of microscopic plants and animals called,question
+What is the study of plant diseases called,question
+What is the study of the human body,question
+What is the study of the relationship between thermal energy and heat and work,question
+What is the study of the worlds people communities and landscapes,question
+What is the substance that is dissolved in a solvent to make a solution,question
+What is the tallest mountain in the world,question
+What is the tallest mountain in the world,question
+What is the term for a liquid that can dissolve things,question
+What is the term of mature male sperm cells,question
+What is the the syndrome called Elephantiasis in which the arms and legs can grow to elephantoid size. True or false,question
+What is the the volunteer state,question
+What is the thick fluid inside a cell,question
+what is the thickest insulation coating on the Pluto flowlines,question
+What is the thickness of mesosphere,question
+What is the thin cell covering through which diffusion takes place,question
+What is the title of David Lawler,question
+What is the tongue covered with,question
+What is the U.S Constitution,question
+What is the unit length that is 10 times more than a centimeter,question
+What is the use of the measuring tape,question
+What is the valency for Rubidium,question
+What is the water that soaks into the earth called,question
+What is the weight of a primary pile of NR2,question
+What is the weight of an insert pile of NR2,question
+What is the weight of NRB deck support support frame,question
+What is the weight of the Giraffe,question
+What is the wiki program site,question
+What is the zip code for Little Italy in Manhattan,question
+what is this place called,question
+What is toasted bread A physical or chemical changes,question
+What is used by a writer to show lack of emphasis in expression,question
+What is water called when it falls to the ground,question
+what is watson,question
+What is Watson,question
+What is watson,question
+what is watson,question
+what is Watson,question
+What is Watson most known for,question
+What is Watson Most Well Known for,question
+What is watson most well known for,question
+What is Watson most well known for,question
+What is Watson well known for,question
+What is your cancellation policy,question
+What is your deposit policy,question
+What kind of beer do you have at the bar here,question
+What kind of car is a Carera,question
+What kind of disease is cancer,question
+What kind of equipment does it have,question
+What kind of food is hearth restaurant,question
+What kind of metal are spoons,question
+What kind of no calorie spices are there,question
+What kind of pollution makes it hard to breath,question
+What kind of stem A rose has,question
+What kind of things are opaque,question
+What kind of turret does Nganhurra have,question
+What magma is called after it erupts above ground,question
+What makes up the skin of the body and the lining of the respiratory and digestive tracts,question
+what marine radar coverage is required to manage vessel collision prevention,question
+What mark will a year 2000 golf GI be,question
+What mass of solids is returned to the FPSO when flowing back a Vincent wells,question
+What metal will stop short-wave radio frequency interference 100 percent,question
+What mineral is composed of a single element,question
+What molecule is generated by both lactic acid and alcoholic fermentation,question
+What named the Sandwich Islands,question
+What newspapers does the hotel receive and where can I get them,question
+what number is the hotel room,question
+What organ has an external middle and inner section,question
+What organ system contains the spleen,question
+What part of Italy is famous for roasted peppers,question
+What percentage of African Americans play sports,question
+What phase prepares for mitosis,question
+What phylum is the mushroom in,question
+What places does China borders,question
+What produces pancreatic juices,question
+What property allows water to stick to the sides of a vertical glass tube,question
+What refers to the authority of a court has to hear a case,question
+What refracts light twice in the same direction,question
+What religion was Henrietta Maria,question
+What restaurants are nearby,question
+What River was the Hoover Dam built on,question
+What role does the telephone play in business organizations,question
+what safety provisions are in place on the pluto prp to allow personel to work on the asset,question
+What science deals with study of man,question
+What scientific principle is irrigation based on,question
+What should I do if I lost or forgot something in my room,question
+What size speakers in a 1994 Caprice wagon,question
+What sport ball bounces the highest,question
+What sport did Cathy Freeman play,question
+What sport did Obama play in high school,question
+What sport do the Brisbane Broncos compete in,question
+What sport has the most fouls,question
+What sport has used the Jump Rope most over the years,question
+What sport is the Melbourne Cup famous for,question
+What sport mainly uses balance,question
+What sport played with 16 pound ball,question
+What sport uses term turkey,question
+What sports did Alexander Ovechkin play besides hockey,question
+What sports has the highest net,question
+What sports use muscular strength,question
+what state are we end,question
+What state is between Alabama and South Carolina,question
+What state is known as the Peace Garden State,question
+What State Is Motown in,question
+What state is oxygen at 298 K,question
+What state of matter does vinegar exist in,question
+What state requires car manufacturers to take back used cars for recycling,question
+What structures are used for capturing prey and defending against predators,question
+What substance makes up about two-third of the mass of a cell,question
+What team does Al Harrington play for,question
+What television channels are available in the rooms,question
+What term describes an energy resource that can not be used up,question
+What term is defined as all the living materials inside a cell called,question
+What term means reflected light,question
+What three ways can things move into and out of a cell,question
+What time are the white house tours today,question
+What time do most locals dine and where do they like to eat,question
+What time does room service end,question
+what time does the Smithsonian stuff open,question
+what time does the store close,question
+what time is check,question
+what time is check out,question
+what time is dinner,question
+what time is happy,question
+what time is happy hour,question
+what time is the movie,question
+what time is the pool open,question
+What tissue forms nerves and the brain,question
+What to monitor when taking coumarin,question
+What tools use a scientific studying a sinkhole,question
+What transformational technoligies does watson user,question
+What turned sour that Louis Pasteur was making,question
+What type of charge is sliding across the fabric seat of your car,question
+What type of house hold powder will pick up oil,question
+What type of radiation does a smart meter emit,question
+What unit do you use to measure mass,question
+What was Austin cities first name,question
+What was is the slowest animal on earth,question
+What was Mark Graces number at San Diego State University,question
+What was Pioneer Natural Resources' production target for 2013,question
+What was PXD's target net debt level for 2013,question
+What was sand jacking used on NR2 float over and topsides installation,question
+What was the actual bonus paid to William R. Thomas for year 2013,question
+What was the actual discretionary cash flow of Noble Energy during 2013,question
+What was the actual production growth of Pioneer Natural Resources during 2013,question
+What was the actual production of Noble Energy during 2013,question
+What was the amount of the highest STIP payout made by Noble Energy to its executive officers in any of the three years ended 2013,question
+What was the base salary of B. F. Weatherly for year 2013,question
+What was the base salary of H. Baird Whitehead for the year 2013,question
+What was the base salary of James D. Bennett for the year 2013,question
+What was the base salary of Peter Hill for the year 2014,question
+What was the base salary of R.M. Lance for year 2013,question
+What was the base salary of Randall Cooley for the year 2014,question
+What was the base salary of Randall D. Cooley for the year 2013,question
+What was the base salary of William R. Thomas in 2013,question
+What was the capital of Byzantine Empire,question
+What was the code name for the Allied invasion in France,question
+What was the first ancientegyptian Pyramid constructed,question
+What was the first televised presidential debate between Nixon and who,question
+What was the Government of the Rhode Island colony,question
+What was the highest value of ConocoPhillips during 2009-2013,question
+What was the highest value of S&P 500 during 2009-2013,question
+What was the layrate for the pluto flowline,question
+What was the Lord of the Four Quarters of the World,question
+What was the market cap of ConocoPhillips as of 12/31/2013,question
+What was the most recent value of ConocoPhillips,question
+What was the name of the person that invented the first computer,question
+What was the non equity incentive plan compensation of J.S. Watson for the year 2013,question
+What was the non equity incentive plan compensation of R.M. Lance for the year 2013,question
+What was the oil equivalent production of ConocoPhillips in 2012,question
+What was the production growth target of PXD during 2013,question
+What was the production target of Noble Energy during 2013,question
+What was the sailboat used for,question
+What was the surname of Ramabai Ranade before marriage,question
+What was the total compensation of Alan G. Jackson,question
+What was the total compensation of Alice P. Gast,question
+What was the total compensation of B. F. Weatherly  in 2013,question
+What was the total compensation of Matthew K. Grubb in 2013,question
+What was the total compensation of R. Curt Dacar in 2014,question
+What was the total compensation of Robert F. Fulton,question
+What was the total compensation of Stephen C. Beasley,question
+What was the total compensation of Thomas E. Voytovich in 2013,question
+What was the total compensation of Timothy K. Driggers for year 2013,question
+What was the total compensation of Timothy L. Dove in 2013,question
+What was the value of ConocoPhillips in 2010,question
+What was the value of Noble Energy's option awards to most of its non-employee directors during 2013,question
+What was the value of Performance Peer Index in 2010,question
+What was the value of Variation Orders agreed for NR2 topsides Project,question
+what was the wall thickness for the Pluto 36inch pipeline,question
+What was the weight of the Pluto offshore platform topsides at the end of the BOD Phase,question
+What was the wholesale volume for Ford in China in 2009,question
+What was the wholesale volume for Ford in China in 2010,question
+What was Thomas Paines job,question
+What were Mexican citizens who lived in New Mexico called,question
+What word means amount of money spent,question
+What words that start with Y meaning suffering or something similar,question
+What would be good bait for chipmunks,question
+What year did Americans start using the car,question
+What year did Jackie Onassis move into the Whitehouse,question
+What Year did Mary appear to Bernadette in Lourdes,question
+What year did Napolean Hill Write Think and Grow Rich,question
+What year did realmadrid scored barcelona 11 goals,question
+what year was founded,question
+What year was Ian Kiernan made Australian of the year,question
+What year was the police car invented,question
+What year was Watson created,question
+What's the best way to hail a cab,question
+what's your favorite hotel,question
+Whats a Car that starts with the letter J,question
+whats is watson,question
+Whats the fatigue life of the Pluto flowlines,question
+Whats the pH of blood,question
+Whats the scientific name for a snow Petrel,question
+When a fast moving polar continental air mass takes over a slow moving Atlantic maritime tropical air mass what front forms,question
+When a substance changes from one physical form to another you say the substance has had a what,question
+when are you serving dinner ,question
+When did Anthony V. Dub hold office,question
+When did Clare start,question
+When did Fredrick McKinley Jones Die,question
+When did Germany invade Poland Danzig denmark Norway Luxembourg belgium holland France monaco Yugoslavia and Greece Lithuania Latvia Estonia and the Soviet,question
+When did Judge Parker live in Fort Smith,question
+When did Persia capture Athens,question
+When did the company Footlocker start,question
+When does the season of winter start in US,question
+When in 1952 or 1953 did a write up of the South Braintree Little League Southern Star Tricomi appear,question
+When is Enrique Quezada birthday,question
+when is happy hour,question
+When was Lucea Primary School founed,question
+When was the board of cosmetology started in NC,question
+When was the first ICC championship,question
+When was the last meteor shower,question
+When was the Punnett square made,question
+where are the elevators,question
+Where can I but a handkerchief,question
+Where can I but some Deodorant,question
+Where can I but some hair ties,question
+Where can I but some lotion,question
+Where can I buy a belt,question
+where can I buy a belt,question
+Where can I buy a brush,question
+Where can I buy a dress,question
+Where can I buy a dress belt,question
+Where can I buy a dress shirt,question
+Where can I buy a nail file,question
+Where can I buy a phone charger,question
+Where can I buy a razor,question
+Where can I buy a shirt,question
+Where can I buy a souvenir,question
+Where can I buy a suit,question
+Where can I buy a tie,question
+Where can I buy feminine products,question
+Where can I buy some dress shirts,question
+Where can I buy some dress socks,question
+Where can I buy some flowers,question
+Where can I buy some gel,question
+Where can I buy some hair clips,question
+Where can I buy some hair gel,question
+Where can I buy some hairspray,question
+Where can I buy some heels,question
+Where can I buy some leggings,question
+Where can I buy some make up,question
+Where can I buy some nail clippers,question
+Where can I buy some pantyhose,question
+Where can I buy some ponytails,question
+Where can I buy some product,question
+Where can I buy some product for my hair,question
+Where can I buy some shirts,question
+where can I buy some shoes,question
+where can I buy some socks,question
+Where can I buy some socks,question
+Where can I buy some tampons,question
+Where can I buy some underware,question
+Where can I buy some underwear,question
+where can I do my laundry,question
+where can I file a complaint,question
+Where can I file a complaint,question
+Where can I file a noise complaint,question
+where can I find a club,question
+where can I find a good dry cleaning place,question
+where can I find a towel,question
+Where can I find envelopes,question
+Where can I find some american food,question
+Where can I find some comfort food,question
+where can I find some good mexican food,question
+Where can I find some italian food,question
+Where can I find some mexican food,question
+Where can I find some sushi,question
+Where can I find some thai food,question
+Where can I find some vietnamese food,question
+Where can I find the pool,question
+where can I get a beer,question
+Where can I get a cocktail in DC,question
+where can I get a cookie,question
+Where can I get a copy of my invoice after departure,question
+where can I get a good burger,question
+Where can I get a great hamburger,question
+where can I get a snack,question
+where can I get an extra blanket,question
+where can I get an extra pillow,question
+Where can I get some american food,question
+where can I get some clean sheets,question
+Where can I get some comfort food,question
+where can I get some conditioner,question
+where can I get some extra sheets,question
+where can I get some good sushi,question
+Where can I get some italian food,question
+Where can I get some mexican food,question
+where can I get some shampoo,question
+Where can I get some sushi,question
+Where can I get some thai food,question
+Where can I get some vietnamese food,question
+Where can I get the best drink tonight,question
+where can I go for lunch,question
+where can I go shopping,question
+where can I play golf,question
+Where can I put my luggage,question
+where can I put my luggage,question
+where can I put my suit case,question
+where can I rent a car,question
+Where can I see the booking conditions,question
+where can I swim,question
+where can we find a dry cleaning place,question
+where can we find shows,question
+where can we find some dry cleaning,question
+where can we find some toothbrush,question
+Where can you buy a waterproof mermaid tail,question
+Where can you eat that is kid-friendly and also for when you want to have a little quiet meal alone are there babysitters you recommend,question
+Where did Hatshepsut die,question
+Where do I get a complementary shuttle,question
+where do we go to have fun,question
+Where does air enter the respiratory system,question
+Where does Pierre junior Master chef Australia live,question
+Where does Silk originate,question
+Where is Dartmouth College located,question
+where is dinner,question
+Where is Grand Hyatt New York located,question
+Where is Grand Hyatt San Antonio located,question
+Where is Grand Hyatt San Francisco located,question
+Where is hot springs located,question
+Where is Hyatt Place Cincinnati-Northeast located,question
+Where is Hyatt Place Detroit/Aurburn Hills located,question
+Where Is lepton produced,question
+where is my room,question
+Where is Park Hyatt Chicago located,question
+Where is Park Hyatt Toronto located,question
+Where is Park Hyatt Washington located,question
+Where is the Andaz 5th Avenue located,question
+where is the atm,question
+where is the ballroom,question
+where is the bar,question
+Where is the bathroom on this floor,question
+where is the bell boy,question
+where is the bell desk,question
+where is the best restaurant to eat,question
+where is the closest atm,question
+where is the closest liquor store,question
+where is the closest mail box,question
+Where is the closest shoe store,question
+Where is the cochlea located,question
+Where is The Driskill located,question
+where is the elevator,question
+Where is the fitness center,question
+where is the front desk,question
+Where is the kids museum,question
+Where is the leak in the Pluto MEG subsea coiled tubing line,question
+where is the mall,question
+Where is the Metro,question
+where is the near near esta sushi restaurant,question
+Where is the nearest bank or currency exchange,question
+Where is the nearest metro station,question
+where is the parking lot,question
+where is the pool,question
+Where is the precursor of all lines of blood cells found,question
+where is the reflecting pool,question
+Where is the reflecting pool,question
+where is the restaurant,question
+Where is the swimming pool,question
+where is the Washington monument,question
+where restaurant here,question
+Where should i go for dinner tonight,question
+Where should I go for dinner tonight,question
+Where was John Lee Love born,question
+Where was Silvio Berlusconi the Prime Minister of Italy born,question
+where was the march on washington heald,question
+Where was the march on Washington held,question
+Where was the NR2 topside built,question
+Where was Wall Street Journal reporter Daniel Pearl executed,question
+where's the bathroom,question
+Where's the most authentic place to go shopping for a local specialty especially artisanal handicrafts or jewelry,question
+Which actor starred in the Spider Man movies,question
+Which animal has the greatest number of bones,question
+Which area of Earth Science deals with the blanket of air that surrounds Earth,question
+Which car name translates as peoples car,question
+Which company has a market cap of more than 400 Billions US dollars,question
+Which company has the highest market cap as of 12/31/2013,question
+Which company has the lowest market cap as of 12/31/2013,question
+Which company hired CISF first,question
+Which countries have a tradition of batik printing,question
+Which country has won the most World Cups in any sport,question
+Which credit cards are accepted,question
+Which director earned lowest fees in 2013,question
+Which director has the highest total compensation for the year 2013,question
+Which director has the lowest total compensation for the year 2013,question
+Which director was awarded lowest number of restricted stocks in 2013,question
+Which director was awarded the highest number of restricted stocks in 2013,question
+Which director was paid highest cash by Sandridge Energy,question
+Which element is used in aerospace industries in alloys with other metals,question
+Which famous boxer was accused of murdering two white men,question
+Which fight stick has the longest cord,question
+Which Hall of Famer once hit two grand slams in the same game,question
+Which hormone is stimulated by decreases in blood glucose,question
+Which hormone regulates blood calcium levels,question
+Which involves speed work or power,question
+Which is heavier 1m3 steel or concerto,question
+Which is lighter sand or dust,question
+Which is opposition party in India,question
+Which is the maximum speed of Ford Pinto 4cyl 86hp year 1972,question
+Which is the most poisonous living thing in world,question
+Which Italian city can you not drive a car,question
+Which kingdom does E coli belong to,question
+Which leukocyte contains histamine in its granules,question
+Which of the cell organelles are directly responsible for making and packaging proteins,question
+Which of the executive officers of Noble Energy had the highest percentage of base salary in his or her total compensation during 2012,question
+Which of the named executives of Noble Energy was awarded the highest STIP payout during 2011-2013,question
+Which of the named officers of EOG Resources did not receive a salary raise during 2013,question
+Which of the Noble Energy's board-committees held the lowest number of meetings during 2013,question
+Which of the Noble Energy's executive officers had the highest salary as a percentage of total compensation during 2013,question
+Which of the non-executive director of Noble Energy received the highest stock award from the company during 2013,question
+Which of the PXD's named executives had the lowest salary increment during 2013,question
+Which of the respiratory sounds is heard during both inspiration and expiration,question
+Which of your senses depend on tiny hairlike objects called Celia,question
+Which officer did not receive any stock awards for the year 2014,question
+Which officer has the highest base salary for the year 2013,question
+Which officer has the highest base salary in 2012,question
+Which officer has the highest base salary in 2014,question
+Which officer has the highest total compensation for the year 2012,question
+Which officer has the lowest base salary for the year 2013,question
+Which officer has the lowest total compensation for the year 2012,question
+Which officer of EOG received highest bonus during 2013,question
+Which officer of EOG received highest growth in its base salary,question
+Which officer of EOG was awarded highest number of options in 2013,question
+Which officer of EOG was awarded least number of options in 2013,question
+Which officer of Pioneer Natural Resources was awarded least number of options in 2012,question
+Which officer received 100% salary bonus in 2013,question
+Which officer receives the highest growth in 2014,question
+Which officer receives the lowest growth in 2014,question
+Which officer was awarded options by Triangle Petroleum in 2014,question
+Which online payment methods do you offer,question
+Which organ pumps blood around your body,question
+Which organ system contains the trachea,question
+Which part of the federal government is charged with enforcing laws,question
+Which planet is 92897000 miles from the sun,question
+Which political party controls the House of Rep,question
+Which population is subject to genetic drift,question
+Which portion of the brain regulates thirst and hunger,question
+Which sport do Mick Fleetwood Catherine Zeta Jones and Elijah Wood excel in,question
+Which sport has the highest average salary,question
+Which sport might you win the curtis cup,question
+Which state has the highest unemployment rates,question
+Which state has the most park sites,question
+Which state in the United States is most in debt,question
+Which state is a large peninsula with small islands off its coast,question
+Which substance is left behind after you evaporate a solution of sugar,question
+Which team in NBA retire jersey number 23,question
+Which type of eclipse occurs when the moon appears too small to completely cover the sun and only a ring appears around the moon,question
+Which type of Lever is demonstrated by using scissors,question
+Which will be more common in the distant future a solar eclipse or total eclipse,question
+Who are the persons who conduct examination in school,question
+Who built the Lupu bridge,question
+Who built the Second Temple in Jerusalem,question
+who burned down Georgia,question
+Who burned down Georgia,question
+Who can I talk to you about your performance,question
+who created,question
+Who created an 80s catch phrase with advertising that urged you to be all that you can be,question
+who created the watson on watson piepline in watson labs,question
+who created the watson on watson pipeeline in watson labs,question
+who created the watson on watson pipeline in Watson Labs,question
+who created the watson on watson pipeline in watson labs,question
+Who created the Watson on Watson pipeline in Watson Labs,question
+Who created Watson,question
+Who developed the telegraph,question
+who do you think will win the presidential race,question
+Who drives the Wonder Bread car,question
+Who drove the Golden Spike in the first transcontinental rail rode,question
+Who enforces taxes,question
+Who faced highest balls without scoring a run in Test cricket,question
+Who figured out the process of transposition in corn chromosomes,question
+Who first invaded India,question
+Who found the holterman nugget,question
+Who founded the first firefighting team in America,question
+Who founded the Grange,question
+Who has been awarded Ashok Chakra award in 26 January 2012,question
+Who has claimed the lowest refund related to Spousal travel & entertainment cost in the year 2013,question
+Who has received lowest bonus as a part of compensation for the year 2013,question
+Who has received the highest bonus as a part of compensation for the year 2013,question
+Who has received the maximum refund related to Spousal travel & entertainment cost in the year 2013,question
+Who invented beep test,question
+Who invented ice-skating,question
+Who invented the first dental scalar,question
+Who invented the volleyball,question
+Who is Arkansas Junior Senator,question
+Who is CEO of search company Google,question
+Who is ConocoPhillips least paid officer of the year 2013,question
+Who is father of world wide web,question
+Who is the 4 founding father of Tau Gamma Phi Sigma,question
+Who is the attorney general of Kentucky,question
+Who is the blonde girl in Sky Sports Football ad,question
+Who is the Chairman of Callon Petroleum,question
+Who is the Chairman of Sandridge Energy,question
+Who is the Chief Administrative Officer of Callon Petroleum,question
+Who is the Chief Executive Officer of Carrizo,question
+Who is the Chief Financial Officer of ConocoPhillips,question
+Who is the Chief Operating officer of Apache Corp,question
+Who is the Chief Operating Officer of Carrizo,question
+Who is the current CEO of Delta Airlines,question
+Who is the current leader of Costa Rica,question
+Who is the explorer who died in his attempt to reach the South Pole,question
+Who is the fastest man in history,question
+Who is the first athlete to be a first round draft-pick of two major sporting organizations,question
+Who is the Greek mathematician whose theory states that the square of the hypotenuse is equal to the sum of the squares of the lengths of the two other,question
+Who is the highest earning Australian sports person,question
+Who is the inventor of Norton Antivirus,question
+Who is the king of Norway,question
+Who is the Minister of Health in Rwanda,question
+Who is the most famous cat,question
+Who is the person that runs with the presidential candidate,question
+who is the president,question
+Who is the president of the United States,question
+Who is the prime minister of Australia,question
+Who is the prime minister of japan,question
+Who is the prince of Norway,question
+Who is the queen of England,question
+Who is the request_skiller who got his nickname at the battle of bull run,question
+Who is the tallest footballer in the world,question
+Who is the youngest director nominee across all classes,question
+Who is the youngest executive officer of Carrizo,question
+Who is the youngest executive officer of Sanchez Energy,question
+Who is watson,question
+who is watson,question
+Who led the rebellion in Haiti,question
+Who made the first full flip on a skateboard,question
+Who made tomboy,question
+Who made water tubing popular,question
+Who measure the weather,question
+Who opened leratong hospice,question
+Who proved that the visible light is composed of spectrum of colors,question
+Who provided evidence for the existence of a nucleus in an Atom,question
+Who said in Rome you forbid,question
+Who Sang You Fought The Law And The Law Won,question
+Who saved the Jamestown settlement,question
+who scored the most soccer games in 2014,question
+Who studied the behavior of falling bodies and formulated laws covering the behavior of these object,question
+Who Studies classification,question
+Who studies the natural world,question
+Who succeeded T roosevelt,question
+Who suffers from obesity,question
+Who taught evolutionism as part of his science curriculum event though the state of Tennessee had banned such materials from public schools,question
+Who thought Americans should always celebrate Independence Day,question
+Who was a famous antifederalist,question
+Who WAS hoppocrates father,question
+Who was leader of the sons of liberty,question
+Who was most closely linked to the Teapot Dome Scandal,question
+Who was ruled by King Latinas,question
+Who was the captain of the England rugby team in 1888,question
+Who was the Confederate request_skiller at Bull Run,question
+Who was the discover of cells,question
+Who was the former Chairman of Sandridge Energy chemical company,question
+Who was the founder of the Plymouth Colony,question
+Who was the highest paid athlete in 1997,question
+Who was the Indian player to win the All England badminton championship,question
+Who was the inventor of rulers,question
+Who was the inventor of the first camper,question
+who was the inventor of Watson on Watson in Watson Labs,question
+Who was the proprietor of The Colony of Georgia,question
+Who was the Qin ruled who unified 36 provinces,question
+Who won the 2nd Stanley Cup,question
+Who won the battle of ticonderoga in 1777,question
+Who won the football mersy masters 2009,question
+Who won the most matches in tennis,question
+Who won wrestle mania 25 out of triple ha and randy Orlon,question
+Who wrote Ida B,question
+Who wrote Pepita Jimenez,question
+Who wrote the Toyota Prius jingle,question
+Whom did Callon Petroleum grant highest number of restricted stocks in 2013,question
+Whom did Callon Petroleum grant least number of restricted stocks in 2013,question
+Whom did EOG Resources grant least number of restricted stocks in 2013,question
+Whom did Penn Virginia grant least number of restricted stocks in 2013,question
+Whom did Sanchez Energy grant highest number of restricted stocks in 2013,question
+Whom did Sanchez Energy grant least number of restricted stocks in 2013,question
+Whom did Triangle Petroleum grant highest number of restricted stocks in 2014,question
+Whom did Triangle Petroleum grant least number of restricted stocks in 2014,question
+why and do doctors do,question
+Why are there two bridges between NRA and NRB,question
+Why did EOG not increase Mark G. Papa base salary since 2004,question
+why did I go to sleep in my hotel,question
+Why did I not receive a booking confirmation,question
+Why did the base salary of EOG's Gary L. Thomas increase during 2013,question
+Why did Watson compete on Jeopardy,question
+why is diesel supplied from NRA not NRB,question
+Why is the arrangement not bookable,question
+Why was a gravel packed lower completion chosen in the Sculptor field,question
+Why was a subsea solution selected for Angel Concept ,question
+Why was the NRB platform located on the west side of NRA platform,question
+Why was the second bridge installed on NRB,question
+Why water droplets appear in silencer of cars,question
+wifi password,question
+Will there be an iron and ironing board in my room,question
+Will your rooms allow cribs Is there a charge,question
+Will your rooms allow rollaways Is there a charge,question
+yeah bonuses Hilton built cottage,question
+you are full of shit,question
+you like pasta,question
+you make a suggestion,question
+Your tongue is covered with a layers of bumps that contain taste buds what are they called,question
+close right hand now,r_hand_close
+close your right hand,r_hand_close
+lower your right arm,r_hand_descend
+lower your right hand,r_hand_descend
+put your right arm down,r_hand_descend
+put your right hand down,r_hand_descend
+extend your right arm,r_hand_extend
+extend your right hand,r_hand_extend
+put your right arm out,r_hand_extend
+put your right hand out,r_hand_extend
+open right hand now,r_hand_open
+open your right hand,r_hand_open
+put your right arm up,r_hand_raise
+put your right hand up,r_hand_raise
+raise your right arm,r_hand_raise
+raise your right hand,r_hand_raise
+move your right arm back to your chest,r_hand_retract
+move your right hand back to your chest,r_hand_retract
+retract your right arm,r_hand_retract
+retract your right hand,r_hand_retract
+relax robot,relax_robot
+can you identify this,request_object
+can you identify this object,request_object
+can you please tell me what this is,request_object
+can you tell me what this is,request_object
+what is this,request_object
+what is this item,request_object
+what is this object,request_object
+can you entertain us,request_skill
+can you exercise,request_skill
+can you scare us,request_skill
+can you shake her hand,request_skill
+can you shake his hand,request_skill
+can you shake my hand,request_skill
+can you soar,request_skill
+can you sore,request_skill
+can you wave,request_skill
+can you wave to her,request_skill
+can you wave to him,request_skill
+can you wave to the crowd,request_skill
+can you wave to them,request_skill
+do the wave,request_skill
+draw me a circle,request_skill
+enter lab mode,request_skill
+fist bump,request_skill
+give her a fist bump,request_skill
+give her a high five,request_skill
+give him a fist bump,request_skill
+give him a high five,request_skill
+give me a fist bump,request_skill
+give me a high five,request_skill
+grab the yellow bottle,request_skill
+hand me the object in the middle,request_skill
+hand me the screwdriver,request_skill
+high five,request_skill
+lie down in the middle of the room,request_skill
+pick up the screwdriver,request_skill
+plug in the furnace,request_skill
+point at the water bottle,request_skill
+poke the pen,request_skill
+run to the car,request_skill
+scare the crowd,request_skill
+screw in the screw,request_skill
+shake my hand,request_skill
+sit down in the seat,request_skill
+soar above the crowd,request_skill
+sore above the crowd,request_skill
+turn down the air conditioner,request_skill
+turn off monitor 174,request_skill
+turn off the lights,request_skill
+turn on monitor 174,request_skill
+turn on the computer,request_skill
+turn up the heat in here,request_skill
+up high,request_skill
+walk down the street,request_skill
+walk to the next building over,request_skill
+wave for me,request_skill
+wave to me,request_skill
+wave to the crowd,request_skill
+put your right arm down,right_arm_relax
+right arm relax,right_arm_relax
+right arm waiver,right_arm_wave
+right arm wave,right_arm_wave
+right arm waved,right_arm_wave
+right arm waves,right_arm_wave
+right arm way,right_arm_wave
+wave your right arm,right_arm_wave
+right arm wave position,right_arm_wave_position
+rotate left forarm all the way in,rotate_left_forarm_all_the_way_in
+rotate left forarm all the way out,rotate_left_forarm_all_the_way_out
+rotate left forarm in,rotate_left_forarm_in
+rotate left forarm out,rotate_left_forarm_out
+rotate left shoulder all the way down,rotate_left_shoulder_all_the_way_down
+rotate left shoulder all the way in,rotate_left_shoulder_all_the_way_in
+rotate left shoulder all the way out,rotate_left_shoulder_all_the_way_out
+rotate left shoulder all the way up,rotate_left_shoulder_all_the_way_up
+rotate left shoulder down,rotate_left_shoulder_down
+rotate left shoulder in,rotate_left_shoulder_in
+rotate left shoulder out,rotate_left_shoulder_out
+rotate left shoulder up,rotate_left_shoulder_up
+rotate left wrist all the way in,rotate_left_wrist_all_the_way_in
+rotate left wrist all the way out,rotate_left_wrist_all_the_way_out
+rotate left wrist in,rotate_left_wrist_in
+rotate left wrist out,rotate_left_wrist_out
+rotate right forearm all the way in,rotate_right_forarm_all_the_way_in
+rotate right forearm all the way out,rotate_right_forarm_all_the_way_out
+rotate right forearm in,rotate_right_forarm_in
+rotate right forearm out,rotate_right_forarm_out
+rotate right shoulder all the way down,rotate_right_shoulder_all_the_way_down
+rotate right shoulder all the way in,rotate_right_shoulder_all_the_way_in
+rotate right shoulder all the way out,rotate_right_shoulder_all_the_way_out
+rotate right shoulder all the way up,rotate_right_shoulder_all_the_way_up
+rotate right shoulder down,rotate_right_shoulder_down
+rotate right shoulder in,rotate_right_shoulder_in
+rotate right shoulder out,rotate_right_shoulder_out
+rotate right shoulder up,rotate_right_shoulder_up
+rotate right wrist all the way in,rotate_right_wrist_all_the_way_in
+rotate right wrist all the way out,rotate_right_wrist_all_the_way_out
+rotate right wrist in,rotate_right_wrist_in
+rotate right wrist out,rotate_right_wrist_out
+can you show me alienation,show_alienation
+please show me alienation,show_alienation
+show alienation,show_alienation
+show me alienation,show_alienation
+show me how you look like when you are alienated,show_alienation
+show me how you look when you're alienated,show_alienation
+can you show me amusement,show_amusement
+please show me amusement,show_amusement
+show amusement,show_amusement
+show me amusement,show_amusement
+show me how you look like when you are amused,show_amusement
+show me how you look when you're amused,show_amusement
+can you show me anger,show_anger
+please show me anger,show_anger
+show anger,show_anger
+show me anger,show_anger
+show me how you look like when you are angry,show_anger
+show me how you look when you're angry,show_anger
+can you show me annoyance,show_annoyance
+please show me annoyance,show_annoyance
+show annoyance,show_annoyance
+show me annoyance,show_annoyance
+show me how you look like when you are annoyed,show_annoyance
+show me how you look when you're annoyed,show_annoyance
+show anxiety,show_anxiety
+show me anxiety,show_anxiety
+show me how you look when you are anxious,show_anxiety
+can you show me boredom,show_boredom
+please show me boredom,show_boredom
+show boredom,show_boredom
+show me boredom,show_boredom
+show me how you look like when you are bored,show_boredom
+show me how you look when you're bored,show_boredom
+can you show me caution,show_caution
+please show me caution,show_caution
+show caution,show_caution
+show me caution,show_caution
+show me how you look like when you are being cautious,show_caution
+show me how you look when you're cautious,show_caution
+can you celebrate,show_celebration
+show celebration,show_celebration
+can you show me confidence,show_confidence
+please show me confidence,show_confidence
+show confidence,show_confidence
+show me confidence,show_confidence
+show me how you look like when you are confident,show_confidence
+show me how you look when you're confident,show_confidence
+can you show me confusion,show_confusion
+please show me confusion,show_confusion
+show confusion,show_confusion
+show me confusion,show_confusion
+show me how you look like when you are confused,show_confusion
+show me how you look when you're confused,show_confusion
+can you show me determination,show_determination
+please show me determination,show_determination
+show determination,show_determination
+show me determination,show_determination
+show me how you look like when you are determined,show_determination
+show me how you look when you're determined,show_determination
+can you show me disappointment,show_disappointment
+please show me disappointment,show_disappointment
+show disappointment,show_disappointment
+show me disappointment,show_disappointment
+show me how you look like when you are disappointed,show_disappointment
+show me how you look when you're disappointed,show_disappointment
+can you show me embarrassment,show_embarrassment
+please show me embarrassment,show_embarrassment
+show embarrassment,show_embarrassment
+show me embarrassment,show_embarrassment
+show me how you look like when you are embarrassed,show_embarrassment
+show me how you look when you're embarrassed,show_embarrassment
+can you show me enthusiasm,show_enthusiasm
+please show me enthusiasm,show_enthusiasm
+show enthusiasm,show_enthusiasm
+show me enthusiasm,show_enthusiasm
+show me how you look like when you are enthusiastic,show_enthusiasm
+show me how you look when you're enthusiastic,show_enthusiasm
+can you show me excitement,show_excitement
+please show me excitement,show_excitement
+show excitement,show_excitement
+show me excitement,show_excitement
+show me how you look like when you are excited,show_excitement
+show me how you look when you're excited,show_excitement
+can you show me exhaustion,show_exhaustion
+please show me exhaustion,show_exhaustion
+show exhaustion,show_exhaustion
+show me exhaustion,show_exhaustion
+show me how you look like when you are exhausted,show_exhaustion
+show me how you look when you're exhausted,show_exhaustion
+can you show me fear,show_fear
+please show me fear,show_fear
+show fear,show_fear
+show me fear,show_fear
+show me how you look like when you are scared,show_fear
+show me how you look when you're scared,show_fear
+can you show me frustration,show_frustration
+please show me frustration,show_frustration
+show frustration,show_frustration
+show me frustration,show_frustration
+show me how you look like when you are frustrated,show_frustration
+show me how you look when you're frustrated,show_frustration
+can you show me happiness,show_happiness
+please show me happiness,show_happiness
+show happiness,show_happiness
+show me happiness,show_happiness
+show me how you look like when you are happy,show_happiness
+show me how you look when you're happy,show_happiness
+can you show me hesitation,show_hesitation
+please show me hesitation,show_hesitation
+show hesitation,show_hesitation
+show me hesitation,show_hesitation
+show me how you look like when you are hesitant,show_hesitation
+show me how you look when you're hesitant,show_hesitation
+can you show me humiliation,show_humiliation
+please show me humiliation,show_humiliation
+show humiliation,show_humiliation
+show me how you look like when you are humiliated,show_humiliation
+show me how you look when you're humiliated,show_humiliation
+show me humiliation,show_humiliation
+can you laugh,show_laugh
+can you please laugh,show_laugh
+show me how you look like when you are laughing,show_laugh
+show me how you look when you're laughing,show_laugh
+show me your laugh,show_laugh
+show your laugh,show_laugh
+can you show you are a good listener,show_listening
+can you show you are listening,show_listening
+show you are listening to me,show_listening
+can you show me need for attention,show_need_for_attention
+please show me need for attention,show_need_for_attention
+show me how you look like when you need attention,show_need_for_attention
+show me how you look when you are needy,show_need_for_attention
+show me how you look when you're needy,show_need_for_attention
+show me need for attention,show_need_for_attention
+show need for attention,show_need_for_attention
+can you show me pain,show_pain
+please show me pain,show_pain
+show me how you look like when you are hurt,show_pain
+show me how you look when you're hurt,show_pain
+show me pain,show_pain
+show pain,show_pain
+can you show me pride,show_pride
+please show me pride,show_pride
+show me how you look like when you are proud,show_pride
+show me how you look when you're proud,show_pride
+show me pride,show_pride
+show pride,show_pride
+can you show me relief,show_relief
+please show me relief,show_relief
+show me how you look like when you are relieved,show_relief
+show me how you look when you're relieved,show_relief
+show me relief,show_relief
+show relief,show_relief
+can you show how to remember,show_remember
+show how to remember something,show_remember
+show remembering something,show_remember
+can you show me sadness,show_sadness
+please show me sadness,show_sadness
+show me how you look like when you are sad,show_sadness
+show me how you look when you're sad,show_sadness
+show me sadness,show_sadness
+show sadness,show_sadness
+can you show how to speak,show_speaking
+can you show me you are speaking,show_speaking
+show you know how to speak,show_speaking
+can you show me surprise,show_surprise
+please show me surprise,show_surprise
+show me how you look like when you are surprised,show_surprise
+show me how you look when you're surprised,show_surprise
+show me surprise,show_surprise
+show surprise,show_surprise
+can you show me how you go on a thinking loop,show_thinking_loop
+show how to be thinking,show_thinking_loop
+show me how you look when you are thinking,show_thinking_loop
+straighten up hips pitch,straighten_up_hips_pitch
+straighten up hips roll,straighten_up_hips_roll
+straighten up knees,straighten_up_knees
+lower your volume,volume_down
+speak softer,volume_down
+please mute your volume,volume_mute
+raise your volume,volume_up
+speak up,volume_up
+talk louder,volume_up
+%HESITATION what kind of weather we have tomorrow,weather
+another time the weather,weather
+I know what's the weather going to be tomorrow,weather
+so weather today,weather
+What is the weather forecast for Washington dc,weather
+what is the weather today,weather
+what's your favorite number,what_is_favorite_number

@@ -1,0 +1,59 @@
+<div>
+	<div class="page-title"><h1 class="text-left">CONFIGURATION | {{ configType }}</h1></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<span ng-show="!doneLoading">
+					<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+					<path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+						s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+						c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+					<path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+						C22.32,8.481,24.301,9.057,26.013,10.047z" transform="rotate(276 20 20)">
+						<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+						</path>
+					</svg>
+				</span>
+				<span ng-show="doneLoading">
+					<div ng-repeat="configObj in configObjs | orderBy: 'Type_'">
+						<div class="row expand-row">
+							<div class="col-md-2 expand-section">
+								<div class="plus-toggle" style="float:left;font-size:20px; " ng-click="toggleDetails($index);">+</div>
+								<button style="float:left;margin-left:15px;margin-right:15px;" type="button" class="btn btn-lg btn-toggle" ng-class="{ 'active' : configObj.m_bEnabled }" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggleConfigObj(configObj);">
+									<div class="handle"></div>
+								</button>
+							</div>
+							<div class="col-md-3">
+								<span class="expand"><p>{{ configObj.Type_ }}</p></span>
+							</div>
+						</div>
+						<section class="config-info" ng-class="{ 'with-details' : selectedIndex == $index }">
+						<div class="row" style="margin-bottom: 5px;"><textarea ng-model="configObj" json-text class="agent-details" style="border:none;"></textarea></div>
+						<div class="row config-row">
+							<div class="col-md-3" style="padding-left:0px;">
+								<div class="btn" style="background-color: #949494;color: white; float: left;" ng-click="removeConfigObj(configObj);">Remove</div>
+								<div style="color: white;background: #3889c3; float: left;" class="btn btn-primary" ng-click="updateConfigObj(configObj);">Save</div>
+							</div>
+							<div class="col-md-2 offset-md-1">
+								<div class="btn btn-success" style="background-color: #23b2a4;color: white;">Verify</div>
+							</div>
+						</div>
+						</section>
+					</div>
+				</span>
+			</div>
+			<div class="col-md-4">
+				<h4>Add New {{ configType }}</h4>
+				<select class="form-control add-obj" ng-model="configObjSelect" ng-options="configPossible for configPossible in configPossibles" ng-change="addNewConfig();"></select>
+				<section class="config-info new-config-info" ng-class="{ 'with-details' : selectedIndex == $index }">
+					<div class="row config-row">
+						<div class="col-md-4" style="padding-left:0px;">
+							<div style="color: white;background: #3889c3; margin-top:10px;" class="btn btn-primary add-obj-btn" ng-click="addConfigObj(configPreJSON);">Add</div>
+							<div class="added-row">Added</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>

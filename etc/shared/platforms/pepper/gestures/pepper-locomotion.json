@@ -1,0 +1,65 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "locomotion_forward",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_forward",
+        "m_fY": 1.0,
+        "m_fX": 0.0,
+        "m_fZ": 0.0
+      }
+    },
+    {
+      "key": "locomotion_backward",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_backward",
+        "m_fY": -1.0,
+        "m_fX": 0.0,
+        "m_fZ": 0.0
+      }
+    },
+    {
+      "key": "locomotion_pan_left",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_pan_left",
+        "m_fY": 0.0,
+        "m_fX": 1.0,
+        "m_fZ": 0.0
+      }
+    },
+    {
+      "key": "locomotion_pan_right",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_pan_right",
+        "m_fY": 0.0,
+        "m_fX": -1.0,
+        "m_fZ": 0.0
+      }
+    },
+    {
+      "key": "locomotion_left",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_left",
+        "m_fY": 0.0,
+        "m_fX": 0.0,
+        "m_fZ": 0.5
+      }
+    },
+    {
+      "key": "locomotion_right",
+      "value": {
+        "Type_": "MoveGesture",
+        "m_GestureId": "locomotion_right",
+        "m_fY": 0.0,
+        "m_fX": 0.0,
+        "m_fZ": -0.5
+      }
+    }
+  ]
+}

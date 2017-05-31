@@ -1,0 +1,32 @@
+{
+   "m_Agents" : [
+      {
+         "Type_" : "UpdateAgent",
+         "m_FoundUpdateResponse" : "There's an updated version of Self available! Would you like to download and install it?",
+         "m_InstallationCompleteResponse" : "Self update has been successfully downloaded. Restarting and installing now.",
+         "m_LastVersionConfirmed" : "",
+         "m_SelfPackageName" : "Self-mac.zip",
+         "m_bAllowRecommendedDownload" : false,
+         "m_fUpdateCheckDelay" : 1200
+      }
+   ],
+   "m_GestureFiles" : [
+		"shared/gestures/pc-anims.json",
+		"shared/gestures/pc-joints.json"
+	],
+   "m_Interfaces" : [ "*" ],
+   "m_Libs" : [ "platform_mac", "opencv_plugin" ],
+   "m_RobotType" : "Mac",
+   "m_Sensors" : [
+      {
+         "Type_" : "HealthSensor",
+         "m_HealthSensorCheckInterval" : 60,
+         "m_SensorId" : "cbe99ff2-a356-48d3-9450-e3b708666451",
+         "m_fLowBatteryThreshold" : 10
+      }
+   ],
+   "m_SkillFiles" : [
+      "shared/skills/pc-anims.json",
+	  "shared/skills/pc-joints.json"
+   ]
+}

@@ -1,0 +1,22 @@
+<div>
+	<div class="page-title"><h1 class="text-left">CONFIGURATION | Services</h1></div>
+	<div class="container">
+		<div class="row">
+			<div ng-repeat="service in services" class="col-md-12">
+				<a href="" class="expand"><p>{{ service.Type_ }}</p></a>
+				<div class="row"><textarea ng-model="service" json-text class="agent-details"></textarea></div>
+				<div class="row">
+					<div class="col-md-2">
+						<div class="btn" ng-click="removeConfigObj()">Cancel</div>
+					</div>
+					<div class="col-md-2">
+						<div class="btn btn-primary" ng-click="updateConfigObj(service);">Save</div>
+					</div>
+					<div class="col-md-2 col-md-offset-6">
+						<div class="btn btn-success">Verify</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

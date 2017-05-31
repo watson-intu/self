@@ -1,0 +1,616 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [{
+		"key": "l_hand_close",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "l_hand_close",
+			"m_GestureId": "l_hand_close",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "l_hand_close",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "l_hand_descend",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "l_hand_descend",
+			"m_GestureId": "l_hand_descend",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "l_hand_descend",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "l_hand_extend",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "l_hand_extend",
+			"m_GestureId": "l_hand_extend",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "l_hand_extend",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "l_hand_open",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "l_hand_open",
+			"m_GestureId": "l_hand_open",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "l_hand_open",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "l_hand_raise",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "l_hand_raise",
+			"m_GestureId": "l_hand_raise",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "l_hand_raise",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "r_hand_close",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "r_hand_close",
+			"m_GestureId": "r_hand_close",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "r_hand_close",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "r_hand_descend",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "r_hand_descend",
+			"m_GestureId": "r_hand_descend",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "r_hand_descend",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "r_hand_extend",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "r_hand_extend",
+			"m_GestureId": "r_hand_extend",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "r_hand_extend",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "r_hand_open",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "r_hand_open",
+			"m_GestureId": "r_hand_open",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "r_hand_open",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "r_hand_raise",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "r_hand_raise",
+			"m_GestureId": "r_hand_raise",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "r_hand_raise",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "look_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_left"
+		}
+	},
+	{
+		"key": "look_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_right"
+		}
+	},
+	{
+		"key": "look_all_the_way_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_all_the_way_left"
+		}
+	},
+	{
+		"key": "look_all_the_way_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_all_the_way_right"
+		}
+	},
+	{
+		"key": "look_straight",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_straight"
+		}
+	},
+	{
+		"key": "look_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_up"
+		}
+	},
+	{
+		"key": "look_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_down"
+		}
+	},
+	{
+		"key": "look_all_the_way_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_all_the_way_down"
+		}
+	},
+	{
+		"key": "look_all_the_way_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_all_the_way_up"
+		}
+	},
+	{
+		"key": "look_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "look_forward"
+		}
+	},
+	{
+		"key": "lean_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_right"
+		}
+	},
+	{
+		"key": "lean_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_right"
+		}
+	},
+	{
+		"key": "lean_all_the_way_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_all_the_way_right"
+		}
+	},
+	{
+		"key": "lean_all_the_way_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_all_the_way_left"
+		}
+	},
+	{
+		"key": "lean_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_forward"
+		}
+	},
+	{
+		"key": "lean_backward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_backward"
+		}
+	},
+	{
+		"key": "lean_all_the_way_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_all_the_way_forward"
+		}
+	},
+	{
+		"key": "lean_all_the_way_backward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "lean_all_the_way_backward"
+		}
+	},
+	{
+		"key": "straighten_up_hips_roll",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "straighten_up_hips_roll"
+		}
+	},
+	{
+		"key": "straighten_up_hips_pitch",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "straighten_up_hips_pitch"
+		}
+	},
+	{
+		"key": "bend_knees_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_knees_forward"
+		}
+	},
+	{
+		"key": "bend_knees_backward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_knees_backward"
+		}
+	},
+	{
+		"key": "bend_knees_all_the_way_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_knees_all_the_way_forward"
+		}
+	},
+	{
+		"key": "bend_knees_all_the_was_backward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_knees_all_the_was_backward"
+		}
+	},
+	{
+		"key": "straighten_up_knees",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "straighten_up_knees"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_up"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_up_wave",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_up_wave"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_down"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_all_the_way_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_all_the_way_up"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_all_the_way_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_all_the_way_down"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_out"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_out_wave",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_out_wave"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_in"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_left_shoulder_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_shoulder_all_the_way_in"
+		}
+	},
+	{
+		"key": "rotate_left_forarm_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_forarm_out"
+		}
+	},
+	{
+		"key": "rotate_left_forarm_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_forarm_in"
+		}
+	},
+	{
+		"key": "rotate_left_forarm_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_forarm_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_left_forarm_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_forarm_all_the_way_in"
+		}
+	},
+	{
+		"key": "bend_left_elbow_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_left_elbow_out"
+		}
+	},
+	{
+		"key": "bend_left_elbow_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_left_elbow_in"
+		}
+	},
+	{
+		"key": "bend_left_elbow_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_left_elbow_all_the_way_out"
+		}
+	},
+	{
+		"key": "bend_left_elbow_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_left_elbow_all_the_way_in"
+		}
+	},
+	{
+		"key": "rotate_left_wrist_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_wrist_out"
+		}
+	},
+	{
+		"key": "rotate_left_wrist_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_wrist_in"
+		}
+	},
+	{
+		"key": "rotate_left_wrist_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_wrist_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_left_wrist_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_left_wrist_all_the_way_in"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_up"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_up_wave",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_up_wave"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_down"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_all_the_way_up",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_all_the_way_up"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_all_the_way_down",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_all_the_way_down"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_out"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_out_wave",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_out"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_in"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_right_shoulder_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_shoulder_all_the_way_in"
+		}
+	},
+	{
+		"key": "rotate_right_forarm_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_forarm_out"
+		}
+	},
+	{
+		"key": "rotate_right_forarm_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_forarm_in"
+		}
+	},
+	{
+		"key": "rotate_right_forarm_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_forarm_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_right_forarm_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_forarm_all_the_way_in"
+		}
+	},
+	{
+		"key": "bend_right_elbow_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_right_elbow_out"
+		}
+	},
+	{
+		"key": "bend_right_elbow_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_right_elbow_in"
+		}
+	},
+	{
+		"key": "bend_right_elbow_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_right_elbow_all_the_way_out"
+		}
+	},
+	{
+		"key": "bend_right_elbow_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "bend_right_elbow_all_the_way_in"
+		}
+	},
+	{
+		"key": "rotate_right_wrist_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_wrist_out"
+		}
+	},
+	{
+		"key": "rotate_right_wrist_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_wrist_in"
+		}
+	},
+	{
+		"key": "rotate_right_wrist_all_the_way_out",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_wrist_all_the_way_out"
+		}
+	},
+	{
+		"key": "rotate_right_wrist_all_the_way_in",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GestureId": "rotate_right_wrist_all_the_way_in"
+		}
+	}]
+}

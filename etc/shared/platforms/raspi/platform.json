@@ -1,0 +1,31 @@
+{
+   "m_Agents" : [
+      {
+         "Type_" : "UpdateAgent",
+         "m_FoundUpdateResponse" : "There's an updated version of Self available! Would you like to download and install it?",
+         "m_InstallationCompleteResponse" : "Self update has been successfully downloaded. Restarting and installing now.",
+         "m_LastVersionConfirmed" : "",
+         "m_SelfPackageName" : "Self-raspi.zip",
+         "m_bAllowRecommendedDownload" : false,
+         "m_fUpdateCheckDelay" : 1200
+      }
+   ],
+   "m_GestureFiles" : [
+         "shared/platforms/raspi/gestures/raspi-anims.json",
+         "shared/platforms/raspi/gestures/raspi-joints.json"
+   ],
+   "m_Interfaces" : [ "*" ],
+   "m_Libs" : [ "platform_raspi", "opencv_plugin" ],
+   "m_RobotType" : "PI",
+   "m_Sensors" : [
+      {
+         "Type_" : "HealthSensor",
+         "m_HealthSensorCheckInterval" : 60,
+         "m_fLowBatteryThreshold" : 10
+      }
+   ],
+  "m_SkillFiles" : [
+    "shared/platforms/raspi/skills/raspi-anims.json",
+    "shared/platforms/raspi/skills/raspi-joints.json"
+  ]
+}

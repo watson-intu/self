@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22FD607F-5015-49EA-9010-1AD4BA706E7F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>self</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>self</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0501;WIN32_LEAN_AND_MEAN;BOOST_ASIO_DISABLE_STD_CHRONO;BOOST_FILESYSTEM_VERSION=3;_DEBUG;_WINDOWS;_USRDLL;SELF_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\src\;..\..\lib\cpp-sdk\src\;..\..\lib\cpp-sdk\lib\;..\..\lib\cpp-sdk\lib\boost_1_60_0;..\..\lib\cpp-sdk\lib\openssl-1.0.1q-vs2015\include;..\..\lib\;..\..\lib\wdc-cpp-sdk\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib/cpp-sdk/lib/boost_1_60_0/stage/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>IPHLPAPI.lib;Psapi.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0501;WIN32_LEAN_AND_MEAN;BOOST_ASIO_DISABLE_STD_CHRONO;BOOST_FILESYSTEM_VERSION=3;NDEBUG;_WINDOWS;_USRDLL;SELF_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\src\;..\..\lib\cpp-sdk\src\;..\..\lib\cpp-sdk\lib\;..\..\lib\cpp-sdk\lib\boost_1_60_0;..\..\lib\cpp-sdk\lib\openssl-1.0.1q-vs2015\include;..\..\lib\;..\..\lib\wdc-cpp-sdk\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../lib/cpp-sdk/lib/boost_1_60_0/stage/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>IPHLPAPI.lib;Psapi.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\agent\AgentSociety.h" />
+    <ClInclude Include="..\..\src\agent\AsimovAgent.h" />
+    <ClInclude Include="..\..\src\agent\AttentionAgent.h" />
+    <ClInclude Include="..\..\src\agent\DiscoveryAgent.h" />
+    <ClInclude Include="..\..\src\agent\ModelAgent.h" />
+    <ClInclude Include="..\..\src\agent\MathAgent.h" />
+    <ClInclude Include="..\..\src\agent\OthersAgent.h" />
+    <ClInclude Include="..\..\src\agent\MusicAgent.h" />
+    <ClInclude Include="..\..\src\agent\NewsAgent.h" />
+    <ClInclude Include="..\..\src\agent\PluginAgent.h" />
+    <ClInclude Include="..\..\src\agent\ProxyAgent.h" />
+    <ClInclude Include="..\..\src\agent\SelfAgent.h" />
+    <ClInclude Include="..\..\src\agent\SpeakingAgent.h" />
+    <ClInclude Include="..\..\src\agent\DisplayAgent.h" />
+    <ClInclude Include="..\..\src\agent\EmotionAgent.h" />
+    <ClInclude Include="..\..\src\agent\NameAgent.h" />
+    <ClInclude Include="..\..\src\agent\TelephonyAgent.h" />
+    <ClInclude Include="..\..\src\agent\TimeAgent.h" />
+    <ClInclude Include="..\..\src\agent\UpdateAgent.h" />
+    <ClInclude Include="..\..\src\agent\VisualTeachingAgent.h" />
+    <ClInclude Include="..\..\src\agent\WeatherAgent.h" />
+    <ClInclude Include="..\..\src\agent\FeedbackAgent.h" />
+    <ClInclude Include="..\..\src\agent\GestureAgent.h" />
+    <ClInclude Include="..\..\src\agent\GoalAgent.h" />
+    <ClInclude Include="..\..\src\agent\GreeterAgent.h" />
+    <ClInclude Include="..\..\src\agent\HealthAgent.h" />
+    <ClInclude Include="..\..\src\agent\IAgent.h" />
+    <ClInclude Include="..\..\src\agent\SkillTeachingAgent.h" />
+    <ClInclude Include="..\..\src\agent\PrivacyAgent.h" />
+    <ClInclude Include="..\..\src\agent\QuestionAgent.h" />
+    <ClInclude Include="..\..\src\agent\RandomInteractionAgent.h" />
+    <ClInclude Include="..\..\src\agent\ReminderAgent.h" />
+    <ClInclude Include="..\..\src\agent\RequestAgent.h" />
+    <ClInclude Include="..\..\src\agent\SleepAgent.h" />
+    <ClInclude Include="..\..\src\agent\ThinkingAgent.h" />
+    <ClInclude Include="..\..\src\agent\URLAgent.h" />
+    <ClInclude Include="..\..\src\agent\WebRequestAgent.h" />
+    <ClInclude Include="..\..\src\agent\WorldAgent.h" />
+    <ClInclude Include="..\..\src\blackboard\Attention.h" />
+    <ClInclude Include="..\..\src\blackboard\BlackBoard.h" />
+    <ClInclude Include="..\..\src\blackboard\Calculate.h" />
+    <ClInclude Include="..\..\src\blackboard\Confirm.h" />
+    <ClInclude Include="..\..\src\blackboard\DepthImage.h" />
+    <ClInclude Include="..\..\src\blackboard\Display.h" />
+    <ClInclude Include="..\..\src\blackboard\Environment.h" />
+    <ClInclude Include="..\..\src\blackboard\Failure.h" />
+    <ClInclude Include="..\..\src\blackboard\Gesture.h" />
+    <ClInclude Include="..\..\src\blackboard\Health.h" />
+    <ClInclude Include="..\..\src\blackboard\NameIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\NewsIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Proximity.h" />
+    <ClInclude Include="..\..\src\blackboard\Proxy.h" />
+    <ClInclude Include="..\..\src\blackboard\ProxyIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Say.h" />
+    <ClInclude Include="..\..\src\blackboard\Entity.h" />
+    <ClInclude Include="..\..\src\blackboard\Goal.h" />
+    <ClInclude Include="..\..\src\blackboard\HangOnIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\IIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Image.h" />
+    <ClInclude Include="..\..\src\blackboard\IThing.h" />
+    <ClInclude Include="..\..\src\blackboard\LearningIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Object.h" />
+    <ClInclude Include="..\..\src\blackboard\Obstacle.h" />
+    <ClInclude Include="..\..\src\blackboard\Person.h" />
+    <ClInclude Include="..\..\src\blackboard\QuestionIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\RequestIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\TelephonyIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Text.h" />
+    <ClInclude Include="..\..\src\blackboard\Status.h" />
+    <ClInclude Include="..\..\src\blackboard\ThingEvent.h" />
+    <ClInclude Include="..\..\src\blackboard\TimeIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\Touch.h" />
+    <ClInclude Include="..\..\src\blackboard\URL.h" />
+    <ClInclude Include="..\..\src\blackboard\UsedSkill.h" />
+    <ClInclude Include="..\..\src\blackboard\WeatherIntent.h" />
+    <ClInclude Include="..\..\src\blackboard\WebRequest.h" />
+    <ClInclude Include="..\..\src\classifiers\ClassifierManager.h" />
+    <ClInclude Include="..\..\src\classifiers\EnvironmentClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\FaceClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\filters\DuplicateFilter.h" />
+    <ClInclude Include="..\..\src\classifiers\filters\IntentFilter.h" />
+    <ClInclude Include="..\..\src\classifiers\filters\NonsenseFilter.h" />
+    <ClInclude Include="..\..\src\classifiers\ImageClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\IClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\ObjectClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\PersonClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\ProxyClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\TextClassifier.h" />
+    <ClInclude Include="..\..\src\classifiers\TouchClassifier.h" />
+    <ClInclude Include="..\..\src\extractors\BeatExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\FeatureManager.h" />
+    <ClInclude Include="..\..\src\extractors\filters\FourierFilters.h" />
+    <ClInclude Include="..\..\src\extractors\filters\NoiseFilter.h" />
+    <ClInclude Include="..\..\src\extractors\GestureExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\IExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\ImageExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\DepthExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\ProximityExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\ProxyExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\RemoteDeviceExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\TextExtractor.h" />
+    <ClInclude Include="..\..\src\extractors\TouchExtractor.h" />
+    <ClInclude Include="..\..\src\gestures\AnimateGesture.h" />
+    <ClInclude Include="..\..\src\gestures\DisplayGesture.h" />
+    <ClInclude Include="..\..\src\gestures\EmailGesture.h" />
+    <ClInclude Include="..\..\src\gestures\GestureManager.h" />
+    <ClInclude Include="..\..\src\gestures\GraspGesture.h" />
+    <ClInclude Include="..\..\src\gestures\IGesture.h" />
+    <ClInclude Include="..\..\src\gestures\MoveGesture.h" />
+    <ClInclude Include="..\..\src\gestures\MoveJointGesture.h" />
+    <ClInclude Include="..\..\src\gestures\PostureGesture.h" />
+    <ClInclude Include="..\..\src\gestures\ProxyGesture.h" />
+    <ClInclude Include="..\..\src\gestures\QARestGesture.h" />
+    <ClInclude Include="..\..\src\gestures\RestGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SelfUpdateGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SMSGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SocketGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SoundGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SpeechGesture.h" />
+    <ClInclude Include="..\..\src\gestures\StatusGesture.h" />
+    <ClInclude Include="..\..\src\gestures\SystemGesture.h" />
+    <ClInclude Include="..\..\src\gestures\TelephonySpeechGesture.h" />
+    <ClInclude Include="..\..\src\gestures\VolumeGesture.h" />
+    <ClInclude Include="..\..\src\gestures\WaitGesture.h" />
+    <ClInclude Include="..\..\src\gestures\AvatarGesture.h" />
+    <ClInclude Include="..\..\src\gestures\WebSocketGesture.h" />
+    <ClInclude Include="..\..\src\models\IEdge.h" />
+    <ClInclude Include="..\..\src\models\IGraph.h" />
+    <ClInclude Include="..\..\src\models\IGraphImpl.h" />
+    <ClInclude Include="..\..\src\models\ITraverser.h" />
+    <ClInclude Include="..\..\src\models\IVertex.h" />
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfEdge.h" />
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfGraph.h" />
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfTraverser.h" />
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfVertex.h" />
+    <ClInclude Include="..\..\src\planning\actions\CreateAction.h" />
+    <ClInclude Include="..\..\src\planning\actions\UseSkillAction.h" />
+    <ClInclude Include="..\..\src\planning\conditions\GoalNameCondition.h" />
+    <ClInclude Include="..\..\src\planning\conditions\GoalParamsConditon.h" />
+    <ClInclude Include="..\..\src\planning\conditions\GoalStateCondition.h" />
+    <ClInclude Include="..\..\src\planning\conditions\GoalTypeCondition.h" />
+    <ClInclude Include="..\..\src\planning\conditions\ConditionList.h" />
+    <ClInclude Include="..\..\src\planning\IAction.h" />
+    <ClInclude Include="..\..\src\planning\ICondition.h" />
+    <ClInclude Include="..\..\src\planning\Plan.h" />
+    <ClInclude Include="..\..\src\planning\PlanInstance.h" />
+    <ClInclude Include="..\..\src\planning\PlanManager.h" />
+    <ClInclude Include="..\..\src\SelfInstance.h" />
+    <ClInclude Include="..\..\src\SelfLib.h" />
+    <ClInclude Include="..\..\src\sensors\AudioData.h" />
+    <ClInclude Include="..\..\src\sensors\Camera.h" />
+    <ClInclude Include="..\..\src\sensors\DepthCamera.h" />
+    <ClInclude Include="..\..\src\sensors\DepthVideoData.h" />
+    <ClInclude Include="..\..\src\sensors\DiskAudioSensor.h" />
+    <ClInclude Include="..\..\src\sensors\GazeData.h" />
+    <ClInclude Include="..\..\src\sensors\GestureData.h" />
+    <ClInclude Include="..\..\src\sensors\GestureSensor.h" />
+    <ClInclude Include="..\..\src\sensors\HealthData.h" />
+    <ClInclude Include="..\..\src\sensors\HealthSensor.h" />
+    <ClInclude Include="..\..\src\sensors\IData.h" />
+    <ClInclude Include="..\..\src\sensors\ISensor.h" />
+    <ClInclude Include="..\..\src\sensors\Keyboard.h" />
+    <ClInclude Include="..\..\src\sensors\Laser.h" />
+    <ClInclude Include="..\..\src\sensors\LaserData.h" />
+    <ClInclude Include="..\..\src\sensors\LocalSpeechToText.h" />
+    <ClInclude Include="..\..\src\sensors\Microphone.h" />
+    <ClInclude Include="..\..\src\sensors\MoodData.h" />
+    <ClInclude Include="..\..\src\sensors\Network.h" />
+    <ClInclude Include="..\..\src\sensors\ProxySensor.h" />
+    <ClInclude Include="..\..\src\sensors\RemoteDevice.h" />
+    <ClInclude Include="..\..\src\sensors\RemoteDeviceData.h" />
+    <ClInclude Include="..\..\src\sensors\SensorManager.h" />
+    <ClInclude Include="..\..\src\sensors\Sonar.h" />
+    <ClInclude Include="..\..\src\sensors\SonarData.h" />
+    <ClInclude Include="..\..\src\sensors\System.h" />
+    <ClInclude Include="..\..\src\sensors\TelephonyMicrophone.h" />
+    <ClInclude Include="..\..\src\sensors\TextData.h" />
+    <ClInclude Include="..\..\src\sensors\TouchData.h" />
+    <ClInclude Include="..\..\src\sensors\TouchSensor.h" />
+    <ClInclude Include="..\..\src\sensors\VideoData.h" />
+    <ClInclude Include="..\..\src\services\ILanguageParser.h" />
+    <ClInclude Include="..\..\src\services\IAuthenticate.h" />
+    <ClInclude Include="..\..\src\services\IAvatar.h" />
+    <ClInclude Include="..\..\src\services\IFaceRecognition.h" />
+    <ClInclude Include="..\..\src\services\IGateway.h" />
+    <ClInclude Include="..\..\src\services\ILanguageTranslation.h" />
+    <ClInclude Include="..\..\src\services\ILocation.h" />
+    <ClInclude Include="..\..\src\services\IMail.h" />
+    <ClInclude Include="..\..\src\services\INews.h" />
+    <ClInclude Include="..\..\src\services\IBrowser.h" />
+    <ClInclude Include="..\..\src\services\IObjectRecognition.h" />
+    <ClInclude Include="..\..\src\services\IPackageStore.h" />
+    <ClInclude Include="..\..\src\services\ISpeechToText.h" />
+    <ClInclude Include="..\..\src\services\ITelephony.h" />
+    <ClInclude Include="..\..\src\services\ITextToSpeech.h" />
+    <ClInclude Include="..\..\src\services\IToneAnalyzer.h" />
+    <ClInclude Include="..\..\src\services\IVisualRecognition.h" />
+    <ClInclude Include="..\..\src\services\IWeather.h" />
+    <ClInclude Include="..\..\src\skills\GestureSkill.h" />
+    <ClInclude Include="..\..\src\skills\ISkill.h" />
+    <ClInclude Include="..\..\src\skills\LinearSkill.h" />
+    <ClInclude Include="..\..\src\skills\ParallelSkill.h" />
+    <ClInclude Include="..\..\src\skills\SkillInstance.h" />
+    <ClInclude Include="..\..\src\skills\SkillManager.h" />
+    <ClInclude Include="..\..\src\topics\ITopics.h" />
+    <ClInclude Include="..\..\src\topics\TopicManager.h" />
+    <ClInclude Include="..\..\src\utils\DataStoreSQLL.h" />
+    <ClInclude Include="..\..\src\utils\fft\EBeatDetect.h" />
+    <ClInclude Include="..\..\src\utils\fft\F2BeatDetect.h" />
+    <ClInclude Include="..\..\src\utils\fft\FBeatDetect.h" />
+    <ClInclude Include="..\..\src\utils\fft\DFT.h" />
+    <ClInclude Include="..\..\src\utils\fft\FFT.h" />
+    <ClInclude Include="..\..\src\utils\fft\IBeatDetect.h" />
+    <ClInclude Include="..\..\src\utils\fft\IFourierTransform.h" />
+    <ClInclude Include="..\..\src\utils\fft\GaussWindow.h" />
+    <ClInclude Include="..\..\src\utils\fft\HammingWindow.h" />
+    <ClInclude Include="..\..\src\utils\fft\HannWindow.h" />
+    <ClInclude Include="..\..\src\utils\fft\IWindowFunction.h" />
+    <ClInclude Include="..\..\src\utils\fft\RectangularWindow.h" />
+    <ClInclude Include="..\..\src\utils\IDataStore.h" />
+    <ClInclude Include="..\..\src\utils\ParamsMap.h" />
+    <ClInclude Include="..\..\src\utils\SelfException.h" />
+    <ClInclude Include="..\..\src\utils\Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\agent\AgentSociety.cpp" />
+    <ClCompile Include="..\..\src\agent\AsimovAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\AttentionAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\DiscoveryAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\ModelAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\IAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\MathAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\OthersAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\MusicAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\NewsAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\PluginAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\ProxyAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\SelfAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\SpeakingAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\DisplayAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\EmotionAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\NameAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\TelephonyAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\TimeAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\UpdateAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\VisualTeachingAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\WeatherAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\FeedbackAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\GestureAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\GoalAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\GreeterAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\HealthAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\SkillTeachingAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\PrivacyAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\QuestionAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\RandomInteractionAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\ReminderAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\RequestAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\SleepAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\ThinkingAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\URLAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\WebRequestAgent.cpp" />
+    <ClCompile Include="..\..\src\agent\WorldAgent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Attention.cpp" />
+    <ClCompile Include="..\..\src\blackboard\BlackBoard.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Calculate.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Confirm.cpp" />
+    <ClCompile Include="..\..\src\blackboard\DepthImage.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Display.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Environment.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Failure.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Gesture.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Health.cpp" />
+    <ClCompile Include="..\..\src\blackboard\IIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\NameIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\NewsIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Proximity.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Proxy.cpp" />
+    <ClCompile Include="..\..\src\blackboard\ProxyIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Say.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Entity.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Goal.cpp" />
+    <ClCompile Include="..\..\src\blackboard\HangOnIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Image.cpp" />
+    <ClCompile Include="..\..\src\blackboard\IThing.cpp" />
+    <ClCompile Include="..\..\src\blackboard\LearningIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Object.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Person.cpp" />
+    <ClCompile Include="..\..\src\blackboard\QuestionIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\RequestIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Status.cpp" />
+    <ClCompile Include="..\..\src\blackboard\TelephonyIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Text.cpp" />
+    <ClCompile Include="..\..\src\blackboard\TimeIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\Touch.cpp" />
+    <ClCompile Include="..\..\src\blackboard\URL.cpp" />
+    <ClCompile Include="..\..\src\blackboard\UsedSkill.cpp" />
+    <ClCompile Include="..\..\src\blackboard\WeatherIntent.cpp" />
+    <ClCompile Include="..\..\src\blackboard\WebRequest.cpp" />
+    <ClCompile Include="..\..\src\classifiers\ClassifierManager.cpp" />
+    <ClCompile Include="..\..\src\classifiers\EnvironmentClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\FaceClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\filters\DuplicateFilter.cpp" />
+    <ClCompile Include="..\..\src\classifiers\filters\IntentFilter.cpp" />
+    <ClCompile Include="..\..\src\classifiers\filters\NonsenseFilter.cpp" />
+    <ClCompile Include="..\..\src\classifiers\IClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\ImageClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\ObjectClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\PersonClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\ProxyClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\TextClassifier.cpp" />
+    <ClCompile Include="..\..\src\classifiers\TouchClassifier.cpp" />
+    <ClCompile Include="..\..\src\extractors\BeatExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\FeatureManager.cpp" />
+    <ClCompile Include="..\..\src\extractors\filters\FourierFilters.cpp" />
+    <ClCompile Include="..\..\src\extractors\filters\NoiseFilter.cpp" />
+    <ClCompile Include="..\..\src\extractors\GestureExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\IExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\ImageExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\DepthExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\ProximityExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\ProxyExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\RemoteDeviceExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\TextExtractor.cpp" />
+    <ClCompile Include="..\..\src\extractors\TouchExtractor.cpp" />
+    <ClCompile Include="..\..\src\gestures\AnimateGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\DisplayGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\EmailGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\GestureManager.cpp" />
+    <ClCompile Include="..\..\src\gestures\GraspGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\IGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\MoveGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\MoveJointGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\PostureGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\ProxyGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\QARestGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\RestGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SelfUpdateGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SMSGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SocketGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SoundGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SpeechGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\StatusGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\SystemGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\TelephonySpeechGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\VolumeGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\WaitGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\AvatarGesture.cpp" />
+    <ClCompile Include="..\..\src\gestures\WebSocketGesture.cpp" />
+    <ClCompile Include="..\..\src\models\IEdge.cpp" />
+    <ClCompile Include="..\..\src\models\IGraph.cpp" />
+    <ClCompile Include="..\..\src\models\ITraverser.cpp" />
+    <ClCompile Include="..\..\src\models\IVertex.cpp" />
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfEdge.cpp" />
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfGraph.cpp" />
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfTraverser.cpp" />
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfVertex.cpp" />
+    <ClCompile Include="..\..\src\planning\actions\CreateAction.cpp" />
+    <ClCompile Include="..\..\src\planning\actions\UseSkillAction.cpp" />
+    <ClCompile Include="..\..\src\planning\conditions\GoalNameCondition.cpp" />
+    <ClCompile Include="..\..\src\planning\conditions\GoalParamsCondition.cpp" />
+    <ClCompile Include="..\..\src\planning\conditions\GoalStateCondition.cpp" />
+    <ClCompile Include="..\..\src\planning\conditions\ConditionList.cpp" />
+    <ClCompile Include="..\..\src\planning\conditions\GoalTypeCondition.cpp" />
+    <ClCompile Include="..\..\src\planning\IAction.cpp" />
+    <ClCompile Include="..\..\src\planning\ICondition.cpp" />
+    <ClCompile Include="..\..\src\planning\Plan.cpp" />
+    <ClCompile Include="..\..\src\planning\PlanInstance.cpp" />
+    <ClCompile Include="..\..\src\planning\PlanManager.cpp" />
+    <ClCompile Include="..\..\src\SelfInstance.cpp" />
+    <ClCompile Include="..\..\src\SelfMain.cpp" />
+    <ClCompile Include="..\..\src\sensors\Camera.cpp" />
+    <ClCompile Include="..\..\src\sensors\DepthCamera.cpp" />
+    <ClCompile Include="..\..\src\sensors\DiskAudioSensor.cpp" />
+    <ClCompile Include="..\..\src\sensors\GestureSensor.cpp" />
+    <ClCompile Include="..\..\src\sensors\HealthSensor.cpp" />
+    <ClCompile Include="..\..\src\sensors\ISensor.cpp" />
+    <ClCompile Include="..\..\src\sensors\Laser.cpp" />
+    <ClCompile Include="..\..\src\sensors\LocalSpeechToText.cpp" />
+    <ClCompile Include="..\..\src\sensors\Microphone.cpp" />
+    <ClCompile Include="..\..\src\sensors\Network.cpp" />
+    <ClCompile Include="..\..\src\sensors\ProxySensor.cpp" />
+    <ClCompile Include="..\..\src\sensors\RemoteDevice.cpp" />
+    <ClCompile Include="..\..\src\sensors\SensorManager.cpp" />
+    <ClCompile Include="..\..\src\sensors\Sonar.cpp" />
+    <ClCompile Include="..\..\src\sensors\System.cpp" />
+    <ClCompile Include="..\..\src\sensors\TelephonyMicrophone.cpp" />
+    <ClCompile Include="..\..\src\sensors\TouchSensor.cpp" />
+    <ClCompile Include="..\..\src\services\IBrowser.cpp" />
+    <ClCompile Include="..\..\src\services\ILanguageParser.cpp" />
+    <ClCompile Include="..\..\src\services\IPackageStore.cpp" />
+    <ClCompile Include="..\..\src\services\IWeather.cpp" />
+    <ClCompile Include="..\..\src\services\Services.cpp" />
+    <ClCompile Include="..\..\src\skills\GestureSkill.cpp" />
+    <ClCompile Include="..\..\src\skills\ISkill.cpp" />
+    <ClCompile Include="..\..\src\skills\LinearSkill.cpp" />
+    <ClCompile Include="..\..\src\skills\ParallelSkill.cpp" />
+    <ClCompile Include="..\..\src\skills\SkillInstance.cpp" />
+    <ClCompile Include="..\..\src\skills\SkillManager.cpp" />
+    <ClCompile Include="..\..\src\topics\ITopics.cpp" />
+    <ClCompile Include="..\..\src\topics\TopicManager.cpp" />
+    <ClCompile Include="..\..\src\utils\DataStoreSQLL.cpp" />
+    <ClCompile Include="..\..\src\utils\fft\F2BeatDetect.cpp" />
+    <ClCompile Include="..\..\src\utils\fft\FBeatDetect.cpp" />
+    <ClCompile Include="..\..\src\utils\fft\IFourierTransform.cpp" />
+    <ClCompile Include="..\..\src\utils\IDataStore.cpp" />
+    <ClCompile Include="..\..\src\utils\ParamsMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\cpp-sdk\vs2015\jsoncpp\jsoncpp.vcxproj">
+      <Project>{28ba4301-4c55-41d2-b122-01dbde375452}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\cpp-sdk\vs2015\tinyxml\tinyxml.vcxproj">
+      <Project>{7e45de27-419e-469c-affa-f669750d6338}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\cpp-sdk\vs2015\utils\utils.vcxproj">
+      <Project>{9b6c58b8-9a51-4634-ab23-f23f6a458bad}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sqlite\sqlite.vcxproj">
+      <Project>{cfbc2488-715e-4f43-be9c-997db8ce3517}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="self.licenseheader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(SolutionDir)packages\opencv.win.native.redist.310.3.0\build\native\opencv.win.native.redist.targets" Condition="Exists('$(SolutionDir)packages\opencv.win.native.redist.310.3.0\build\native\opencv.win.native.redist.targets')" />
+    <Import Project="$(SolutionDir)packages\opencv.win.native.310.3.0\build\native\opencv.win.native.targets" Condition="Exists('$(SolutionDir)packages\opencv.win.native.310.3.0\build\native\opencv.win.native.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)packages\opencv.win.native.redist.310.3.0\build\native\opencv.win.native.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)packages\opencv.win.native.redist.310.3.0\build\native\opencv.win.native.redist.targets'))" />
+    <Error Condition="!Exists('$(SolutionDir)packages\opencv.win.native.310.3.0\build\native\opencv.win.native.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)packages\opencv.win.native.310.3.0\build\native\opencv.win.native.targets'))" />
+  </Target>
+</Project>

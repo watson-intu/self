@@ -1,0 +1,57 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "posture_sit",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "Sit",
+        "m_fSpeed": 1.0,
+        "m_bDisableFallManager": true
+      }
+    },
+    {
+      "key": "posture_stand",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "Stand",
+        "m_fSpeed": 1.0,
+        "m_bDisableFallManager": false
+      }
+    },
+    {
+      "key": "posture_lay",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "LyingBack",
+        "m_fSpeed": 1.0,
+        "m_bDisableFallManager": true
+      }
+    },
+    {
+      "key": "posture_crouch",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "Crouch",
+        "m_fSpeed": 1.0,
+        "m_bDisableFallManager": false
+      }
+    },
+    {
+      "key" : "posture_rest",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "rest",
+        "m_bStiffnessControl": true
+      }
+    },
+    {
+      "key" : "posture_wake_up",
+      "value": {
+        "Type_": "PostureGesture",
+        "m_PostureId": "wakeUp",
+        "m_bStiffnessControl": true
+      }
+    }
+  ]
+}

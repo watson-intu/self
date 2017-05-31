@@ -1,0 +1,21 @@
+<div>
+	<div class="page-title"><h1 class="text-left">CONFIGURATION | {{ configType }}</h1></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div ng-repeat="configObj in configObjs track by $index">
+					<div class="row expand-row">
+						<div class="col-md-2 expand-section">
+							<button style="float:left;margin-left:20px;" type="button" class="btn btn-lg btn-toggle" ng-class="{ 'active' : !configObj.disabled }" data-toggle="button" aria-pressed="false" autocomplete="off" ng-click="toggleLib(configObj);">
+								<div class="handle"></div>
+							</button>							
+						</div>
+						<div class="col-md-3">
+							<span class="expand"><p>{{ configObj.name }}</p></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

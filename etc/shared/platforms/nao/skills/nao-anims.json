@@ -1,0 +1,575 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [{
+		"key": "show_alienation",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_alienation",
+			"m_GestureId": "show_alienation",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_alienation",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_amusement",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_amusement",
+			"m_GestureId": "show_amusement",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_amusement",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_anger",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_anger",
+			"m_GestureId": "show_anger",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_anger",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "wave_anim",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "wave_anim",
+			"m_GestureId": "wave_anim",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "wave_anim",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_annoyance",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_annoyance",
+			"m_GestureId": "show_annoyance",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_annoyance",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_anxiety",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_anxiety",
+			"m_GestureId": "show_anxiety",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_anxiety",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_boredom",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_boredom",
+			"m_GestureId": "show_boredom",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_boredom",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_caution",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_caution",
+			"m_GestureId": "show_caution",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_caution",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_confidence",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_confidence",
+			"m_GestureId": "show_confidence",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_confidence",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_confusion",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_confusion",
+			"m_GestureId": "show_confusion",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_confusion",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_determination",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_determination",
+			"m_GestureId": "show_determination",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_determination",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_disappointment",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_disappointment",
+			"m_GestureId": "show_disappointment",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_disappointment",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_embarrassment",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_embarrassment",
+			"m_GestureId": "show_embarrassment",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_embarrassment",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_enthusiasm",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_enthusiasm",
+			"m_GestureId": "show_enthusiasm",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_enthusiasm",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_excitement",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_excitement",
+			"m_GestureId": "show_excitement",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_excitement",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_exhaustion",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_exhaustion",
+			"m_GestureId": "show_exhaustion",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_exhaustion",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_fear",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_fear",
+			"m_GestureId": "show_fear",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_fear",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_frustration",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_frustration",
+			"m_GestureId": "show_frustration",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_frustration",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_happiness",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_happiness",
+			"m_GestureId": "show_happiness",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_happiness",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_hesitation",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_hesitation",
+			"m_GestureId": "show_hesitation",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_hesitation",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_humiliation",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_humiliation",
+			"m_GestureId": "show_humiliation",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_humiliation",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_laugh",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_laugh",
+			"m_GestureId": "show_laugh",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_laugh",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_listening",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_listening",
+			"m_GestureId": "show_listening",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_listening",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_need_for_attention",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_need_for_attention",
+			"m_GestureId": "show_need_for_attention",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_need_for_attention",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_pain",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_pain",
+			"m_GestureId": "show_pain",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_pain",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_relief",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_relief",
+			"m_GestureId": "show_laugh",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_relief",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_remember",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_remember",
+			"m_GestureId": "show_remember",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_remember",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_sadness",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_sadness",
+			"m_GestureId": "show_sadness",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_sadness",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_speaking",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_speaking",
+			"m_GestureId": "show_speaking",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_speaking",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_surprise",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_surprise",
+			"m_GestureId": "show_surprise",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_surprise",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_celebration",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_celebration",
+			"m_GestureId": "show_celebration",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_celebration",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_mocking",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_mocking",
+			"m_GestureId": "show_mocking",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_mocking",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_sneeze",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_sneeze",
+			"m_GestureId": "show_sneeze",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_sneeze",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_happy_birthday",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_happy_birthday",
+			"m_GestureId": "show_happy_birthday",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_happy_birthday",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_bow",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_bow",
+			"m_GestureId": "animate_bow",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_bow",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_lift_weights",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_lift_weights",
+			"m_GestureId": "animate_lift_weights",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_lift_weights",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_drink",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_drink",
+			"m_GestureId": "animate_drink",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_drink",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_flex",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_flex",
+			"m_GestureId": "animate_flex",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_flex",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_play_guitar",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_play_guitar",
+			"m_GestureId": "animate_play_guitar",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_play_guitar",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_monster",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_monster",
+			"m_GestureId": "animate_monster",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_monster",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_zombie",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_zombie",
+			"m_GestureId": "animate_zombie",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_zombie",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_mystical",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_mystical",
+			"m_GestureId": "animate_mystical",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_mystical",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "animate_spaceship",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "animate_spaceship",
+			"m_GestureId": "animate_spaceship",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "animate_spaceship",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "show_thinking_loop",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "show_thinking_loop",
+			"m_GestureId": "show_thinking_loop",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "show_thinking_loop",
+			"m_bReplaceParams": false
+		}
+	}]
+}

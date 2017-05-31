@@ -1,0 +1,19 @@
+{
+   "Type_" : "ModelAgent::Model",
+   "m_Relationships" : [
+      {
+         "Type_" : "ModelAgent::Relationship",
+         "m_Graph" : "OTHERS",
+         "m_Query" : {
+            "Type_" : "GraphSelf::FilterTraverser",
+            "m_spCondition" : {
+               "Type_" : "EqualityCondition",
+               "m_EqualOp" : "EQ",
+               "m_Path" : "personId",
+               "m_Value" : "{m_PersonId}"
+            }
+         },
+         "m_Type" : "Person"
+      }
+   ]
+}

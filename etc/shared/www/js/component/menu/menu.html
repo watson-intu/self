@@ -1,0 +1,29 @@
+<div class="bubble" ng-class="{ 'open':  menuToggle, 'active': configToggle }">
+  <a href="#/"><div ng-click="closeMenu();"  class="bubble-btn" ng-class="{ 'active': configToggle }"><span>
+    <img src="img/Icon_Monitor.png" style="width: 35%;">
+  </span></div></a>
+  <div class="bubble-btn" ng-class="{ 'open': configToggle }" >
+    <div class="bubble-config"><a href="#/agents"><span ng-click="closeMenu();">AGENTS</span></a></div>
+    <div class="bubble-config"><a href="#/services"><span ng-click="closeMenu();">SERVICES</span></a></div>
+    <div class="bubble-config"><a href="#/service-creds"><span ng-click="closeMenu();">SERVICES CONFIG</span></a></div>
+    <div class="bubble-config"><a href="#/extractors"><span ng-click="closeMenu();">EXTRACTORS</span></a></div>
+    <div class="bubble-config"><a href="#/libs"><span ng-click="closeMenu();">PLUGINS</span></a></div>
+    <div class="bubble-config"><a href="#/sensors"><span ng-click="closeMenu();">SENSORS</span></a></div>
+    <div class="bubble-config"><a href="#/classifiers"><span ng-click="closeMenu();">CLASIFIERS</span></a></div>
+    <span ng-click="toggleConfig();">
+      <img src="img/Icon_Config.png" style="width: 35%;">
+    </span>
+<!--     <div class="alert">4</div> -->
+  </div>
+  <div class="bubble-btn" ng-class="{ 'active': configToggle }">
+    <span class="config-label">LOGS</span>
+  </div>
+  <div class="bubble-btn" ng-class="{ 'active': configToggle }"><span>
+    <img src="img/Icon_Security.png" style="width: 35%;">
+  </span></div>
+  <div class="menu" ng-click="toggleMenu();" ng-class="{ 'active': configToggle }"></div>
+  <div class="trigger" ng-class="{ 'active': configToggle }" ng-click="toggleMenu();">
+    <i class="fa fa-line-chart"></i>
+    <img src="img/Icon_Menu.png" style="width: 30%;">
+  </div>
+</div>

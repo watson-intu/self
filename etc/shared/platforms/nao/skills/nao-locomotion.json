@@ -1,0 +1,81 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [{
+		"key": "locomotion_backward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_backward",
+			"m_GestureId": "locomotion_backward",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_backward",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "locomotion_forward",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_forward",
+			"m_GestureId": "locomotion_forward",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_forward",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "locomotion_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_left",
+			"m_GestureId": "locomotion_left",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_left",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "locomotion_pan_left",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_pan_left",
+			"m_GestureId": "locomotion_pan_left",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_pan_left",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "locomotion_pan_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_pan_right",
+			"m_GestureId": "locomotion_pan_right",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_pan_right",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "locomotion_right",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "locomotion_right",
+			"m_GestureId": "locomotion_right",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "locomotion_right",
+			"m_bReplaceParams": false
+		}
+	}]
+}

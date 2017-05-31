@@ -1,0 +1,61 @@
+<!doctype html>
+<html ng-app="dashboard">
+	<head>
+		<title>Intu Dashboard</title>
+		<link type="text/css" rel="stylesheet" href="css/lib/boot-material.css" />
+		<link type="text/css" rel="stylesheet" href="css/lib/material-icons.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<script src="js/lib/angular-1.6.4.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-animate.min.js" type="text/javascript"></script>
+		<script src="js/app.js" type="text/javascript"></script>
+		<script src="js/component/audio/AudioDirective.js" type="text/javascript"></script>
+		<script src="js/component/camera/CameraDirective.js" type="text/javascript"></script>
+		<script src="js/component/conversation/ConversationDirective.js" type="text/javascript"></script>
+		<script src="js/component/menu/MenuDirective.js" type="text/javascript"></script>
+		<script src="js/Map.js" type="text/javascript"></script>
+		<script src="js/TopicClient.js" type="text/javascript"></script>
+		<script src="js/Thing.js" type="text/javascript"></script>
+		<script src="js/Blackboard.js" type="text/javascript"></script>
+		<script src="js/Config.js" type="text/javascript"></script>
+		<script src="js/SensorManager.js" type="text/javascript"></script>		
+		<script src="js/KeyboardSensor.js" type="text/javascript"></script>		
+		<script src="js/GestureManager.js" type="text/javascript"></script>
+		<script src="js/SpeechGesture.js" type="text/javascript"></script>
+		<script src="js/AgentSociety.js" type="text/javascript"></script>
+		<!--<script src="js/ExampleAgent.js" type="text/javascript"></script>-->
+		<script src="js/controllers/ConfigController.js" type="text/javascript"></script>
+		<script src="js/controllers/AuthController.js" type="text/javascript"></script>
+		<script src="js/controllers/ConfigSettingController.js" type="text/javascript"></script>
+		<script src="js/controllers/LibController.js" type="text/javascript"></script>
+		<script src="js/controllers/ServicesCredsController.js" type="text/javascript"></script>
+		<script src="js/directives/JsonTextDirective.js" type="text/javascript"></script>
+		<script src="js/filters/filters.js" type="text/javascript"></script>
+		<script src="js/component/camera/CameraController.js" type="text/javascript"></script>
+		<script src="js/component/conversation/ConversationController.js" type="text/javascript"></script>
+		<script src="js/component/audio/AudioController.js" type="text/javascript"></script>
+	</head>
+	<body id="dashboard-body" ng-controller='ConfigCtrl'>
+		<script data-main="../js/Main" type="text/javascript" async="true"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>-->
+		<script type="text/javascript">
+			var topicClient = TopicClient.getInstance();
+			var gestureManager = GestureManager.getInstance();
+			//var config = Config.getInstance();
+			var agentSociety = AgentSociety.getInstance();
+			var sensorManager = SensorManager.getInstance();
+			var keyboard = new KeyboardSensor();
+			agentSociety.start();
+			// agentSociety.addAgent(exampleAgent, false);
+			//config.start();
+			// gestureManager.start();
+			// gestureManager.addGesture(speechGesture, true);	
+			sensorManager.start();	
+			sensorManager.addSensor(keyboard, true);
+			sensorManager.getSensors();
+		</script>
+		<menu-view></menu-view>	
+		<div ng-view></div>
+	</body>
+</html>

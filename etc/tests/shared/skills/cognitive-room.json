@@ -1,0 +1,390 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [
+    {
+      "key": "show_demo_start",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_start",
+        "m_GestureId": "show_demo_start",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_start",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_resume",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_resume",
+        "m_GestureId": "show_demo_resume",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_resume",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_stop",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_stop",
+        "m_GestureId": "show_demo_stop",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_stop",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_restart",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_restart",
+        "m_GestureId": "show_demo_restart",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_restart",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_pause",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_pause",
+        "m_GestureId": "show_demo_pause",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_pause",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_reload",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_reload",
+        "m_GestureId": "show_demo_reload",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_reload",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_watson",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_watson",
+        "m_GestureId": "show_demo_watson",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_watson",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_cloud",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_cloud",
+        "m_GestureId": "show_demo_cloud",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_cloud",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_platforms",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_platforms",
+        "m_GestureId": "show_demo_platforms",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_platforms",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_masters",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_masters",
+        "m_GestureId": "show_demo_masters",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_masters",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_security",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_security",
+        "m_GestureId": "show_demo_security",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_security",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_watson_stt",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_watson_stt",
+        "m_GestureId": "show_demo_watson_stt",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_watson_stt",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_watson_visual",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_watson_visual",
+        "m_GestureId": "show_demo_watson_visual",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_watson_visual",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_platforms_devices",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_platforms_devices",
+        "m_GestureId": "show_demo_platforms_devices",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_platforms_devices",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_platforms_wearables",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_platforms_wearables",
+        "m_GestureId": "show_demo_platforms_wearables",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_platforms_wearables",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_platforms_4k",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_platforms_4k",
+        "m_GestureId": "show_demo_platforms_4k",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_platforms_4k",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_cloud_content",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_cloud_content",
+        "m_GestureId": "show_demo_cloud_content",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_cloud_content",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_cloud_devops",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_cloud_devops",
+        "m_GestureId": "show_demo_cloud_devops",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_cloud_devops",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_cloud_hybrid",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_cloud_hybrid",
+        "m_GestureId": "show_demo_cloud_hybrid",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_cloud_hybrid",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_masters_track",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_masters_track",
+        "m_GestureId": "show_demo_masters_track",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_masters_track",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_masters_leader",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_masters_leader",
+        "m_GestureId": "show_demo_masters_leader",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_masters_leader",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_masters_greens",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_masters_greens",
+        "m_GestureId": "show_demo_masters_greens",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_masters_greens",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "show_demo_masters_cards",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "show_demo_masters_cards",
+        "m_GestureId": "show_demo_masters_cards",
+        "m_GestureParams": null,
+        "m_SkillName": "show_demo_masters_cards",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "person_detected",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "person_detected",
+        "m_GestureId": "person_detected",
+        "m_GestureParams": null,
+        "m_SkillName": "person_detected",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_teetime",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_teetime",
+        "m_GestureId": "qa_teetime",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_teetime",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "send_qa_response",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "send_qa_response",
+        "m_GestureId": "send_qa_response",
+        "m_GestureParams": null,
+        "m_SkillName": "send_qa_response",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_current_leaders",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_current_leaders",
+        "m_GestureId": "qa_current_leaders",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_current_leaders",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_web_metrics",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_web_metrics",
+        "m_GestureId": "qa_web_metrics",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_web_metrics",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_stats_hole",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_stats_hole",
+        "m_GestureId": "qa_stats_hole",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_stats_hole",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_stats_putt",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_stats_putt",
+        "m_GestureId": "qa_stats_putt",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_stats_putt",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_stats_shots",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_stats_shots",
+        "m_GestureId": "qa_stats_shots",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_stats_shots",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_stats_drive",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_stats_drive",
+        "m_GestureId": "qa_stats_drive",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_stats_drive",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_current_hole",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_current_hole",
+        "m_GestureId": "qa_current_hole",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_current_hole",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_hole_difficulty",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_hole_difficulty",
+        "m_GestureId": "qa_hole_difficulty",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_hole_difficulty",
+        "m_bReplaceParams": false
+      }
+    },
+    {
+      "key": "qa_projected_cut",
+      "value": {
+        "Type_": "GestureSkill",
+        "m_GUID": "qa_projected_cut",
+        "m_GestureId": "qa_projected_cut",
+        "m_GestureParams": null,
+        "m_SkillName": "qa_projected_cut",
+        "m_bReplaceParams": false
+      }
+    }
+	]
+}

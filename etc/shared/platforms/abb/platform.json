@@ -1,0 +1,30 @@
+{
+   "m_Agents" : [
+      {
+         "Type_" : "UpdateAgent",
+         "m_FoundUpdateResponse" : "There's an updated version of Self available! Would you like to download and install it?",
+         "m_InstallationCompleteResponse" : "Self update has been successfully downloaded. Restarting and installing now.",
+         "m_LastVersionConfirmed" : "",
+         "m_SelfPackageName" : "Self-w32.zip",
+         "m_bAllowRecommendedDownload" : false,
+         "m_fUpdateCheckDelay" : 1200
+      }
+   ],
+   "m_GestureFiles" : [
+      "shared/platforms/abb/gestures/abb-joints.json"
+   ],
+   "m_Interfaces" : [ "*" ],
+   "m_Libs" : [ "platform_win", "platform_abb" ],
+   "m_RobotType" : "Win",
+   "m_Sensors" : [
+      {
+         "Type_" : "HealthSensor",
+         "m_HealthSensorCheckInterval" : 60,
+         "m_fLowBatteryThreshold" : 10
+      }
+   ],
+   "m_SkillFiles" : [
+      "shared/platforms/abb/skills/abb-joints.json",
+      "shared/platforms/abb/skills/abb-anims.json"
+   ]
+}

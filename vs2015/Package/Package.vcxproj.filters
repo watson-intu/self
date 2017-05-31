@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{15724d3b-f96d-488c-a278-98fa7b3e2f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\tests">
+      <UniqueIdentifier>{745c7ef5-e775-493b-b047-18e096076309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared">
+      <UniqueIdentifier>{0686e01d-cac7-446e-ad30-3398e810c9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\concierge">
+      <UniqueIdentifier>{738af2d1-20fe-4b2e-b76a-49c7c77b4151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\gestures">
+      <UniqueIdentifier>{63d3d6fa-016c-4fd4-bac3-8abbad7b6a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\plans">
+      <UniqueIdentifier>{1087be3d-20a7-4eac-b7ba-73f059e02160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\skills">
+      <UniqueIdentifier>{6dad2a7b-67e6-4cfd-9543-e8eb96c1e919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\platforms">
+      <UniqueIdentifier>{8b1283dd-49f2-4723-8900-4c4955e71cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\shared\platforms\w32">
+      <UniqueIdentifier>{04de866c-cdb0-446b-a627-6ad0d71db0fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\etc\tests\local_dialog.json">
+      <Filter>etc\tests</Filter>
+    </None>
+    <None Include="..\..\etc\tests\pizza_sample.xml">
+      <Filter>etc\tests</Filter>
+    </None>
+    <None Include="..\..\etc\tests\unit_test_config.json">
+      <Filter>etc\tests</Filter>
+    </None>
+    <None Include="vc_redist.x86.exe" />
+    <None Include="..\..\etc\shared\concierge\concierge_nlc.csv">
+      <Filter>etc\shared\concierge</Filter>
+    </None>
+    <None Include="..\..\etc\shared\date_time_zonespec.csv">
+      <Filter>etc\shared</Filter>
+    </None>
+    <None Include="..\..\etc\shared\self_conversation_v1.json">
+      <Filter>etc\shared</Filter>
+    </None>
+    <None Include="..\..\etc\shared\self_nlc_v1.csv">
+      <Filter>etc\shared</Filter>
+    </None>
+    <None Include="..\..\etc\shared\self_nlc_v2.csv">
+      <Filter>etc\shared</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\default.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\nao-anims.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\nao-joints.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\nao-locomotion.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\nao-postures.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\gestures\raspi-anims.json">
+      <Filter>etc\shared\gestures</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\default.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\nao-anims.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\nao-joints.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\nao-locomotion.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\nao-postures.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\skills\raspi-anims.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+    <None Include="..\..\etc\shared\plans\default.json">
+      <Filter>etc\shared\plans</Filter>
+    </None>
+    <None Include="..\..\etc\shared\plans\wayblazer.json">
+      <Filter>etc\shared\plans</Filter>
+    </None>
+    <None Include="..\..\etc\shared\plans\yelp.json">
+      <Filter>etc\shared\plans</Filter>
+    </None>
+    <None Include="..\..\etc\shared\self_requests.json">
+      <Filter>etc\shared</Filter>
+    </None>
+    <None Include="..\..\etc\shared\platforms\w32\platform.json">
+      <Filter>etc\shared\platforms\w32</Filter>
+    </None>
+    <None Include="..\..\config.json" />
+    <None Include="..\..\etc\shared\bootstrap.json">
+      <Filter>etc\shared\skills</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ForceBuild.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\etc\shared\concierge\concierge_dialog.xml">
+      <Filter>etc\shared\concierge</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

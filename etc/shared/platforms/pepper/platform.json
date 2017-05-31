@@ -1,0 +1,249 @@
+{
+   "m_Agents" : [
+      {
+         "Type_" : "UpdateAgent",
+         "m_FoundUpdateResponse" : "There's an updated version of Self available! Would you like to download and install it?",
+         "m_InstallationCompleteResponse" : "Self update has been successfully downloaded. Restarting and installing now.",
+         "m_LastVersionConfirmed" : "",
+         "m_SelfPackageName" : "Self-nao.zip",
+         "m_bAllowRecommendedDownload" : false,
+         "m_fUpdateCheckDelay" : 1200
+      }
+   ],
+   "m_GestureFiles" : [
+      "shared/platforms/pepper/gestures/pepper-anims.json",
+      "shared/platforms/pepper/gestures/pepper-joints.json",
+      "shared/platforms/pepper/gestures/pepper-locomotion.json",
+      "shared/platforms/pepper/gestures/pepper-postures.json"
+   ],
+   "m_Interfaces" : [ "wlan*", "eth*", "usb*", "lo", "*" ],
+   "m_Libs" : [ "platform_nao" ],
+   "m_RobotType" : "Pepper",
+   "m_Sensors" : [
+      {         
+         "Type_" : "Sonar",
+         "m_SonarSensors" : [
+			"Device/SubDeviceList/Platform/Front/Sonar/Sensor/Value"         
+		 ],
+         "m_Interval" : 1.0
+      },
+      {
+         "Type_" : "Laser",
+         "m_LaserSensors" : [
+            "Device/SubDeviceList/Platform/LaserSensor/Front/Shovel/Seg01/X/Sensor/Value",
+            "Device/SubDeviceList/Platform/LaserSensor/Front/Vertical/Right/Seg01/X/Sensor/Value",
+            "Device/SubDeviceList/Platform/LaserSensor/Front/Vertical/Left/Seg01/X/Sensor/Value"
+         ],
+         "m_Interval" : 1.0,
+         "m_DistanceThreshold": 2.0
+      },
+      {
+         "Type_" : "LocalSpeechToText",
+         "m_MinConfidence" : 0.40,
+         "m_VocabularyList" : [
+            "hello",
+            "goodbye",
+            "what is your purpose",
+            "what is your favorite movie",
+            "can you fly",
+            "how are you",
+            "what time is it",
+            "what is your name",
+            "be quiet",
+            "hang on",
+            "hold on",
+            "shut up",
+            "stop talking",
+            "wait",
+            "wait a minute"
+         ]
+      },
+      {
+         "Type_" : "NaoMood"
+      },
+      {
+      	"Type_" : "System",
+        "m_fFreeMemoryThreshold" : 50.0
+      },
+      {
+         "Type_" : "NaoGaze",
+         "m_Tolerance" : 0.8
+      },
+     {
+       "Type_" : "TouchSensor",
+       "m_TouchTranslations" : [
+         {
+           "m_Conditions" : [
+             {
+               "Type_" : "LogicalCondition",
+               "m_Conditions" : [
+                 {
+                   "Type_" : "EqualityCondition",
+                   "m_EqualOp" : "EQ",
+                   "m_Path" : "m_SensorName",
+                   "m_Value" : "Head"
+                 },
+                 {
+                   "Type_" : "EqualityCondition",
+                   "m_EqualOp" : "EQ",
+                   "m_Path" : "m_SensorName",
+                   "m_Value" : "Head/Touch/Front"
+                 },
+                 {
+                   "Type_" : "EqualityCondition",
+                   "m_EqualOp" : "EQ",
+                   "m_Path" : "m_SensorName",
+                   "m_Value" : "Head/Touch/Rear"
+                 }
+               ],
+               "m_LogicOp" : "OR"
+             }
+           ],
+           "m_TouchType" : "tickle"
+         },
+          {
+             "m_Conditions" : [
+                {
+                   "Type_" : "EqualityCondition",
+                   "m_EqualOp" : "EQ",
+                   "m_Path" : "m_SensorName",
+                   "m_Value" : "Bumper/FrontLeft"
+                }
+             ],
+             "m_TouchType" : "volume_up"
+          },
+          {
+             "m_Conditions" : [
+                {
+                   "Type_" : "EqualityCondition",
+                   "m_EqualOp" : "EQ",
+                   "m_Path" : "m_SensorName",
+                   "m_Value" : "Bumper/FrontRight"
+                }
+             ],
+             "m_TouchType" : "volume_down"
+          }
+       ]
+     },
+      {
+         "Type_" : "HealthSensor",
+         "m_ErrorDiagnosis" : [
+            "Diagnosis/Active/HeadYaw/Error",
+            "Diagnosis/Active/HeadPitch/Error",
+            "Diagnosis/Active/LElbowYaw/Error",
+            "Diagnosis/Active/LElbowRoll/Error",
+            "Diagnosis/Active/RElbowYaw/Error",
+            "Diagnosis/Active/RElbowRoll/Error",
+            "Diagnosis/Active/LHand/Error",
+            "Diagnosis/Active/LWristYaw/Error",
+            "Diagnosis/Active/RHand/Error",
+            "Diagnosis/Active/RWristYaw/Error",
+            "Diagnosis/Active/LShoulderPitch/Error",
+            "Diagnosis/Active/LShoulderRoll/Error",
+            "Diagnosis/Active/RShoulderPitch/Error",
+            "Diagnosis/Active/RShoulderRoll/Error",
+            "Diagnosis/Active/HipRoll/Error",
+            "Diagnosis/Active/HipPitch/Error",
+            "Diagnosis/Active/KneePitch/Error",
+            "Diagnosis/Active/WheelFL/Error",
+            "Diagnosis/Active/WheelFR/Error",
+            "Diagnosis/Active/WheelB/Error",
+            "Diagnosis/Active/Bumper/FrontRight/Error",
+            "Diagnosis/Active/Bumper/FrontLeft/Error",
+            "Diagnosis/Active/Bumper/Back/Error",
+            "Diagnosis/Active/GyrometerBase/Error",
+            "Diagnosis/Active/AccelerometerBase/Error",
+            "Diagnosis/Active/Sonar/Front/Error",
+            "Diagnosis/Active/Sonar/Back/Error",
+            "Diagnosis/Active/Brake/HipPitch/Error",
+            "Diagnosis/Active/Brake/KneePitch/Error",
+            "Diagnosis/Active/LaserSensor/Front/Error",
+            "Diagnosis/Active/LaserSensor/Right/Error",
+            "Diagnosis/Active/LaserSensor/Left/Error",
+            "Diagnosis/Active/LaserSensor/Shovel/Error",
+            "Diagnosis/Active/LaserSensor/VerticalLeft/Error",
+            "Diagnosis/Active/LaserSensor/VerticalRight/Error",
+            "Diagnosis/Active/CameraTop/Error",
+            "Diagnosis/Active/CameraBottom/Error",
+            "Diagnosis/Active/CameraDepth/Error",
+            "Diagnosis/Active/Head/Touch/Error",
+            "Diagnosis/Active/LHand/Touch/Error",
+            "Diagnosis/Active/RHand/Touch/Error",
+            "Diagnosis/Active/Chest/Button/Error",
+            "Diagnosis/Active/Face/Led/Error",
+            "Diagnosis/Active/Ears/Led/Error",
+            "Diagnosis/Active/Chestboard/Led/Error",
+            "Diagnosis/Active/Head/Led/Error",
+            "Diagnosis/Active/Battery/Error"
+         ],
+         "m_HealthSensorCheckInterval" : 20,
+         "m_fLowBatteryThreshold" : 15,
+         "m_fLowTempThreshold" : 20,
+         "m_fHighTempThreshold" : 60,
+         "m_fHeadHighTempThreshold" : 80,
+         "m_ImportantJoints" : [ "*Head*Temperature*" ],
+         "m_StablePostures" : [ "Stand", "Crouch" ],
+         "m_bEnableFallRecovery" : true,
+         "m_SensorReadings" : [
+            "Device/SubDeviceList/HeadYaw/Temperature/Sensor/Value",
+            "Device/SubDeviceList/HeadPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LElbowYaw/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LElbowRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RElbowYaw/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RElbowRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LHand/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LWristYaw/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RHand/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RWristYaw/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LShoulderPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LShoulderRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RShoulderPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RShoulderRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RHipRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LHipRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LHipYawPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RHipPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LHipPitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RKneePitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LKneePitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RAnklePitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LAnklePitch/Temperature/Sensor/Value",
+            "Device/SubDeviceList/RAnkleRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/LAnkleRoll/Temperature/Sensor/Value",
+            "Device/SubDeviceList/Head/Temperature/Sensor/Value",
+            "Device/SubDeviceList/Battery/Temperature/Sensor/Value",
+            "Device/SubDeviceList/HeadYaw/Position/Sensor/Value",
+            "Device/SubDeviceList/HeadPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/LElbowYaw/Position/Sensor/Value",
+            "Device/SubDeviceList/LElbowRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/RElbowYaw/Position/Sensor/Value",
+            "Device/SubDeviceList/RElbowRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/LHand/Position/Sensor/Value",
+            "Device/SubDeviceList/LWristYaw/Position/Sensor/Value",
+            "Device/SubDeviceList/RHand/Position/Sensor/Value",
+            "Device/SubDeviceList/RWristYaw/Position/Sensor/Value",
+            "Device/SubDeviceList/LShoulderPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/LShoulderRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/RShoulderPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/RShoulderRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/RHipRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/LHipRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/LHipYawPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/RHipPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/LHipPitch/Position/Sensor/Value",
+            "Device/SubDeviceList/RKneePitch/Position/Sensor/Value",
+            "Device/SubDeviceList/LKneePitch/Position/Sensor/Value",
+            "Device/SubDeviceList/RAnklePitch/Position/Sensor/Value",
+            "Device/SubDeviceList/LAnklePitch/Position/Sensor/Value",
+            "Device/SubDeviceList/RAnkleRoll/Position/Sensor/Value",
+            "Device/SubDeviceList/LAnkleRoll/Position/Sensor/Value"
+         ]
+      }
+   ],
+   "m_SkillFiles" : [
+      "shared/platforms/pepper/skills/pepper-anims.json",
+      "shared/platforms/pepper/skills/pepper-joints.json",
+      "shared/platforms/pepper/skills/pepper-locomotion.json",
+      "shared/platforms/pepper/skills/pepper-postures.json"
+   ]
+}

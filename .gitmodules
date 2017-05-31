@@ -1,0 +1,21 @@
+[submodule "plugins"]
+	path = plugins
+	url = git@github.ibm.com:watson-labs-austin/self-plugins.git
+[submodule "lib/cpp-sdk"]
+	path = lib/cpp-sdk
+	url = git@github.ibm.com:watson-labs-austin/cpp-sdk.git
+[submodule "clients/self-java-sdk"]
+	path = clients/self-java-sdk
+	url = git@github.ibm.com:watson-labs-austin/self-java-sdk.git
+[submodule "clients/self-python-sdk"]
+	path = clients/self-python-sdk
+	url = git@github.ibm.com:watson-labs-austin/self-python-sdk.git
+[submodule "clients/self-javascript-sdk"]
+	path = clients/self-javascript-sdk
+	url = git@github.ibm.com:watson-labs-austin/self-javascript-sdk.git
+[submodule "clients/self-unity-sdk"]
+	path = clients/self-unity-sdk
+	url = git@github.ibm.com:watson-labs-austin/self-unity-sdk.git
+[submodule "docs"]
+	path = docs
+	url = git@github.ibm.com:watson-labs-austin/self-docs.git

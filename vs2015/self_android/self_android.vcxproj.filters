@@ -1,0 +1,2114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="self_android.cpp" />
+    <ClCompile Include="..\..\src\agent\AgentSociety.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\AsimovAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\AttentionAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\IAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\MathAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\NewsAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\ProxyAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\SpeakingAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\DisplayAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\EmotionAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\NameAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\TelephonyAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\TimeAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\UpdateAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\VisualTeachingAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\WeatherAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\FeedbackAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\GestureAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\GoalAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\GreeterAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\HealthAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\SkillTeachingAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\PrivacyAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\QuestionAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\RandomInteractionAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\ReminderAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\RequestAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\SleepAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\ThinkingAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\URLAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\WebRequestAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Attention.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\BlackBoard.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Calculate.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Confirm.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Display.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Environment.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Failure.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Gesture.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Health.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\IIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\NameIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\NewsIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Proximity.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Proxy.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Say.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Entity.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Goal.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\HangOnIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Image.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\IThing.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\LearningIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Object.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Person.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\QuestionIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\RequestIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Status.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\TelephonyIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Text.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\TimeIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\URL.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\UsedSkill.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\WeatherIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\WebRequest.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\ClassifierManager.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\EnvironmentClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\ImageClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\PersonClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\TextClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\filters\DuplicateFilter.cpp">
+      <Filter>classifiers\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\filters\IntentFilter.cpp">
+      <Filter>classifiers\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\filters\NonsenseFilter.cpp">
+      <Filter>classifiers\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\FeatureManager.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\ImageExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\ProximityExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\RemoteDeviceExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\TextExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\filters\FourierFilters.cpp">
+      <Filter>extractors\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\filters\NoiseFilter.cpp">
+      <Filter>extractors\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\AnimateGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\DisplayGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\EmailGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\GestureManager.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\GraspGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\IGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\MoveGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\MoveJointGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\PostureGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\ProxyGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\RestGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SelfUpdateGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SMSGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SoundGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SpeechGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\StatusGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SystemGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\TelephonySpeechGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\VolumeGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\WaitGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\IGraph.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\IAction.cpp">
+      <Filter>planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\ICondition.cpp">
+      <Filter>planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\Plan.cpp">
+      <Filter>planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\PlanInstance.cpp">
+      <Filter>planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\PlanManager.cpp">
+      <Filter>planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\conditions\GoalNameCondition.cpp">
+      <Filter>planning\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\conditions\GoalParamsCondition.cpp">
+      <Filter>planning\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\conditions\GoalStateCondition.cpp">
+      <Filter>planning\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\conditions\ConditionList.cpp">
+      <Filter>planning\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\conditions\GoalTypeCondition.cpp">
+      <Filter>planning\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\actions\CreateAction.cpp">
+      <Filter>planning\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\planning\actions\UseSkillAction.cpp">
+      <Filter>planning\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\Camera.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\DepthCamera.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\DiskAudioSensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\GestureSensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\HealthSensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\ISensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\Laser.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\LocalSpeechToText.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\Microphone.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\Network.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\ProxySensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\RemoteDevice.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\SensorManager.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\Sonar.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\System.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\TelephonyMicrophone.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\GestureSkill.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\ISkill.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\LinearSkill.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\ParallelSkill.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\SkillInstance.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skills\SkillManager.cpp">
+      <Filter>skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\topics\ITopics.cpp">
+      <Filter>topics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\topics\TopicManager.cpp">
+      <Filter>topics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\DataStoreSQLL.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\IDataStore.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\ParamsMap.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SelfInstance.cpp" />
+    <ClCompile Include="..\..\lib\sqlite\sqlite3.c">
+      <Filter>lib\sqllite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SelfMain.cpp" />
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\base64\cdecode.c">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\base64\cencode.c">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\crossguid\crossguid.cpp">
+      <Filter>lib\cpp-sdk\libs\crossguid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\android-ifaddrs\ifaddrs.c">
+      <Filter>lib\cpp-sdk\libs\ifaddrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\jsoncpp\jsoncpp.cpp">
+      <Filter>lib\cpp-sdk\libs\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\tinythread++\tinythread.cpp">
+      <Filter>lib\cpp-sdk\libs\tinythread++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\tinyxml\tinyxml.cpp">
+      <Filter>lib\cpp-sdk\libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\tinyxml\tinyxmlerror.cpp">
+      <Filter>lib\cpp-sdk\libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\tinyxml\tinyxmlparser.cpp">
+      <Filter>lib\cpp-sdk\libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Config.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\DataCache.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Form.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\GetMac.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\IConditional.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\ISerializable.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\JsonHelpers.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Library.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Log.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Logic.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Sound.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\StringUtil.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\ThreadPool.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Time.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\TimerPool.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\UniqueID.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\UnitTest.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\WebClient.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\WebServer.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\WebSocketFramer.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\codecvt_error_category.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\operations.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\path.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\path_traits.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\portability.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\unique_path.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\utf8_codecvt_facet.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\windows_file_codecvt.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\system\src\error_code.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\thread\src\future.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\thread\src\tss_null.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\thread\src\pthread\once.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\thread\src\pthread\once_atomic.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\thread\src\pthread\thread.cpp">
+      <Filter>lib\cpp-sdk\libs\boost\thread\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\URL_.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\minizip\ioapi_buf.c">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\minizip\ioapi_mem.c">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\minizip\unzip.c">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\minizip\zip.c">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\adler32.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\compress.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\crc32.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\deflate.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\gzclose.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\gzlib.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\gzread.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\gzwrite.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\infback.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inffast.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inflate.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inftrees.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\trees.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\uncompr.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\zutil.c">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\lib\minizip\ioapi.c">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\ZipFile.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\FaceClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\JpegHelpers.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\ProxyIntent.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\MusicAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\BeatExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\fft\F2BeatDetect.cpp">
+      <Filter>utils\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\fft\FBeatDetect.cpp">
+      <Filter>utils\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\fft\IFourierTransform.cpp">
+      <Filter>utils\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\DiscoveryAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\WebSocketGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\IEdge.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\ITraverser.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\IVertex.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\OthersAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\SelfAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\WorldAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\agents\RemoteCameraAgent.cpp">
+      <Filter>plugins\remote_plugin\agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\blackboard\CameraIntent.cpp">
+      <Filter>plugins\remote_plugin\blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\gestures\RemoteSpeechGesture.cpp">
+      <Filter>plugins\remote_plugin\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\services\PTZCamera.cpp">
+      <Filter>plugins\remote_plugin\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\sensors\RemoteCamera.cpp">
+      <Filter>plugins\remote_plugin\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\remote\sensors\RemoteMicrophone.cpp">
+      <Filter>plugins\remote_plugin\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\WebClientService.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\SocketGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\MD5.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfEdge.cpp">
+      <Filter>models\SelfGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfGraph.cpp">
+      <Filter>models\SelfGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfTraverser.cpp">
+      <Filter>models\SelfGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\models\SelfGraph\SelfVertex.cpp">
+      <Filter>models\SelfGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\Touch.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\TouchClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\GestureExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\TouchExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sensors\TouchSensor.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\ModelAgent.cpp">
+      <Filter>agents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\IService.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\services\Graph\DataModels.cpp">
+      <Filter>lib\cpp-sdk\services\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\services\Graph\Graph.cpp">
+      <Filter>lib\cpp-sdk\services\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\services\IBrowser.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\services\ILanguageParser.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\services\IPackageStore.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\services\IWeather.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\services\Services.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\opencv\sensors\OpenCVCamera.cpp">
+      <Filter>plugins\opencv_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\iva\services\IVA.cpp">
+      <Filter>plugins\iva_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\rg\services\PackageStore.cpp">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\rg\services\RobotAuthenticate.cpp">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\rg\services\RobotGateway.cpp">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\rg\services\RobotMail.cpp">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\agent\WEXAgent.cpp">
+      <Filter>plugins\watson_plugin\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\blackboard\WEXIntent.cpp">
+      <Filter>plugins\watson_plugin\blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\WatsonAvatar.cpp">
+      <Filter>plugins\watson_plugin\sevices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\WEX.cpp">
+      <Filter>plugins\watson_plugin\sevices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Alchemy\Alchemy.cpp">
+      <Filter>plugins\watson_plugin\sevices\Alchemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Alchemy\AlchemyNews.cpp">
+      <Filter>plugins\watson_plugin\sevices\Alchemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Conversation\Conversation.cpp">
+      <Filter>plugins\watson_plugin\sevices\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Conversation\ConversationProxy.cpp">
+      <Filter>plugins\watson_plugin\sevices\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\DeepQA\DeepQA.cpp">
+      <Filter>plugins\watson_plugin\sevices\DeepQA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\DeepQA\DeepQAProxy.cpp">
+      <Filter>plugins\watson_plugin\sevices\DeepQA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Interact\Interact.cpp">
+      <Filter>plugins\watson_plugin\sevices\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\Interact\InteractProxy.cpp">
+      <Filter>plugins\watson_plugin\sevices\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\LanguageTranslator\LanguageTranslator.cpp">
+      <Filter>plugins\watson_plugin\sevices\LanguageTranslator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\NaturalLanguageClassifier\NaturalLanguageClassifier.cpp">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageClassifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\NaturalLanguageClassifier\NLCProxy.cpp">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageClassifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\NaturalLanguageUnderstanding\NaturalLanguageUnderstanding.cpp">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageUnderstanding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\WeatherCompanyData\WeatherCompanyData.cpp">
+      <Filter>plugins\watson_plugin\sevices\WeatherCompanyData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\WeatherCompanyData\WeatherCompanyLocation.cpp">
+      <Filter>plugins\watson_plugin\sevices\WeatherCompanyData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\VisualRecognition\VisualRecognition.cpp">
+      <Filter>plugins\watson_plugin\sevices\VisualRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\ToneAnalyzer\ToneAnalyzer.cpp">
+      <Filter>plugins\watson_plugin\sevices\ToneAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\TextToSpeech\TextToSpeech.cpp">
+      <Filter>plugins\watson_plugin\sevices\TextToSpeech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\SpeechToText\SpeechToText.cpp">
+      <Filter>plugins\watson_plugin\sevices\SpeechToText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\RetrieveAndRank\RetrieveAndRank.cpp">
+      <Filter>plugins\watson_plugin\sevices\RetreiveAndRank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\RetrieveAndRank\RetrieveAndRankProxy.cpp">
+      <Filter>plugins\watson_plugin\sevices\RetreiveAndRank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\watson\services\PersonalityInsights\PersonalityInsights.cpp">
+      <Filter>plugins\watson_plugin\sevices\PersonalityInsights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\AvatarGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gestures\QARestGesture.cpp">
+      <Filter>gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\IClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\ObjectClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\classifiers\ProxyClassifier.cpp">
+      <Filter>classifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\DepthExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\ProxyExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Factory.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blackboard\DepthImage.cpp">
+      <Filter>blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extractors\IExtractor.cpp">
+      <Filter>extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\cpp-sdk\src\utils\Crypt.cpp">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="self_android.h" />
+    <ClInclude Include="..\..\src\agent\AgentSociety.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\AsimovAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\AttentionAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\MathAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\NewsAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\ProxyAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\SpeakingAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\DisplayAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\EmotionAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\NameAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\TelephonyAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\TimeAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\UpdateAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\VisualTeachingAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\WeatherAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\FeedbackAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\GestureAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\GoalAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\GreeterAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\HealthAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\IAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\SkillTeachingAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\PrivacyAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\QuestionAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\RandomInteractionAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\ReminderAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\RequestAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\SleepAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\ThinkingAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\URLAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\WebRequestAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Attention.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\BlackBoard.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Calculate.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Confirm.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Display.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Environment.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Failure.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Gesture.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Health.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\NameIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\NewsIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Proximity.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Proxy.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Say.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Entity.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Goal.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\HangOnIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\IIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Image.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\IThing.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\LearningIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Object.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Obstacle.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Person.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\QuestionIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\RequestIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\TelephonyIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Text.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Status.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\ThingEvent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\TimeIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\URL.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\UsedSkill.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\WeatherIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\WebRequest.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\ClassifierManager.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\EnvironmentClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\ImageClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\IClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\PersonClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\TextClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\filters\DuplicateFilter.h">
+      <Filter>classifiers\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\filters\IntentFilter.h">
+      <Filter>classifiers\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\filters\NonsenseFilter.h">
+      <Filter>classifiers\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\FeatureManager.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\ImageExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\ProximityExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\RemoteDeviceExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\TextExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\filters\FourierFilters.h">
+      <Filter>extractors\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\filters\NoiseFilter.h">
+      <Filter>extractors\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\AnimateGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\DisplayGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\EmailGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\GestureManager.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\GraspGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\IGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\MoveGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\MoveJointGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\PostureGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\ProxyGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\RestGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SelfUpdateGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SMSGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SoundGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SpeechGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\StatusGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SystemGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\TelephonySpeechGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\VolumeGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\WaitGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\IGraph.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\IAction.h">
+      <Filter>planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\ICondition.h">
+      <Filter>planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\Plan.h">
+      <Filter>planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\PlanInstance.h">
+      <Filter>planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\PlanManager.h">
+      <Filter>planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\conditions\GoalNameCondition.h">
+      <Filter>planning\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\conditions\GoalParamsConditon.h">
+      <Filter>planning\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\conditions\GoalStateCondition.h">
+      <Filter>planning\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\conditions\GoalTypeCondition.h">
+      <Filter>planning\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\conditions\ConditionList.h">
+      <Filter>planning\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\actions\CreateAction.h">
+      <Filter>planning\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\planning\actions\UseSkillAction.h">
+      <Filter>planning\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\AudioData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Camera.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\DepthCamera.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\DepthVideoData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\DiskAudioSensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\GazeData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\GestureData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\GestureSensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\HealthData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\HealthSensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\IData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\ISensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Keyboard.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Laser.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\LaserData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\LocalSpeechToText.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Microphone.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\MoodData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Network.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\ProxySensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\RemoteDevice.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\RemoteDeviceData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\SensorManager.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\Sonar.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\SonarData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\System.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\TelephonyMicrophone.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\TextData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\TouchData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\VideoData.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\GestureSkill.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\ISkill.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\LinearSkill.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\ParallelSkill.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\SkillInstance.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skills\SkillManager.h">
+      <Filter>skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\topics\ITopics.h">
+      <Filter>topics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\topics\TopicManager.h">
+      <Filter>topics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\DataStoreSQLL.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\IDataStore.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\ParamsMap.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\SelfException.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\Vector3.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SelfInstance.h" />
+    <ClInclude Include="..\..\src\SelfLib.h" />
+    <ClInclude Include="..\..\lib\sqlite\sqlite3.h">
+      <Filter>lib\sqllite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\base64\cdecode.h">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\base64\cencode.h">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\base64\decode.h">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\base64\encode.h">
+      <Filter>lib\cpp-sdk\libs\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\crossguid\crossguid.h">
+      <Filter>lib\cpp-sdk\libs\crossguid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\android-ifaddrs\ifaddrs.h">
+      <Filter>lib\cpp-sdk\libs\ifaddrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\jsoncpp\json\json-forwards.h">
+      <Filter>lib\cpp-sdk\libs\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\jsoncpp\json\json.h">
+      <Filter>lib\cpp-sdk\libs\jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\tinythread++\tinythread.h">
+      <Filter>lib\cpp-sdk\libs\tinythread++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\tinyxml\tinyxml.h">
+      <Filter>lib\cpp-sdk\libs\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\utf8_v2_3_4\source\utf8.h">
+      <Filter>lib\cpp-sdk\libs\utf8_v2_3_4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\utf8_v2_3_4\source\utf8\checked.h">
+      <Filter>lib\cpp-sdk\libs\utf8_v2_3_4\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\utf8_v2_3_4\source\utf8\core.h">
+      <Filter>lib\cpp-sdk\libs\utf8_v2_3_4\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\utf8_v2_3_4\source\utf8\unchecked.h">
+      <Filter>lib\cpp-sdk\libs\utf8_v2_3_4\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Config.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\DataCache.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Delegate.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Factory.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Form.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\GetMac.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\IConditional.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\ISerializable.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\IWebClient.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\IWebServer.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\IWebSocket.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\JsonHelpers.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Library.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Log.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Logic.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\MD5.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Path.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\RTTI.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\ServiceConfig.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\SHA1.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Sound.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\StringHash.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\StringUtil.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\ThreadPool.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Time.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\TimerPool.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\UniqueID.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\UnitTest.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\URL.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\WatsonException.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\WebClient.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\WebSocketFramer.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\boost_1_60_0\libs\filesystem\src\windows_file_codecvt.hpp">
+      <Filter>lib\cpp-sdk\libs\boost\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\crypt.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\ioapi_buf.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\ioapi_mem.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\unzip.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\zip.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\crc32.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\deflate.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\gzguts.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inffast.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inffixed.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inflate.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\inftrees.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\trees.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\zconf.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\zlib.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\zlib-1.2.8\zutil.h">
+      <Filter>lib\cpp-sdk\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\lib\minizip\ioapi.h">
+      <Filter>lib\cpp-sdk\libs\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\ZipFile.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\FaceClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\JpegHelpers.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\ProxyIntent.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\MusicAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\BeatExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\DFT.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\EBeatDetect.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\F2BeatDetect.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\FBeatDetect.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\FFT.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\GaussWindow.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\HammingWindow.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\HannWindow.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\IBeatDetect.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\IFourierTransform.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\IWindowFunction.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\fft\RectangularWindow.h">
+      <Filter>utils\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\DiscoveryAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\WebSocketGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\IEdge.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\ITraverser.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\IVertex.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\OthersAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\SelfAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\WorldAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\agents\RemoteCameraAgent.h">
+      <Filter>plugins\remote_plugin\agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\blackboard\CameraIntent.h">
+      <Filter>plugins\remote_plugin\blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\gestures\RemoteSpeechGesture.h">
+      <Filter>plugins\remote_plugin\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\services\PTZCamera.h">
+      <Filter>plugins\remote_plugin\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\sensors\RemoteCamera.h">
+      <Filter>plugins\remote_plugin\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\remote\sensors\RemoteMicrophone.h">
+      <Filter>plugins\remote_plugin\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\SocketGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfEdge.h">
+      <Filter>models\SelfGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfGraph.h">
+      <Filter>models\SelfGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfTraverser.h">
+      <Filter>models\SelfGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\models\SelfGraph\SelfVertex.h">
+      <Filter>models\SelfGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\ModelAgent.h">
+      <Filter>agents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\TouchClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\Touch.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\TouchExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sensors\TouchSensor.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\GestureExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\IService.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\services\Graph\DataModels.h">
+      <Filter>lib\cpp-sdk\services\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\services\Graph\Graph.h">
+      <Filter>lib\cpp-sdk\services\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IAuthenticate.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IAvatar.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IBrowser.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IFaceRecognition.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IGateway.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ILanguageParser.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ILanguageTranslation.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ILocation.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IMail.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\INews.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IObjectRecognition.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IPackageStore.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ISpeechToText.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ITelephony.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\ITextToSpeech.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IToneAnalyzer.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IVisualRecognition.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\services\IWeather.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\opencv\sensors\OpenCVCamera.h">
+      <Filter>plugins\opencv_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\iva\services\IVA.h">
+      <Filter>plugins\iva_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\rg\services\PackageStore.h">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\rg\services\RobotAuthenticate.h">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\rg\services\RobotGateway.h">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\rg\services\RobotMail.h">
+      <Filter>plugins\rg_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\agent\WEXAgent.h">
+      <Filter>plugins\watson_plugin\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\blackboard\WEXIntent.h">
+      <Filter>plugins\watson_plugin\blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\WatsonAvatar.h">
+      <Filter>plugins\watson_plugin\sevices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\WEX.h">
+      <Filter>plugins\watson_plugin\sevices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Alchemy\Alchemy.h">
+      <Filter>plugins\watson_plugin\sevices\Alchemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Alchemy\AlchemyNews.h">
+      <Filter>plugins\watson_plugin\sevices\Alchemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Conversation\Conversation.h">
+      <Filter>plugins\watson_plugin\sevices\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Conversation\ConversationProxy.h">
+      <Filter>plugins\watson_plugin\sevices\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Conversation\DataModels.h">
+      <Filter>plugins\watson_plugin\sevices\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\DeepQA\DeepQA.h">
+      <Filter>plugins\watson_plugin\sevices\DeepQA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\DeepQA\DeepQAProxy.h">
+      <Filter>plugins\watson_plugin\sevices\DeepQA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Interact\Interact.h">
+      <Filter>plugins\watson_plugin\sevices\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\Interact\InteractProxy.h">
+      <Filter>plugins\watson_plugin\sevices\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\LanguageTranslator\LanguageTranslator.h">
+      <Filter>plugins\watson_plugin\sevices\LanguageTranslator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\NaturalLanguageClassifier\DataModels.h">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageClassifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\NaturalLanguageClassifier\NaturalLanguageClassifier.h">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageClassifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\NaturalLanguageClassifier\NLCProxy.h">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageClassifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\NaturalLanguageUnderstanding\NaturalLanguageUnderstanding.h">
+      <Filter>plugins\watson_plugin\sevices\NaturalLanguageUnderstanding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\WeatherCompanyData\WeatherCompanyData.h">
+      <Filter>plugins\watson_plugin\sevices\WeatherCompanyData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\WeatherCompanyData\WeatherCompanyLocation.h">
+      <Filter>plugins\watson_plugin\sevices\WeatherCompanyData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\VisualRecognition\VisualRecognition.h">
+      <Filter>plugins\watson_plugin\sevices\VisualRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\ToneAnalyzer\ToneAnalyzer.h">
+      <Filter>plugins\watson_plugin\sevices\ToneAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\TextToSpeech\TextToSpeech.h">
+      <Filter>plugins\watson_plugin\sevices\TextToSpeech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\SpeechToText\SpeechToText.h">
+      <Filter>plugins\watson_plugin\sevices\SpeechToText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\RetrieveAndRank\DataModels.h">
+      <Filter>plugins\watson_plugin\sevices\RetreiveAndRank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\RetrieveAndRank\RetrieveAndRank.h">
+      <Filter>plugins\watson_plugin\sevices\RetreiveAndRank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\RetrieveAndRank\RetrieveAndRankProxy.h">
+      <Filter>plugins\watson_plugin\sevices\RetreiveAndRank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\PersonalityInsights\DataModels.h">
+      <Filter>plugins\watson_plugin\sevices\PersonalityInsights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\watson\services\PersonalityInsights\PersonalityInsights.h">
+      <Filter>plugins\watson_plugin\sevices\PersonalityInsights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\AvatarGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gestures\QARestGesture.h">
+      <Filter>gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\ObjectClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\classifiers\ProxyClassifier.h">
+      <Filter>classifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\DepthExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\ProxyExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\WebClientService.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blackboard\DepthImage.h">
+      <Filter>blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extractors\IExtractor.h">
+      <Filter>extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\cpp-sdk\src\utils\Crypt.h">
+      <Filter>lib\cpp-sdk\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="agents">
+      <UniqueIdentifier>{bf68ad31-319a-42da-af8a-6d8025f4839a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blackboard">
+      <UniqueIdentifier>{20193560-3fbc-4ea4-a74b-0e99167a70eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classifiers">
+      <UniqueIdentifier>{9201a904-193e-4d05-8bfa-df734bf9dff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classifiers\filters">
+      <UniqueIdentifier>{a52842ff-3495-4041-b427-c18d06f9bd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extractors">
+      <UniqueIdentifier>{555aa02e-6a9e-478c-9c18-dbee2744502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extractors\filters">
+      <UniqueIdentifier>{e30b7f0a-9534-48cb-bb4f-93eb10af3808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gestures">
+      <UniqueIdentifier>{ab05a06c-6a47-4aca-ba04-44c39202b361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{da9213c8-15d3-4b1b-a11f-e73a2c767fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="planning">
+      <UniqueIdentifier>{54cd0538-f5d6-4512-882c-570d7ebd7cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="planning\conditions">
+      <UniqueIdentifier>{d09a7305-b68e-4231-9e90-626666248cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="planning\actions">
+      <UniqueIdentifier>{21bc1e28-ba15-4598-b11e-6cd0960fc46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sensors">
+      <UniqueIdentifier>{ccdfb16a-e56f-4f8f-b5a5-7d182457db7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{27ee1005-8e06-42ff-a2b3-e3e2c82a4cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skills">
+      <UniqueIdentifier>{c30402f7-193c-49c3-aa20-59bf46a58edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="topics">
+      <UniqueIdentifier>{43d4c590-d7cc-4b4f-8ceb-012dfbf938c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{095819db-a323-4384-ac63-79cf66fd35b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\fft">
+      <UniqueIdentifier>{58711b0e-da76-41e6-8ac7-9340a4955648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{eeb1ede2-44fe-482d-b04e-583be81135d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin">
+      <UniqueIdentifier>{98aab42e-7da5-4785-aaa7-0ecc7db688d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin\agents">
+      <UniqueIdentifier>{e634fed3-7251-4530-b80d-ef69c9f361a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin\blackboard">
+      <UniqueIdentifier>{8b287a45-d4f5-444f-b19b-d1d1deb1bd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin\gestures">
+      <UniqueIdentifier>{568f1381-1a01-4bd5-906d-c253c9ca93e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin\sensors">
+      <UniqueIdentifier>{a94a5448-1672-411d-8e8d-f91ddb1f912c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\remote_plugin\services">
+      <UniqueIdentifier>{fb479a0b-17f3-4b31-8835-f566da91df51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\SelfGraph">
+      <UniqueIdentifier>{12e98005-2847-45eb-9e56-3a78a24d097d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{beccd9d9-14ee-4d04-b358-822c2e379dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\sqllite3">
+      <UniqueIdentifier>{8cf76b14-be84-4a79-9746-51930ab2fb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\opencv">
+      <UniqueIdentifier>{2130a052-e741-4584-9cd4-043fc0ea074e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\opencv\ARM">
+      <UniqueIdentifier>{82d595aa-293f-4bb4-ae95-5d3fa0d13461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\opencv\x86">
+      <UniqueIdentifier>{9315aa19-920c-4595-86a6-30159b7a2b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk">
+      <UniqueIdentifier>{60985ac6-7d1b-4945-ae6b-1a0ba0e87497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\utils">
+      <UniqueIdentifier>{6d5d3d23-3f24-48bf-aee8-0a8f0c4062fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs">
+      <UniqueIdentifier>{35975ec5-7fdf-4b11-9d25-21ebbff7cc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\base64">
+      <UniqueIdentifier>{80470053-1c0e-47e7-84ba-f0bb0daed341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\crossguid">
+      <UniqueIdentifier>{f6536c57-5b64-43b5-8698-12e6ef5fbec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\tinythread++">
+      <UniqueIdentifier>{3b725082-ec66-4d16-b436-c41cce49c897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\utf8_v2_3_4">
+      <UniqueIdentifier>{b5ae83dc-3c62-4ae9-8744-f4d77761f527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\utf8_v2_3_4\utf8">
+      <UniqueIdentifier>{75778843-13c2-4941-b0d7-061718068d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\boost">
+      <UniqueIdentifier>{02fdbaf0-fbac-4831-aec3-572472c27b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\boost\filesystem">
+      <UniqueIdentifier>{d8451f33-b352-44da-8375-d0c52fd75aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\boost\system">
+      <UniqueIdentifier>{3a802854-26ff-43e5-b6c5-705c53f509bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\boost\thread">
+      <UniqueIdentifier>{83ed1479-a050-434d-94ec-6eeb09f6a429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\boost\thread\pthread">
+      <UniqueIdentifier>{1fff5b77-6bef-46bc-9fd2-6efec84ce6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\ifaddrs">
+      <UniqueIdentifier>{0a6ad567-d7b8-4cde-bf17-128ca75c621e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\jsoncpp">
+      <UniqueIdentifier>{908faf84-8141-48ff-8827-6a2a6d397896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\jsoncpp\json">
+      <UniqueIdentifier>{bd9b1b14-89d8-4eb1-a758-ad3878773b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\tinyxml">
+      <UniqueIdentifier>{93fa7ee8-f986-4ef5-aa17-a6ff255f521a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\minizip">
+      <UniqueIdentifier>{2800267b-670d-40cf-a3f9-5f24fc38e612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\libs\zlib">
+      <UniqueIdentifier>{925466a4-6fc4-4813-b4ca-360a2fd78ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\services">
+      <UniqueIdentifier>{0e1b6093-8f08-4361-8b55-c66cec42e688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\cpp-sdk\services\Graph">
+      <UniqueIdentifier>{ec0e87aa-985a-46ee-a428-8f0aa8ccd44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin">
+      <UniqueIdentifier>{360f533e-52d7-46e3-a682-d40ac56e6748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\iva_plugin">
+      <UniqueIdentifier>{86d67da3-c8f3-40ec-876f-5972166be772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\rg_plugin">
+      <UniqueIdentifier>{62d3be9b-4e53-4e04-b4e3-3bbd3a4e8ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\opencv_plugin">
+      <UniqueIdentifier>{ace2c313-37bd-4324-8726-f3dda83b8c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\agent">
+      <UniqueIdentifier>{54b1199a-505c-425b-b012-d4ebddaefa2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\blackboard">
+      <UniqueIdentifier>{a8e03c2b-a8d6-4d2b-b815-a816d7ef535d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices">
+      <UniqueIdentifier>{2c3aa15d-a7db-4e72-9c99-6bc220bf8a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\Alchemy">
+      <UniqueIdentifier>{8ce331e0-33ee-427e-a5e5-3fb5da8abf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\Conversation">
+      <UniqueIdentifier>{92071619-dbe8-4bc0-aad0-592e3930dd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\DeepQA">
+      <UniqueIdentifier>{cceec6bb-87fd-458a-8055-102a61b32448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\Interact">
+      <UniqueIdentifier>{ac6e7a63-394c-4f6c-8a6f-63641b7a5875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\LanguageTranslator">
+      <UniqueIdentifier>{e296ed82-036b-4867-b9b3-18c2ae68d12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\NaturalLanguageClassifier">
+      <UniqueIdentifier>{d2991e5d-a3f5-41ea-9674-9443f6c1b478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\NaturalLanguageUnderstanding">
+      <UniqueIdentifier>{b03a6cff-0b50-4117-acde-35ac85039707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\PersonalityInsights">
+      <UniqueIdentifier>{6acfd8a3-419d-49fc-90be-bf392958ae5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\RetreiveAndRank">
+      <UniqueIdentifier>{83a319f1-cd15-4914-a5f2-666874a1bff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\SpeechToText">
+      <UniqueIdentifier>{0e61e169-6c94-44fb-bab0-0bcb64f0eedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\TextToSpeech">
+      <UniqueIdentifier>{0c04252d-c5e0-4e06-87d2-e9d296e015b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\ToneAnalyzer">
+      <UniqueIdentifier>{539dce94-8e57-4869-9951-c6bf23360e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\VisualRecognition">
+      <UniqueIdentifier>{1adc7098-4dfc-4b27-8c61-c07e784c79d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\watson_plugin\sevices\WeatherCompanyData">
+      <UniqueIdentifier>{844408e4-2f66-4028-8254-aa2e8613065b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\lib\cpp-sdk\lib\android-ifaddrs\README.md">
+      <Filter>lib\cpp-sdk\libs\ifaddrs</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\lib\opencv\android\sdk\native\libs\x86\libopencv_java3.so">
+      <Filter>lib\opencv\x86</Filter>
+    </Library>
+    <Library Include="..\..\lib\opencv\android\sdk\native\libs\armeabi-v7a\libopencv_java3.so">
+      <Filter>lib\opencv\ARM</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

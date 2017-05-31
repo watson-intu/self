@@ -1,0 +1,137 @@
+bend knees all the was backward,bend_knees_all_the_was_backward
+bend knees all the way forward,bend_knees_all_the_way_forward
+bend knees backward,bend_knees_backward
+bend knees forward,bend_knees_forward
+bend left elbow all the way in,bend_left_elbow_all_the_way_in
+bend left elbow all the way out,bend_left_elbow_all_the_way_out
+bend left elbow in,bend_left_elbow_in
+bend left elbow out,bend_left_elbow_out
+bend right elbow all the way in,bend_right_elbow_all_the_way_in
+bend right elbow all the way out,bend_right_elbow_all_the_way_out
+bend right elbow in,bend_right_elbow_in
+bend right elbow out,bend_right_elbow_out
+close left hand now,l_hand_close
+close your left hand,l_hand_close
+lower your left arm,l_hand_descend
+lower your left hand,l_hand_descend
+put your left arm down,l_hand_descend
+put your left hand down,l_hand_descend
+extend your left arm,l_hand_extend
+extend your left hand,l_hand_extend
+put your left arm out,l_hand_extend
+put your left hand out,l_hand_extend
+open left hand now,l_hand_open
+open your left hand,l_hand_open
+put your left arm up,l_hand_raise
+put your left hand up,l_hand_raise
+raise your left arm,l_hand_raise
+raise your left hand,l_hand_raise
+move your left arm back to chest,l_hand_retract
+move your left hand back to chest,l_hand_retract
+retract your left arm,l_hand_retract
+retract your left hand,l_hand_retract
+lean all the way backward,lean_all_the_way_backward
+lean all the way forward,lean_all_the_way_forward
+lean all the way left,lean_all_the_way_left
+lean all the way right,lean_all_the_way_right
+lean backward,lean_backward
+lean forward,lean_forward
+lean left,lean_left
+lean right,lean_right
+left arm relax,left_arm_relax
+put your left arm down,left_arm_relax
+left arm waiver,left_arm_wave
+left arm wave,left_arm_wave
+left arm waved,left_arm_wave
+left arm waves,left_arm_wave
+left arm way,left_arm_wave
+wave your left arm,left_arm_wave
+left arm wave position,left_arm_wave_position
+go back,locomotion_backward
+walk backwards,locomotion_backward
+go forward,locomotion_forward
+walk forward,locomotion_forward
+walk forward,locomotion_forward
+walk straight,locomotion_forward
+please turn left now,locomotion_left
+turn left,locomotion_left
+pan left,locomotion_pan_left
+walk sideways left,locomotion_pan_left
+pan right,locomotion_pan_right
+walk sideways right,locomotion_pan_right
+can you please turn right,locomotion_right
+turn right,locomotion_right
+look all the way down,look_all_the_way_down
+look all the way left,look_all_the_way_left
+look all the way right,look_all_the_way_right
+look all the way up,look_all_the_way_up
+look down,look_down
+look forward,look_forward
+look left,look_left
+look right,look_right
+look straight,look_straight
+look up,look_up
+close right hand now,r_hand_close
+close your right hand,r_hand_close
+lower your right arm,r_hand_descend
+lower your right hand,r_hand_descend
+put your right arm down,r_hand_descend
+put your right hand down,r_hand_descend
+extend your right arm,r_hand_extend
+extend your right hand,r_hand_extend
+put your right arm out,r_hand_extend
+put your right hand out,r_hand_extend
+open right hand now,r_hand_open
+open your right hand,r_hand_open
+put your right arm up,r_hand_raise
+put your right hand up,r_hand_raise
+raise your right arm,r_hand_raise
+raise your right hand,r_hand_raise
+move your right arm back to your chest,r_hand_retract
+move your right hand back to your chest,r_hand_retract
+retract your right arm,r_hand_retract
+retract your right hand,r_hand_retract
+put your right arm down,right_arm_relax
+right arm relax,right_arm_relax
+right arm waiver,right_arm_wave
+right arm wave,right_arm_wave
+right arm waved,right_arm_wave
+right arm waves,right_arm_wave
+right arm way,right_arm_wave
+wave your right arm,right_arm_wave
+right arm wave position,right_arm_wave_position
+rotate left forarm all the way in,rotate_left_forarm_all_the_way_in
+rotate left forarm all the way out,rotate_left_forarm_all_the_way_out
+rotate left forarm in,rotate_left_forarm_in
+rotate left forarm out,rotate_left_forarm_out
+rotate left shoulder all the way down,rotate_left_shoulder_all_the_way_down
+rotate left shoulder all the way in,rotate_left_shoulder_all_the_way_in
+rotate left shoulder all the way out,rotate_left_shoulder_all_the_way_out
+rotate left shoulder all the way up,rotate_left_shoulder_all_the_way_up
+rotate left shoulder down,rotate_left_shoulder_down
+rotate left shoulder in,rotate_left_shoulder_in
+rotate left shoulder out,rotate_left_shoulder_out
+rotate left shoulder up,rotate_left_shoulder_up
+rotate left wrist all the way in,rotate_left_wrist_all_the_way_in
+rotate left wrist all the way out,rotate_left_wrist_all_the_way_out
+rotate left wrist in,rotate_left_wrist_in
+rotate left wrist out,rotate_left_wrist_out
+rotate right forearm all the way in,rotate_right_forarm_all_the_way_in
+rotate right forearm all the way out,rotate_right_forarm_all_the_way_out
+rotate right forearm in,rotate_right_forarm_in
+rotate right forearm out,rotate_right_forarm_out
+rotate right shoulder all the way down,rotate_right_shoulder_all_the_way_down
+rotate right shoulder all the way in,rotate_right_shoulder_all_the_way_in
+rotate right shoulder all the way out,rotate_right_shoulder_all_the_way_out
+rotate right shoulder all the way up,rotate_right_shoulder_all_the_way_up
+rotate right shoulder down,rotate_right_shoulder_down
+rotate right shoulder in,rotate_right_shoulder_in
+rotate right shoulder out,rotate_right_shoulder_out
+rotate right shoulder up,rotate_right_shoulder_up
+rotate right wrist all the way in,rotate_right_wrist_all_the_way_in
+rotate right wrist all the way out,rotate_right_wrist_all_the_way_out
+rotate right wrist in,rotate_right_wrist_in
+rotate right wrist out,rotate_right_wrist_out
+straighten up hips pitch,straighten_up_hips_pitch
+straighten up hips roll,straighten_up_hips_roll
+straighten up knees,straighten_up_knees

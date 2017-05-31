@@ -1,0 +1,83 @@
+{
+   "Type_" : "SkillCollection",
+   "m_SkillMap" : [
+      {
+         "key" : "posture_crouch",
+         "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_crouch",
+            "m_GestureId" : "posture_crouch",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_crouch",
+            "m_bReplaceParams" : false
+         }
+      },
+      {
+	      "key": "posture_rest",
+	      "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_rest",
+            "m_GestureId" : "posture_rest",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_rest",
+            "m_bReplaceParams" : false
+         }
+	  },
+	  {
+	      "key": "posture_wake_up",
+	      "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_wake_up",
+            "m_GestureId" : "posture_wake_up",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_wake_up",
+            "m_bReplaceParams" : false
+         }
+	  },
+      {
+         "key" : "posture_lay",
+         "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_lay",
+            "m_GestureId" : "posture_lay",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_lay",
+            "m_bReplaceParams" : false
+         }
+      },
+      {
+         "key" : "posture_sit",
+         "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_sit",
+            "m_GestureId" : "posture_sit",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_sit",
+            "m_bReplaceParams" : false
+         }
+      },
+      {
+         "key" : "posture_stand",
+         "value" : {
+            "Type_" : "GestureSkill",
+            "m_GUID" : "posture_stand",
+            "m_GestureId" : "posture_stand",
+            "m_GestureParams" : {
+               "Type_" : "ParamsMap"
+            },
+            "m_SkillName" : "posture_stand",
+            "m_bReplaceParams" : false
+         }
+      }
+   ]
+}

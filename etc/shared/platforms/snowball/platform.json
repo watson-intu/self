@@ -1,0 +1,33 @@
+{
+   "m_Agents" : [
+      {
+         "Type_" : "UpdateAgent",
+         "m_FoundUpdateResponse" : "There's an updated version of Self available! Would you like to download and install it?",
+         "m_InstallationCompleteResponse" : "Self update has been successfully downloaded. Restarting and installing now.",
+         "m_LastVersionConfirmed" : "",
+         "m_SelfPackageName" : "Self-snowball.zip",
+         "m_bAllowRecommendedDownload" : false,
+         "m_fUpdateCheckDelay" : 1200
+      }
+   ],
+   "m_GestureFiles" : [],
+   "m_Interfaces" : [ "*" ],
+   "m_Libs" : [ ],
+   "m_RobotType" : "Snowball",
+   "m_Sensors" : [
+      {
+         "Type_" : "HealthSensor",
+         "m_ErrorDiagnosis" : [],
+         "m_HealthSensorCheckInterval" : 20,
+         "m_fLowBatteryThreshold" : 15,
+         "m_fLowTempThreshold" : 20,
+         "m_fHighTempThreshold" : 60,
+         "m_fHeadHighTempThreshold" : 80,
+         "m_ImportantJoints" : [ "*Head*Temperature*" ],
+         "m_StablePostures" : [ "Stand", "Crouch" ],
+         "m_bEnableFallRecovery" : true,
+         "m_SensorReadings" : []
+      }
+   ],
+   "m_SkillFiles" : []
+}

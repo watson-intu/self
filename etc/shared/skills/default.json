@@ -1,0 +1,263 @@
+{
+	"Type_": "SkillCollection",
+	"m_SkillMap": [{
+		"key": "sound",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "sound",
+			"m_GestureId": "sound",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "sound",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "sms",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "sms",
+			"m_GestureId": "sms",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "sms",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "email",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "email",
+			"m_GestureId": "email",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "email",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "tts",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "tts",
+			"m_GestureId": "tts",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "tts",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "grab",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "grab",
+			"m_GestureId": "grab",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "grab",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "update_status",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "update_status",
+			"m_GestureId": "update_status",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "update_status",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "upgrade_self",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "upgrade_self",
+			"m_GestureId": "upgrade_self",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "upgrade_self",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "volume_up",
+		"value": {
+			"Type_": "LinearSkill",
+			"m_GUID": "volume_up",
+			"m_SkillName": "volume_up",
+			"m_Skills": [{
+				"Type_": "GestureSkill",
+				"m_GUID": "c6468a8f-3b60-4b8d-b7c7-e7387de11104",
+				"m_GestureId": "volume_up",
+				"m_GestureParams": null,
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			},
+			{
+				"Type_": "GestureSkill",
+				"m_GUID": "386a2e49-c844-4074-81b8-e10fbdc26258",
+				"m_GestureId": "sound",
+				"m_GestureParams": {
+					"Type_": "ParamsMap",
+					"sound": "shared/sounds/ding.wav"
+				},
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			}]
+		}
+	},
+	{
+		"key": "volume_down",
+		"value": {
+			"Type_": "LinearSkill",
+			"m_GUID": "volume_down",
+			"m_SkillName": "volume_down",
+			"m_Skills": [{
+				"Type_": "GestureSkill",
+				"m_GUID": "c6468a8f-3b60-4b8d-b7c7-e7387de11104",
+				"m_GestureId": "volume_down",
+				"m_GestureParams": null,
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			},
+			{
+				"Type_": "GestureSkill",
+				"m_GUID": "386a2e49-c844-4074-81b8-e10fbdc26258",
+				"m_GestureId": "sound",
+				"m_GestureParams": {
+					"Type_": "ParamsMap",
+					"sound": "shared/sounds/ding.wav"
+				},
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			}]
+		}
+	},
+	{
+		"key": "volume_mute",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "volume_mute",
+			"m_GestureId": "volume_mute",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "volume_mute",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "volume_shout",
+		"value": {
+			"Type_": "LinearSkill",
+			"m_GUID": "volume_shout",
+			"m_SkillName": "volume_shout",
+			"m_Skills": [{
+				"Type_": "GestureSkill",
+				"m_GUID": "c6468a8f-3b60-4b8d-b7c7-e7387de11104",
+				"m_GestureId": "volume_shout",
+				"m_GestureParams": null,
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			},
+			{
+				"Type_": "GestureSkill",
+				"m_GUID": "386a2e49-c844-4074-81b8-e10fbdc26258",
+				"m_GestureId": "sound",
+				"m_GestureParams": {
+					"Type_": "ParamsMap",
+					"sound": "shared/sounds/ding.wav"
+				},
+				"m_SkillName": "",
+				"m_bReplaceParams": false
+			}]
+		}
+	},
+	{
+		"key": "volume_default",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "volume_default",
+			"m_GestureId": "volume_default",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "volume_default",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "wait",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "wait",
+			"m_GestureId": "wait",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "wait",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "system_reboot",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "system_reboot",
+			"m_GestureId": "system_reboot",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "system_reboot",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "system_shutdown",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "system_shutdown",
+			"m_GestureId": "system_shutdown",
+			"m_GestureParams": {
+				"Type_": "ParamsMap"
+			},
+			"m_SkillName": "system_shutdown",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "display",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "display",
+			"m_GestureId": "display",
+			"m_GestureParams": null,
+			"m_SkillName": "display",
+			"m_bReplaceParams": false
+		}
+	},
+	{
+		"key": "dance",
+		"value": {
+			"Type_": "GestureSkill",
+			"m_GUID": "dance",
+			"m_GestureId": "dance",
+			"m_GestureParams": null,
+			"m_SkillName": "dance",
+			"m_bReplaceParams": false
+		}
+	}
+	]
+}

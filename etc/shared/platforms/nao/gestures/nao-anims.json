@@ -1,0 +1,956 @@
+{
+  "Type_": "GestureManager",
+  "m_GestureMap": [
+    {
+      "key": "show_listening",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_listening",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/BodyTalk/Listening/Listening_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Listening/Listening_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Listening/Listening_3",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Listening/Listening_4",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Listening/Listening_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Listening/ListeningLeft_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Listening/ListeningLeft_3",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Listening/ListeningRight_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Listening/ListeningRight_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_speaking",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_speaking",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_3",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_4",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_5",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_6",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_7",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_8",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_9",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_10",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_11",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Speaking/BodyTalk_12",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_3",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_4",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_5",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_6",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_7",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_8",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_9",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_10",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_11",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_12",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_13",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_14",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_15",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_16",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_17",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_18",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_19",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_20",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_21",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Speaking/BodyTalk_22",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_remember",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_remember",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/BodyTalk/Thinking/Remember_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Thinking/Remember_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Thinking/Remember_3",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Thinking/Remember_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Thinking/Remember_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Thinking/Remember_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_thinking_loop",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_thinking_loop",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/BodyTalk/Thinking/ThinkingLoop_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/BodyTalk/Thinking/ThinkingLoop_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Thinking/ThinkingLoop_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/BodyTalk/Thinking/ThinkingLoop_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_anger",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_anger",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Angry_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Angry_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Angry_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Angry_3",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Angry_4",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "wave_anim",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "wave_anim",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Gestures/Hey_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_anxiety",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_anxiety",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Anxious_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_boredom",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_boredom",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Bored_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Bored_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_disappointment",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_disappointment",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Disappointed_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_exhaustion",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_exhaustion",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Exhausted_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Exhausted_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_fear",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_fear",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Fear_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Fear_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Fear_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_frustration",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_frustration",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Frustrated_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Frustrated_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_humiliation",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_humiliation",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Humiliated_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_puzzlement",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_puzzlement",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Puzzled_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_pain",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_pain",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Hurt_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Hurt_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Hurt_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_sadness",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_sadness",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Sad_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Sad_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Sad_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_surprise",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_surprise",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Negative/Surprise_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Surprise_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Surprise_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Negative/Surprise_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_annoyance",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_annoyance",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Annoyed_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_alienation",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_alienation",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Alienated_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_need_for_attention",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_need_for_attention",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Neutral/AskForAttention_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Neutral/AskForAttention_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Neutral/AskForAttention_3",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/AskForAttention_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/AskForAttention_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/AskForAttention_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_caution",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_caution",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Cautious_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_confusion",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_confusion",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Confused_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_determination",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_determination",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Determined_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_embarrassment",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_embarrassment",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Embarrassed_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_hesitation",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_hesitation",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Hesitation_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_amusement",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_amusement",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Amused_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_confidence",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_confidence",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Confident_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_enthusiasm",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_enthusiasm",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Enthusiastic_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_excitement",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_excitement",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Excited_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Excited_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Excited_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_happiness",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_happiness",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Happy_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Happy_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Happy_3",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Happy_4",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Happy_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Happy_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Happy_3",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Happy_4",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_laugh",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_laugh",
+        "m_Animations": [
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Laugh_1",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Sit/Emotions/Positive/Laugh_2",
+            "m_RequiredPosture": "Sit"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Laugh_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Laugh_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Laugh_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_pride",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_pride",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Proud_1",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Proud_2",
+            "m_RequiredPosture": "Stand"
+          },
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Proud_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_relief",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_relief",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Relieved_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_celebration",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_celebration",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Winner_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_mocking",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_mocking",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Positive/Mocker_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_sneeze",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_sneeze",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Emotions/Neutral/Sneeze",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "show_happy_birthday",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "show_happy_birthday",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/HappyBirthday_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_lift_weights",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_lift_weights",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/Fitness_2",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_drink",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_drink",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/Drink_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_flex",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_flex",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/ShowMuscles_3",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_play_guitar",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_play_guitar",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/AirGuitar_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_bow",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_bow",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Gestures/BowShort_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_monster",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_monster",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/Monster_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_zombie",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_zombie",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/Zombie_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_mystical",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_mystical",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/MysticalPower_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "animate_spaceship",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "animate_spaceship",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Waiting/SpaceShuttle_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    },
+    {
+      "key": "dance",
+      "value": {
+        "Type_": "AnimateGesture",
+        "m_GestureId": "dance",
+        "m_Animations": [
+          {
+            "m_AnimId": "Stand/Gestures/CountOne_1",
+            "m_RequiredPosture": "Stand"
+          }
+        ]
+      }
+    }
+  ]
+}

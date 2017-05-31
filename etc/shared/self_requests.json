@@ -1,0 +1,951 @@
+[
+   {
+      "verb" : "bend",
+      "directionPerpendicular" : "backward",
+      "noun" : "knee",
+      "skill" : "bend_knees_all_the_was_backward"
+   },
+   {
+      "verb" : "bend",
+      "directionPerpendicular" : "forward",
+      "noun" : "knee",
+      "skill" : "bend_knees_all_the_way_forward"
+   },
+   {
+      "verb" : "bend",
+      "directionPerpendicular" : "backward",
+      "noun" : "knee",
+      "skill" : "bend_knees_backward"
+   },
+   {
+      "verb" : "bend",
+      "directionPerpendicular" : "forward",
+      "noun" : "knee",
+      "skill" : "bend_knees_forward"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "elbow",
+      "skill" : "bend_left_elbow_all_the_way_in"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "elbow",
+      "skill" : "bend_left_elbow_all_the_way_out"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "elbow",
+      "skill" : "bend_left_elbow_in"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "elbow",
+      "skill" : "bend_left_elbow_out"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "elbow",
+      "skill" : "bend_right_elbow_all_the_way_in"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "elbow",
+      "skill" : "bend_right_elbow_all_the_way_out"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "elbow",
+      "skill" : "bend_right_elbow_in"
+   },
+   {
+      "verb" : "bend",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "elbow",
+      "skill" : "bend_right_elbow_out"
+   },
+   {
+      "verb" : "close",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_close"
+   },
+   {
+      "verb" : "close",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_close"
+   },
+   {
+      "verb" : "lower",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "lower",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "down",
+      "noun" : "hand",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "down",
+      "noun" : "hand",
+      "skill" : "l_hand_descend"
+   },
+      {
+      "verb" : "relax",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "relax",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "down",
+      "noun" : "hand",
+      "skill" : "l_hand_descend"
+   },
+   {
+      "verb" : "extend",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_extend"
+   },
+   {
+      "verb" : "extend",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_extend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "hand",
+      "skill" : "l_hand_extend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "arm",
+      "skill" : "l_hand_extend"
+   },
+   {
+      "verb" : "open",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_open"
+   },
+   {
+      "verb" : "open",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_open"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "up",
+      "noun" : "hand",
+      "skill" : "l_hand_raise"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "up",
+      "noun" : "arm",
+      "skill" : "l_hand_raise"
+   },
+   {
+      "verb" : "raise",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_raise"
+   },
+   {
+      "verb" : "raise",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_raise"
+   },
+   {
+      "verb" : "move",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "back",
+      "noun" : "hand",
+      "skill" : "l_hand_retract"
+   },
+   {
+      "verb" : "move",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "back",
+      "noun" : "arm",
+      "skill" : "l_hand_retract"
+   },
+   {
+      "verb" : "retract",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "l_hand_retract"
+   },
+   {
+      "verb" : "retract",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "l_hand_retract"
+   },
+   {
+      "verb" : "lean",
+      "directionPerpendicular" : "backward",
+      "skill" : "lean_all_the_way_backward"
+   },
+   {
+      "verb" : "lean",
+      "directionPerpendicular" : "forward",
+      "skill" : "lean_all_the_way_forward"
+   },
+   {
+      "verb" : "lean",
+      "directionParallel" : "left",
+      "skill" : "lean_all_the_way_left"
+   },
+   {
+      "verb" : "lean",
+      "directionParallel" : "right",
+      "skill" : "lean_all_the_way_right"
+   },
+   {
+      "verb" : "lean",
+      "directionPerpendicular" : "backward",
+      "skill" : "lean_backward"
+   },
+   {
+      "verb" : "lean",
+      "directionPerpendicular" : "forward",
+      "skill" : "lean_forward"
+   },
+   {
+      "verb" : "lean",
+      "directionParallel" : "left",
+      "skill" : "lean_left"
+   },
+   {
+      "verb" : "lean",
+      "directionParallel" : "right",
+      "skill" : "lean_right"
+   },
+   {
+      "action" : "wave",
+      "directionParallel" : "left",
+      "noun" : "arm",
+      "skill" : "left_arm_wave"
+   },
+   {
+      "verb" : "wave",
+      "directionParallel" : "left",
+      "noun" : "hand",
+      "skill" : "left_arm_wave"
+   },
+   {
+      "verb" : "walk",
+      "directionPerpendicular" : "back",
+      "skill" : "locomotion_backward"
+   },
+   {
+      "verb" : "move",
+      "directionPerpendicular" : "back",
+      "skill" : "locomotion_backward"
+   },
+   {
+      "verb" : "move",
+      "directionPerpendicular" : "backward",
+      "skill" : "locomotion_backward"
+   },
+   {
+      "verb" : "walk",
+      "directionPerpendicular" : "backward",
+      "skill" : "locomotion_backward"
+   },
+   {
+      "verb" : "walk",
+      "directionPerpendicular" : "forward",
+      "skill" : "locomotion_forward"
+   },
+   {
+      "verb" : "walk",
+      "skill" : "locomotion_forward"
+   },
+   {
+      "verb" : "walk",
+      "directionPerpendicular" : "forward",
+      "skill" : "locomotion_forward"
+   },
+   {
+      "verb" : "move",
+      "directionPerpendicular" : "forward",
+      "skill" : "locomotion_forward"
+   },
+   {
+      "verb" : "walk",
+      "directionParallel" : "left",
+      "skill" : "locomotion_left"
+   },
+   {
+      "verb" : "walk",
+      "directionParallel" : "right",
+      "skill" : "locomotion_pan_right"
+   },
+   {
+      "verb" : "look",
+      "directionPerpendicular" : "down",
+      "skill" : "look_down"
+   },
+   {
+      "verb" : "look",
+      "directionPerpendicular" : "forward",
+      "skill" : "look_forward"
+   },
+   {
+      "verb" : "look",
+      "directionParallel" : "left",
+      "skill" : "look_left"
+   },
+   {
+      "verb" : "look",
+      "directionParallel" : "right",
+      "skill" : "look_right"
+   },
+   {
+      "verb" : "look",
+      "skill" : "look_straight"
+   },
+   {
+      "verb" : "look",
+      "directionPerpendicular" : "up",
+      "skill" : "look_up"
+   },
+   {
+      "verb" : "stand",
+      "skill" : "posture_stand"
+   },
+   {
+      "verb" : "close",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_close"
+   },
+   {
+      "verb" : "lower",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_descend"
+   },
+   {
+      "verb" : "lower",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "r_hand_descend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "down",
+      "noun" : "hand",
+      "skill" : "r_hand_descend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "down",
+      "noun" : "arm",
+      "skill" : "r_hand_descend"
+   },
+   {
+      "verb" : "relax",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "r_hand_descend"
+   },
+   {
+      "verb" : "extend",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_extend"
+   },
+   {
+      "verb" : "extend",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "r_hand_extend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "hand",
+      "skill" : "r_hand_extend"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "arm",
+      "skill" : "r_hand_extend"
+   },
+   {
+      "verb" : "open",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_open"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "up",
+      "noun" : "hand",
+      "skill" : "r_hand_raise"
+   },
+   {
+      "verb" : "put",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "up",
+      "noun" : "arm",
+      "skill" : "r_hand_raise"
+   },
+   {
+      "verb" : "raise",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_raise"
+   },
+   {
+      "verb" : "raise",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "r_hand_raise"
+   },
+   {
+      "verb" : "move",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "back",
+      "noun" : "hand",
+      "skill" : "r_hand_retract"
+   },
+   {
+      "verb" : "move",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "back",
+      "noun" : "arm",
+      "skill" : "r_hand_retract"
+   },
+   {
+      "verb" : "retract",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "r_hand_retract"
+   },
+   {
+      "verb" : "retract",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "r_hand_retract"
+   },
+   {
+      "verb" : "wave",
+      "directionParallel" : "right",
+      "noun" : "hand",
+      "skill" : "right_arm_wave"
+   },
+   {
+      "verb" : "wave",
+      "directionParallel" : "right",
+      "noun" : "arm",
+      "skill" : "right_arm_wave"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "arm",
+      "skill" : "rotate_left_forarm_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "arm",
+      "skill" : "rotate_left_forarm_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "arm",
+      "skill" : "rotate_left_forarm_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "arm",
+      "skill" : "rotate_left_forarm_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "down",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_all_the_way_down"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "up",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_all_the_way_up"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "down",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_down"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "up",
+      "noun" : "shoulder",
+      "skill" : "rotate_left_shoulder_up"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "wrist",
+      "skill" : "rotate_left_wrist_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "wrist",
+      "skill" : "rotate_left_wrist_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "in",
+      "noun" : "wrist",
+      "skill" : "rotate_left_wrist_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "left",
+      "directionPerpendicular" : "out",
+      "noun" : "wrist",
+      "skill" : "rotate_left_wrist_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "skill" : "rotate_right_forarm_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "skill" : "rotate_right_forarm_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "skill" : "rotate_right_forarm_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "skill" : "rotate_right_forarm_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "down",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_all_the_way_down"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "up",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_all_the_way_up"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "down",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_down"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "up",
+      "noun" : "shoulder",
+      "skill" : "rotate_right_shoulder_up"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "wrist",
+      "skill" : "rotate_right_wrist_all_the_way_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "wrist",
+      "skill" : "rotate_right_wrist_all_the_way_out"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "in",
+      "noun" : "wrist",
+      "skill" : "rotate_right_wrist_in"
+   },
+   {
+      "verb" : "rotate",
+      "directionParallel" : "right",
+      "directionPerpendicular" : "out",
+      "noun" : "wrist",
+      "skill" : "rotate_right_wrist_out"
+   },
+   {
+      "directionPerpendicular" : "up",
+      "noun" : "knee",
+      "skill" : "straighten_up_knees"
+   },
+   {
+      "verb" : "lower",
+      "noun" : "volume",
+      "skill" : "volume_down"
+   },
+   {
+      "verb" : "turn",
+      "noun" : "volume",
+      "directionPerpendicular" : "down",
+      "skill" : "volume_down"
+   },
+   {
+      "verb" : "turn",
+      "noun" : "volume",
+      "directionPerpendicular" : "up",
+      "skill" : "volume_up"
+   },
+   {
+      "verb" : "raise",
+      "noun" : "volume",
+      "skill" : "volume_up"
+   },
+   {
+      "adjective" : "alienation",
+      "verb" : "show",
+      "skill" : "show_alienation"
+   },
+   {
+      "adjective" : "amusement",
+      "verb" : "show",
+      "skill" : "show_amusement"
+   },
+   {
+      "adjective" : "anger",
+      "verb" : "show",
+      "skill" : "show_anger"
+   },
+   {
+      "adjective" : "annoyance",
+      "verb" : "show",
+      "skill" : "show_annoyance"
+   },
+   {
+      "adjective" : "anxiety",
+      "verb" : "show",
+      "skill" : "show_anxiety"
+   },
+   {
+      "adjective" : "boredom",
+      "verb" : "show",
+      "skill" : "show_boredom"
+   },
+   {
+      "adjective" : "caution",
+      "verb" : "show",
+      "skill" : "show_caution"
+   },
+   {
+      "adjective" : "celebration",
+      "verb" : "show",
+      "skill" : "show_celebration"
+   },
+   {
+      "adjective" : "confidence",
+      "verb" : "show",
+      "skill" : "show_confidence"
+   },
+   {
+      "adjective" : "confusion",
+      "verb" : "show",
+      "skill" : "show_confusion"
+   },
+   {
+      "adjective" : "determination",
+      "verb" : "show",
+      "skill" : "show_determination"
+   },
+   {
+      "adjective" : "disappointment",
+      "verb" : "show",
+      "skill" : "show_disappointment"
+   },
+   {
+      "adjective" : "embarrassment",
+      "verb" : "show",
+      "skill" : "show_embarrassment"
+   },
+   {
+      "adjective" : "enthusiasm",
+      "verb" : "show",
+      "skill" : "show_enthusiasm"
+   },
+   {
+      "adjective" : "excitement",
+      "verb" : "show",
+      "skill" : "show_excitement"
+   },
+   {
+      "adjective" : "exhaustion",
+      "verb" : "show",
+      "skill" : "show_exhaustion"
+   },
+   {
+      "adjective" : "fear",
+      "verb" : "show",
+      "skill" : "show_fear"
+   },
+   {
+      "adjective" : "frustration",
+      "verb" : "show",
+      "skill" : "show_frustration"
+   },
+   {
+      "adjective" : "happiness",
+      "verb" : "show",
+      "skill" : "show_happiness"
+   },
+   {
+      "noun" : "birthday",
+      "verb" : "sing",
+      "skill" : "show_happy_birthday"
+   },
+   {
+      "adjective" : "hesitation",
+      "verb" : "show",
+      "skill" : "show_hesitation"
+   },
+   {
+      "adjective" : "humiliation",
+      "verb" : "show",
+      "skill" : "show_humiliation"
+   },
+   {
+      "verb" : "laugh",
+      "skill" : "show_laugh"
+   },
+   {
+      "adjective" : "mocking",
+      "verb" : "show",
+      "skill" : "show_mocking"
+   },
+   {
+      "adjective" : "pain",
+      "verb" : "show",
+      "skill" : "show_pain"
+   },
+   {
+      "adjective" : "pride",
+      "verb" : "show",
+      "skill" : "show_pride"
+   },
+   {
+      "adjective" : "puzzlement",
+      "verb" : "show",
+      "skill" : "show_puzzlement"
+   },
+   {
+      "adjective" : "relief",
+      "verb" : "show",
+      "skill" : "show_relief"
+   },
+   {
+      "adjective" : "sadness",
+      "verb" : "show",
+      "skill" : "show_sadness"
+   },
+   {
+      "verb" : "sneeze",
+      "skill" : "show_sneeze"
+   },
+   {
+      "adjective" : "surprise",
+      "verb" : "show",
+      "skill" : "show_surprise"
+   },
+   {
+      "verb" : "bow",
+      "skill" : "animate_bow"
+   },
+   {
+      "verb" : "drink",
+      "skill" : "animate_drink"
+   },
+   {
+      "verb" : "flex",
+      "skill" : "animate_flex"
+   },
+   {
+      "verb" : "lift",
+      "noun" : "weights",
+      "skill" : "animate_lift_weights"
+   },
+   {
+      "verb" : "show",
+      "noun" : "monster",
+      "skill" : "animate_monster"
+   },
+   {
+      "adjective" : "mystical",
+      "skill" : "animate_mystical"
+   },
+   {
+      "verb" : "show",
+      "noun" : "mystical",
+      "skill" : "animate_mystical"
+   },
+   {
+      "verb" : "play",
+      "noun" : "guitar",
+      "skill" : "animate_play_guitar"
+   },
+   {
+      "verb" : "show",
+      "noun" : "spaceship",
+      "skill" : "animate_spaceship"
+   },
+   {
+      "verb" : "fly",
+      "skill" : "animate_spaceship"
+   },
+   {
+      "verb" : "show",
+      "noun" : "zombie",
+      "skill" : "animate_zombie"
+   },
+   {
+      "verb" : "dance",
+      "skill" : "dance"
+   }
+]

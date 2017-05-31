@@ -1,0 +1,8 @@
+<div draggable="true" class="card" style="box-shadow:none;">
+    <img height=270 src="http://localhost:9443/topics/sensor-{{ cameraName }}" id="intu-camera" />
+    <div class="card-block text-pane" style="padding-top:10px;padding-bottom:10px;background-color: #E7EBEC;">
+        <select style="float:left;" ng-options="camera as camera.m_SensorName for camera in cameraParams" ng-model="item" ng-change="update();" ng-init="item = cameraParams[0]" ></select>
+        <a href="#image1" ng-click="$root.updateType('camera');"><img class="go-right" src="img/Icon_Expand.png" style="width: 20px;"></a>
+        <!--<a href="" ng-click="$root.updateType('camera');"><img class="go-right" src="img/Icon_Expand.png" style="width: 20px;"></a>-->
+    </div>
+</div>

@@ -1,0 +1,119 @@
+<div>
+	<section class="monitor">
+		<div class="container">
+			<div class="lightbox short-animate" ng-class="{ 'full-screen' : $root.showFullScreen }" id="image1">
+				<span ng-if="$root.showFullScreen">
+					<div ng-switch="fullType">
+						<span ng-switch-when="camera">
+							<img style="width:75%;" src="http://localhost:9443/topics/sensor-Camera" />
+						</span>
+						<span ng-switch-when="audio">
+							<div class="card">
+								<img class="card-img-top" src="http://localhost:9443/topics/fft" alt="Card image cap" style="width: 100%; position:relative;">
+								<div class="card-block text-pane" style="height: 500px;">
+									<div class="conversation-wrapper" style="overflow-y: auto;">
+										<p class="card-text text-left" ng-repeat="text in $root.textObjects" style="font-size:32px;">{{ text.transcription }}</p>
+									</div>
+								</div>
+							</div>								
+						</span>						
+					</div>
+				</span>
+			</div>
+			<div id="lightbox-controls" class="short-animate">
+				<!--<a id="close-lightbox" class="long-animate" href="#!" ng-click="$root.showFullScreen = false;">Close Lightbox</a>-->
+			</div>
+			<div class="page-title"><h1 class="text-left">Monitor</h1></div>
+			<div class="row">
+				<div class="col-md-6" id="camera-window">
+					<div class="drag-panel">
+						<camera-view camera-params="cameraSensors"></camera-view>
+					</div>
+				</div>
+				<div class="col-md-6" id="audio-text-window">
+					<div class="drag-panel">
+						<audio-view></audio-view>
+					</div>
+				</div>
+				<div class="col-md-12" id="chat-window" style="margin-top:20px;">
+					<div class="drag-panel panel-full">
+						<conversation-view></conversation-view>
+					</div>
+				</div>						
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		var dragSrcEl = null;
+
+		function handleDragStart(e) {			
+			//this.style.opacity = '0.4';  // this / e.target is the source node.
+			dragSrcEl = this;
+
+			e.dataTransfer.effectAllowed = 'move';
+			e.dataTransfer.setData('text/html', this.innerHTML);
+		}
+
+		function handleDragOver(e) {
+		if (e.preventDefault) {
+			e.preventDefault(); // Necessary. Allows us to drop.
+		}
+
+		e.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
+
+		return false;
+		}
+
+		function handleDragEnter(e) {
+		// this / e.target is the current hover target.
+		this.classList.add('over');
+		}
+
+		function handleDragLeave(e) {
+		this.classList.remove('over');  // this / e.target is previous target element.
+		}
+
+		function handleDrop(e) {
+		// this / e.target is current target element.
+
+		if (e.stopPropagation) {
+			e.stopPropagation(); // stops the browser from redirecting.
+		}
+
+		// See the section on the DataTransfer object.
+		// Don't do anything if dropping the same column we're dragging.
+		if (dragSrcEl != this) {
+			// Set the source column's HTML to the HTML of the column we dropped on.
+			dragSrcEl.innerHTML = this.innerHTML;
+			this.innerHTML = e.dataTransfer.getData('text/html');
+		}			
+
+		return false;
+		}
+
+		function handleDragEnd(e) {
+		// this/e.target is the source node.
+
+		[].forEach.call(cols, function (col) {
+			col.classList.remove('over');
+		});
+		}
+		var cols = document.querySelectorAll('.drag-panel');
+		[].forEach.call(cols, function(col) {
+			col.addEventListener('dragstart', handleDragStart, false);
+			col.addEventListener('dragenter', handleDragEnter, false);
+			col.addEventListener('dragover', handleDragOver, false);
+			col.addEventListener('dragleave', handleDragLeave, false);
+			col.addEventListener('drop', handleDrop, false);
+			col.addEventListener('dragend', handleDragEnd, false);
+		});
+	</script>
+	<!-- Popup itself -->
+	<a href="#x" class="overlay" ng-class="{ 'show-popup': showEntities, '': !showEntities }" id="login_form"></a>
+	<div class="popup" ng-class="{ 'show-popup': showEntities, '': !showEntities }">
+		<pre>
+			{{ convObjStr }}
+		</pre>
+		<a class="close" href="" ng-click="$root.closedAdvanced();"></a>
+	</div>
+</div>

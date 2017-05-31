@@ -1,0 +1,27 @@
+<div draggable=true class="panel">
+    <div class="panel-heading" style="padding-top: 20px;padding-left: 20px;">
+        <h3 class="pull-left panel-title">Conversation</h3>
+    </div>
+    <div class="panel-body">
+    <div class='chat-wrapper'>
+      <span ng-repeat="convObj in convObjs">
+        <div class="chat-message" ng-class="{ 'chat-message-recipient': convObj.Type_ == 'Text', 'chat-message-sender' : convObj.Type_ == 'QuestionIntent'  }">
+          <div class="chat-message-wrapper">
+            <div id="diamond" ng-class="{ 'diamond-left': convObj.Type_ == 'Text', 'diamond-right' : convObj.Type_ == 'QuestionIntent'  }">
+              <span ng-if="convObj.Type_ == 'Text'">
+                <img src="img/Icon_User-good.png" style="width: 55%;transform: rotate(-45deg);margin-top: 4px;margin-left: 4px;position: absolute;left: 3px;" />
+              </span>
+              <span ng-if="convObj.Type_ == 'QuestionIntent'">
+                <img src="img/Icon_Watson.png" style="transform: rotate(-45deg);width: 75%;margin-right: 6px;margin-top: 4px;"/>
+              </span>
+            </div>
+            <div class="chat-message-content">
+              <!--<p style="padding-right: 35px;padding-left: 35px;"><span><span class="bold-it">{{ convObj.Type_ == 'Text' ? 'Me' : 'Watson' }} </span></span><span class="bold-it">{{ convObj.m_CreateTime | formatDate }}<a href="#login_form" class="advanced" ng-click="$root.setConvObj(convObj);"> [Advanced]</a></span></br>{{ convObj.Type_ == "Text" ? convObj.m_Text : convObj.m_Children[0].m_Children[0].m_Text || convObj.m_Children[0].m_Text }}<br><span style="color: #2f92b5;">{{ convObj.m_Intent ? '#' + convObj.m_Intent.top_class : '' }}</span></p>-->
+              <p style="padding-right: 35px;padding-left: 35px;"><span><span class="bold-it">{{ convObj.Type_ == 'Text' ? 'Me' : 'Watson' }} </span></span><span class="bold-it">{{ convObj.m_CreateTime | formatDate }}<a href="" class="advanced" ng-click="$root.setConvObj(convObj);"> [Advanced]</a></span></br>{{ convObj.Type_ == "Text" ? convObj.m_Text : convObj.m_Children[0].m_Children[0].m_Text || convObj.m_Children[0].m_Text }}<br><span style="color: #2f92b5;">{{ convObj.m_Intent ? '#' + convObj.m_Intent.top_class : '' }}</span></p>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
