@@ -140,6 +140,7 @@ This process installs Intu on the remote device whose user name and IP address y
   * `./scripts/build_nao.sh`
 4. Run the following command to install into on the given robot using scp:
   * `./scripts/install_nao.sh [user@host]`
+5. SSH to your robot, cd into `self\latest` and run the `run_self.sh` script.
 
   
 ## Getting Started
