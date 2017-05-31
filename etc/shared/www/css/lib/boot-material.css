@@ -9430,9 +9430,9 @@ label {
     -webkit-background-size: 100% 100%, 100% 100%, 0.9375rem 0.9375rem;
             background-size: 100% 100%, 100% 100%, 0.9375rem 0.9375rem; }
 
-select, select.form-control, select.custom-file-control {
+/*select, select.form-control, select.custom-file-control {
   -moz-appearance: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none; }*/
 
 @media (min-width: 544px) {
   .form-inline .input-group {

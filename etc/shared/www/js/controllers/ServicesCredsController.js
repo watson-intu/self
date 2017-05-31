@@ -64,6 +64,7 @@ myApp.controller('ServicesCredsCtrl', [ '$rootScope', '$scope', '$location', fun
 			var section = $(this).parent().parent().parent().find("section");
 
 			if(section.hasClass("open")) {
+				section.removeClass("open");
 				section.slideUp();
 			}else{
 				section.addClass("open");

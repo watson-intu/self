@@ -6,8 +6,6 @@ myApp.controller('ConfigSettingCtrl', [ '$rootScope', '$scope', '$location', fun
 		"Type_" : ""
 	};
 
-	// $rootScope.config.getConfig();
-
 	$scope.doneLoading = false;
 
 	$scope.toggleDetails = function(index) {
@@ -72,10 +70,8 @@ myApp.controller('ConfigSettingCtrl', [ '$rootScope', '$scope', '$location', fun
 	$rootScope.$watch('classes', function(newValue, oldValue) {
 		if(newValue && (newValue != oldValue)) {
 			$scope.configPossibles = newValue;
-			//$scope.configObjs = getActiveConfig( newValue, $scope.configObjs );
 			$scope.doneLoading = true;
 		}
-		// $scope.$apply();
 	});
 
 	$scope.updateConfigObj = function(configObj){
@@ -89,16 +85,13 @@ myApp.controller('ConfigSettingCtrl', [ '$rootScope', '$scope', '$location', fun
 
 	$scope.addNewConfig = function() {
 		$scope.configPreJSON = {};
-		// $scope.configPreJSON.Type_ = $scope.configObjSelect.Type_;
 		$scope.configPreJSON.Type_ = $scope.configObjSelect;
 		$scope.configPreJSON.m_bEnabled = false;
 		$(".add-obj-btn").fadeIn();
 		$(".added-row").fadeOut();
-		// $scope.configPreJSON = JSON.stringify($scope.configPreJSON, null, 4);
 	}
 
 	$scope.addConfigObj = function(newConfigObj) {
-		// newJsonConfigObj = JSON.parse(newConfigObj);
 		$rootScope.config.addObject(newConfigObj, "");
 	};
 
@@ -124,6 +117,7 @@ myApp.controller('ConfigSettingCtrl', [ '$rootScope', '$scope', '$location', fun
 			var section = $(this).parent().parent().parent().find("section");
 
 			if(section.hasClass("open")) {
+				section.removeClass("open");
 				section.slideUp();
 			}else{
 				section.addClass("open");
