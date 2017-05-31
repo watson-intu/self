@@ -152,8 +152,11 @@ After downloading and building the code base, you can now run **Intu**.
  
 
 ## Configuring Intu
-After initially running Intu, you will now need to configure Intu to use your own services in the web browser that opened.  While it is not required, we recommend using IBM Bluemix services. To register for a Bluemix account, go to `https://console.ng.bluemix.net/registration/`. 
+After initially running Intu, you will now need to configure Intu to use your own services in the web browser that opened. You may manually browse to http://localhost:9443/www/dashboard to view the dashboard. Please note port 9443 can be changed in the etc/shared/bootstrap.json file and replace localhost with the IP address of the machine running Self if not running locally.
 
+
+## Configuring BlueMix
+While it is not required, we recommend using IBM Bluemix services. To register for a Bluemix account, go to `https://console.ng.bluemix.net/registration/`. 
 
 At a minimum you will need a **Conversation** service, a **Speech to Text** service, and a **Text to Speech** service to use Intu.  If you are using IBM Bluemix's Conversation service, we have provided a sample workspace you can import and use.  For further instructions on how to use this workspace, jump to the [Getting Started with Conversation](#Conversation) section below.
 
