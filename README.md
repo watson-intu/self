@@ -57,7 +57,7 @@ Clone the Intu git repository onto your local machine by running the following t
   * `qibuild config --wizard` (use default setup for steps by pressing 1 twice)
 3. Run the following commands:
   * `cd {self root directory}`
-  * `./scripts/build_mac.sh [profile]`
+  * `./scripts/build_mac.sh`
   
 This process stages the executables in the `bin/mac` directory on your local computer. You can change into that directory and run the unit_test and self_instance executables.
 
@@ -68,7 +68,7 @@ PS: If you run into issues with the build, you might have to change a couple of 
 1. Set up qibuild and CMake. You can use your Linux package manager to install CMake, and any distribution of Python (2.7 recommended) to install qibuild through pip.
 2. Download the [Linux Toolchain for Linux (C++ SDK 2.1.4 Linux 64)](https://community.aldebaran.com/en/resources/software) and unzip the package into `~/toolchains/naoqi-sdk-linux64/`.
 3. Run the following commands:
-  * `./scripts/build_linux.sh [profile]`
+  * `./scripts/build_linux.sh`
 
 ### Raspberry Pi
 
@@ -128,11 +128,7 @@ Linux raspberrypi 4.4.21-v7+ #911 SMP Thu Sep 15 14:22:38 BST 2016 armv7l GNU/Li
 
 	3. Navigate to the raspi directory using: `cd {self root directory}/bin/raspi`.
 	
-	4. Run: `export LD_LIBRARY_PATH=./`
-	
-	5. Run: `export WIRINGPI_GPIOMEM=1`
-	
-	6. Run: `./self_instance`
+	4. Run: `./run_self.sh`
     
 This process installs Intu on the remote device whose user name and IP address you provide. You can go to the `~/self/latest` directory on that device and run `run_self.sh`. This process was tested on Red Hat Enterprise 6.6 and 6.7.
 
@@ -141,7 +137,7 @@ This process installs Intu on the remote device whose user name and IP address y
 1. Set up [CMake](http://doc.aldebaran.com/2-1/dev/cpp/install_guide.html#required-buidsys).
 2. Set up [qiBuild](http://doc.aldebaran.com/2-1/dev/cpp/install_guide.html#qibuild-install).
 3. Run the following commmands:
-  * `./scripts/build_nao.sh [profile]`
+  * `./scripts/build_nao.sh`
 4. Run the following command to install into on the given robot using scp:
   * `./scripts/install_nao.sh [user@host]`
 
