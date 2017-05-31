@@ -37,9 +37,7 @@ Clone the Intu git repository onto your local machine by running the following t
 
   * `git clone --branch master --recursive git@github.com:watson-intu/self.git`
   
- If the above command fails, you may need to go add your public ssh key into your profile on github. Alternatively, you can use the https link instead:
- 
- * `git clone --branch master --recursive https://github.com/watson-intu/self.git`
+ If the above command fails, you may need to go add your public ssh key into your profile on github. See https://help.github.com/articles/signing-commits-with-gpg/
  
 ### Release Notes
 * You may need to delete the "wdc" directory to get latest due to that directory being converted into a sub-module.
