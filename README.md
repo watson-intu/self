@@ -39,10 +39,6 @@ Clone the Intu git repository onto your local machine by running the following t
   
  If the above command fails, you may need to go add your public ssh key into your profile on github. See https://help.github.com/articles/signing-commits-with-gpg/
  
-### Release Notes
-* You may need to delete the "wdc" directory to get latest due to that directory being converted into a sub-module.
-* If you use git bash to checkout, run the following command to checkout the submodule `git submodule foreach git pull origin develop`.
-
 ### Windows
 
 1. Set up [Visual Studio 2015](https://www.visualstudio.com/downloads/).
