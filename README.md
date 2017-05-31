@@ -1,5 +1,5 @@
 # Intu
- Intu is an agent based embodiment middleware for devices. It intergrates inputs such as microphones, cameras, and other sensors together with cognitive services and outputs such as joints and audio outputs. 
+ Intu is an agent based embodiment middleware for devices. It integrates inputs such as microphones, cameras, and other sensors together with cognitive services and outputs such as joints and audio outputs. 
 
 ## Before you begin
 
@@ -97,7 +97,6 @@ Anaconda2-4.2.0-Linux-x86.sh: line 484: /home/pi/anaconda2/pkgs/python-3.5.2-0/b
 ERROR:
 cannot execute native linux-32 binary, output from 'uname -a' is:
 Linux raspberrypi 4.4.21-v7+ #911 SMP Thu Sep 15 14:22:38 BST 2016 armv7l GNU/Linux
-
 		```
 
 	5. Once Anaconda has successfully installed, run: `sudo apt-get install python-pip cmake`. 
@@ -146,42 +145,47 @@ This process installs Intu on the remote device whose user name and IP address y
 4. Run the following command to install into on the given robot using scp:
   * `./scripts/install_nao.sh [user@host]`
 
+  
+## Getting Started
+After downloading and building the code base, you can now run **Intu**. 
+
+**Windows**: To run Intu on Windows, click the play button in Visual Studio. A web browser will open.
+
+**Mac**: To run Intu on Mac, from your Intu directory, navigate to the `bin/mac` directory and execute the following command: `./run_self.sh`. A web browser will open.
+ 
+
 ## Configuring Intu
-  * To use Intu, you must have a Bluemix account. To register for a Bluemix account, go to https://console.ng.bluemix.net/registration/. 
-Your installation is preconfigured to use the Conversation, Natural Language Classifier, Speech to Text, and Text to Speech services. To configure Intu to use your instances of these services, complete the following steps.
+After initially running Intu, you will now need to configure Intu to use your own services in the web browser that opened.  While it is not required, we recommend using IBM Bluemix services. To register for a Bluemix account, go to `https://console.ng.bluemix.net/registration/`. 
 
-**Pro tip:** As you complete this task, you'll receive credentials for each service instance, and you'll need these credentials later. Open a new file in your favorite text editor and create a section for each service so that you can temporarily store its credentials.
 
-1. [Log in to Bluemix](http://www.ibm.com/cloud-computing/bluemix/).
-2. On the Bluemix dashboard, click **Catalog** in the navigation bar.
-3. Click **Watson** in the categories menu.
-4. Create an instance of the Conversation service.
-  1. Click the **Conversation** tile.
-  2. Keep all the default values, and click **Create**.
-  3. Click the **Service Credentials** tab.
-  4. Click **View Credentials** for the new service instance.
-  5. Copy the values of the `password` and `username` parameters and paste them in your text file.
-  6. Click the **Watson** breadcrumb.
-  7. Add the next service instance by clicking the hexagonal **+** button.
-5. Create instances of the Natural Language Classifier, Speech to Text, and Text to Speech services by repeating the same steps 1 - 7 that you completed to create the Conversation service instance.
-6. Specify your service credentials in Intu Gateway.
-  1. Expand **All Organizations** by clicking the arrow icon.
-  2. Click the name of your organization.
-  3. Expand your organization by clicking the arrow icon.
-  4. Click the name of your group.
-  5. Click **Services** in the navigation bar.
-  6. For your instances of the Conversation, Natural Language Classifier, Speech to Text, and Text to Speech services, click **Edit**, specify the user ID and password, and click **Save**.
+At a minimum you will need a **Conversation** service, a **Speech to Text** service, and a **Text to Speech** service to use Intu.  If you are using IBM Bluemix's Conversation service, we have provided a sample workspace you can import and use.  For further instructions on how to use this workspace, jump to the [Getting Started with Conversation](#Conversation) section below.
 
-**Important:** Do not change the service endpoint unless you are an enterprise user.
+To configure your services:
 
-### Installing the Intu Starter Kit
+1. Click on the Menu button located on the left side of your browser.
+2. Click on the Configure icon (the second icon from the top, above Logs).
+3. Click on the `SERVICES CONFIG` button. You will be directed to a Services Config page.
+4. Click on the **+** button next to the service you are configuring. An expanded view will appear.
+5. Enter a username and password (if the service has one).  Click save.
+6. **Reminder**: At a minimum you need to configure the following three services: **ConversationV1**, **SpeechToTextV1**, and **TextToSpeechV1**.  All other services are optional but can add extra functionality to Intu.
+7. For your Conversation service, you will also need to add a workspace id.  Click on the Menu button -> Configure icon (second icon from the top) -> CLASSIFIERS button. You will be directed to the Classifiers configuration page.
+8. Click on the **+** button for **TextClassifier**.  An expanded view will appear.
+9. Search for the `self_dialog` workspace key.  Above it you will see a `m_WorkspaceId` field.  Input your own workspace id in this field.  Click save.
+10. Your instance of Intu is now ready to use.
 
-The Intu Starter Kit contains a Conversation service workspace that helps you visualize how intents, entities, and dialog are developed. You can expand on the workspace in the kit or use it as a guide for developing your own later.
 
-1. Log in to Intu Gateway.
-2. Click **Downloads**.
-3. Download the Intu Starter Kit.
-4. Complete the instructions in `readme.txt`.
+
+### <a name="Conversation">Getting started with Conversation</a>
+
+Located in the `etc/shared` directory is a Conversation service workspace named **intu\_conversation\_v1.json**. This workspace helps you visualize how intents, entities, and dialog are developed. You can expand on this workspace or use it as a guide for developing your own later.  To import this workspace, follow these steps:
+
+1. Navigate to your Conversation service.
+2. Click **Launch tool**.
+3. You will be directed to your workspace dashboard.
+4. Click on the import icon (located next to the `Create` button).
+5. Select the Conversation workspace json we have provided: `etc/shared/intu_conversation_v1.json`.
+6. This Conversation workspace will automatically open once it is imported successfully.
+7. You may now edit or view this Conversation workspace.
 
   
 ## Feedback
