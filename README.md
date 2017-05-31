@@ -43,10 +43,10 @@ Clone the Intu git repository onto your local machine by running the following t
 
 1. Set up [Visual Studio 2015](https://www.visualstudio.com/downloads/).
 2. Open `/vs2015/self.sln` in this project.
-3. Select self_instance as your startup project.
-4. Open the project properties by right clicking on the `self_instance` project. Select the `Debugging` tab and set "Working Directory" to `..\..`.
-5. Select Build->Build Solution to build.
-6. Run in debug mode by pressing F5. 
+3. Right click on the `self_instance` project and select `Set as startup project`.
+4. Right click and select `Properties`. Select the `Debugging` tab and set "Working Directory" to `..\..`.
+5. Build by pressing F7 (Build->Build Solution).
+6. Run in debug mode by pressing F5 (Debug->Start Debugging). 
 
 ### OS X
 
