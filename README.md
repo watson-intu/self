@@ -35,7 +35,7 @@
 
 Clone the Intu git repository onto your local machine by running the following two commands in your terminal:
 
-  * `git clone --branch master --recursive git@github.com:watson-intu/self.git`
+  * `git clone --branch develop --recursive git@github.com:watson-intu/self.git`
   
  If the above command fails, you may need to go add your public ssh key into your profile on github. See https://help.github.com/articles/signing-commits-with-gpg/
  
