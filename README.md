@@ -152,8 +152,7 @@ After downloading and building the code base, you can now run **Intu**.
  
 
 ## Configuring Intu
-After initially running Intu, you will now need to configure Intu to use your own services in the web browser that opened. You may manually browse to http://localhost:9443/www/dashboard to view the dashboard. Please note port 9443 can be changed in the etc/shared/bootstrap.json file and replace localhost with the IP address of the machine running Self if not running locally.
-
+If running Intu for the very first time, it will load the initial configuration from the file etc/shared/bootstrap.json. This replaces the previous body.json, but is exactly the same format. Once you run, you must use a web browser to access the dashboard end-point (e.g. http://localhost:9443/www/dashboard). Alternatively, provided your not using a remote graph, you may delete the db/knowledge.db to wipe the local graph (which will purge all other data stored in the graph). Once deleted, next time you run Intu it will reload the etc/shared/boostrap.json again.
 
 ## Configuring BlueMix
 While it is not required, we recommend using IBM Bluemix services. To register for a Bluemix account, go to `https://console.ng.bluemix.net/registration/`. 
