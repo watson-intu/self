@@ -1141,9 +1141,11 @@ void TopicManager::HandleNoRoute(const Json::Value & a_Message)
 				StringList & subs = iTopic->second.m_Subscribers;
 				for (StringList::iterator iSub = subs.begin(); iSub != subs.end(); ++iSub)
 				{
-					const std::string & sub = *iSub;
-					if (! StringUtil::StartsWith( sub, origin) )
+					if (! StringUtil::StartsWith( *iSub, origin) )
 						continue;
+
+					std::string sub( *iSub );
+					subs.erase( iSub );
 
 					Log::Debug("TopicManager", "Unsubscribed %s from topic %s.", sub.c_str(), topicId.c_str());
 
@@ -1156,7 +1158,6 @@ void TopicManager::HandleNoRoute(const Json::Value & a_Message)
 
 						iTopic->second.m_SubscriberCallback(info);
 					}
-					subs.erase(iSub);
 					break;
 				}
 			}
