@@ -74,3 +74,6 @@ vs2015/.workspace/
 .vs
 /body.json
 config.json
+.qi
+build-mac
+*.userprefs
