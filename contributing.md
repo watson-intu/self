@@ -76,7 +76,7 @@ By making a contribution to this project, I certify that:
 [style guide]: https://google.github.io/styleguide/cppguide.html
 
 ## Governance
-Governance of this project is managed by the Administrator team with the folling rules:
+Governance of this project is managed by the Administrator team with the following rules:
 * Anyone can fork the code, modify and submit changes through a Pull request.
 * Only an adminstrator can approve a Pull request, but will only do so if there are no objections from any other administrator.
 * All Pull requests will be held for 48 hours to give the other administrators time to consider an objection.
