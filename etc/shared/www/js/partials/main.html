@@ -5,11 +5,11 @@
 				<span ng-if="$root.showFullScreen">
 					<div ng-switch="fullType">
 						<span ng-switch-when="camera">
-							<img style="width:75%;" src="http://localhost:9443/topics/sensor-Camera" />
+							<img style="width:75%;" src="../topics/sensor-Camera" />
 						</span>
 						<span ng-switch-when="audio">
 							<div class="card">
-								<img class="card-img-top" src="http://localhost:9443/topics/fft" alt="Card image cap" style="width: 100%; position:relative;">
+								<img class="card-img-top" src="../topics/fft" alt="Card image cap" style="width: 100%; position:relative;">
 								<div class="card-block text-pane" style="height: 500px;">
 									<div class="conversation-wrapper" style="overflow-y: auto;">
 										<p class="card-text text-left" ng-repeat="text in $root.textObjects" style="font-size:32px;">{{ text.transcription }}</p>
