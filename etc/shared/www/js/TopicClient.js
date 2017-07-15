@@ -178,7 +178,7 @@ var TopicClient = (function () {
 	return {
 		getInstance: function() {
 			if(!instance) {
-				instance = createInstance('127.0.0.1', 9443);
+				instance = createInstance(location.hostname, location.port);
 			}
 
 			return instance;
