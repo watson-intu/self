@@ -210,6 +210,9 @@ a {
 	right: 0;
 	height: 100%;
 }
+.conversation-panel {
+	overflow: auto;
+}
 .drag-panel.over {
 	border: 2px dashed #000;
 }
