@@ -212,6 +212,7 @@ a {
 }
 .conversation-panel {
 	overflow: auto;
+	height: 550px;
 }
 .drag-panel.over {
 	border: 2px dashed #000;
