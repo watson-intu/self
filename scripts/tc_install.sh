@@ -63,9 +63,15 @@ elif [ "$TARGET" == "nao" ]; then
 		curl "${STORE_URL}/openssl-i686-aldebaran-linux-gnu-1.0.1s.zip" --output openssl-nao.zip
 elif [ "$TARGET" == "raspi" ]; then
 		curl "${STORE_URL}/boost-raspi-0.1.zip" --output boost-raspi-0.1.zip
+else
+	# nothing to do, just exit 
+	exit 0
 fi
 
-if [ $? -ne 0 ]; then exit 1; fi
+if [ $? -ne 0 ]; then 
+	echo "Failed to download target specific package."
+	exit 1; 
+fi
 
 # Ensure that if there are no dependencies, it does not try to install anything
 shopt -s nullglob
