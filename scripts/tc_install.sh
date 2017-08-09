@@ -7,7 +7,7 @@ export TARGET=$1
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BUILD_DIR=$DIR/..
 PACKAGES_DIR=$BUILD_DIR/packages
-STORE_URL="http://wwww.palestar.com/downloads"
+STORE_URL="http://www.palestar.com/downloads"
 TC_NAME=$TARGET
 
 TOOLCHAIN=
@@ -37,7 +37,7 @@ if [ "$TOOLCHAIN" != "" ]; then
 		cd "$PACKAGES_DIR"
 		TOOLCHAIN_ZIP=$TOOLCHAIN.zip
 		echo "Downloading toolchain $TOOLCHAIN_ZIP..."
-		curl "${STORE_URL}$TOOLCHAIN_ZIP" --output $TOOLCHAIN_ZIP
+		curl "${STORE_URL}/$TOOLCHAIN_ZIP" --output $TOOLCHAIN_ZIP
 		rm -rf $TOOLCHAIN
 		unzip $TOOLCHAIN_ZIP
 		cd "$BUILD_DIR"
