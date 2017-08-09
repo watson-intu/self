@@ -52,7 +52,7 @@ while true; do
 
 	echo Running self..
 	ulimit -c unlimited
-	export LD_LIBRARY_PATH=${SELF_HOME}
+	export LD_LIBRARY_PATH=${SELF_HOME}:${SELF_HOME}/lib
 	cd "${SELF_HOME}"
 	./self_instance -P ${PLATFORM} "$@"
 	PREV_STATUS="$(echo $?)"
