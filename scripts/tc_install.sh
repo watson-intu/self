@@ -7,7 +7,7 @@ export TARGET=$1
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BUILD_DIR=$DIR/..
 PACKAGES_DIR=$BUILD_DIR/packages
-STORE_URL="http://75.126.4.99/xray/?action="
+STORE_URL="http://www.palestar.com/downloads"
 TC_NAME=$TARGET
 
 TOOLCHAIN=
@@ -37,7 +37,7 @@ if [ "$TOOLCHAIN" != "" ]; then
 		cd "$PACKAGES_DIR"
 		TOOLCHAIN_ZIP=$TOOLCHAIN.zip
 		echo "Downloading toolchain $TOOLCHAIN_ZIP..."
-		curl "${STORE_URL}/download?packageId=$TOOLCHAIN_ZIP" --output $TOOLCHAIN_ZIP
+		curl "${STORE_URL}/$TOOLCHAIN_ZIP" --output $TOOLCHAIN_ZIP
 		rm -rf $TOOLCHAIN
 		unzip $TOOLCHAIN_ZIP
 		cd "$BUILD_DIR"
@@ -56,7 +56,15 @@ fi
 mkdir -p "$PACKAGES_DIR"/$TARGET
 cd "$PACKAGES_DIR"/$TARGET
 
-"$DIR"/download_dep.sh $TARGET
+# download target specific pagaes
+if [ "$TARGET" == "mac" ]; then
+		curl "${STORE_URL}/portaudio-osx64-0.1.zip" --output portaudio-osx64-0.1.zip
+elif [ "$TARGET" == "nao" ]; then
+		curl "${STORE_URL}/openssl-i686-aldebaran-linux-gnu-1.0.1s.zip" --output openssl-nao.zip
+elif [ "$TARGET" == "raspi" ]; then
+		curl "${STORE_URL}/boost-raspi-0.1.zip" --output boost-raspi-0.1.zip
+fi
+
 if [ $? -ne 0 ]; then exit 1; fi
 
 # Ensure that if there are no dependencies, it does not try to install anything
@@ -68,3 +76,5 @@ for f in *.zip; do
 	echo "Installing $NAME into toolchain..."
 	qitoolchain add-package -c "$TC_NAME" $f --name "$NAME"
 done
+
+exit 0
