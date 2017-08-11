@@ -4,6 +4,7 @@ find_package(qibuild)
 include_directories(src lib)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -std=c++0x -Wno-deprecated-declarations")
+add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 
 add_subdirectory(lib)
 add_subdirectory(src)
@@ -12,6 +13,6 @@ add_subdirectory(tests)
 add_subdirectory(tools)
 
 qi_create_bin(self_instance src/main.cpp)
-qi_use_lib(self_instance self utils)
+qi_use_lib(self_instance self utils OPENCV2_CORE OPENCV2_HIGHGUI OPENCV2_OBJDETECT OPENCV2_IMGPROC)
 
 
