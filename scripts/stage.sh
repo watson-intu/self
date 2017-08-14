@@ -23,8 +23,8 @@ mkdir -p "$STAGE_DIR"
 cp -R "$DIR/../etc" "$STAGE_DIR/"
 
 # update the version number in all the profiles
-find $STAGE_DIR/etc/shared/profiles/ -name 'body.json' | xargs sed -i '.bak' "s/\"0.0.0\"/\"$VERSION\"/g" 
-find $STAGE_DIR/etc/shared/profiles/ -name 'body.json.bak' | xargs rm
+find $STAGE_DIR/etc/ -name 'bootstrap.json' | xargs sed -i.bak "s/\"0.0.0\"/\"$VERSION\"/g" 
+find $STAGE_DIR/etc/ -name 'bootstrap.json.bak' | xargs rm
 
 if [ -d "$BIN_DIR" ]; then
 	echo "Staging bins.."

@@ -4,6 +4,7 @@ find_package(qibuild)
 include_directories(src lib)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wno-deprecated-declarations")
+add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 
 add_subdirectory(lib)
 add_subdirectory(src)
