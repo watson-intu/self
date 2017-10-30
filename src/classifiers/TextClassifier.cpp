@@ -416,7 +416,7 @@ void TextClassifier::ClassifyText::OnClassifyDone()
 					// If dialog_node's value is anything else, then Conversation is indeed sticky
 					// NOTE: an ignored intent (like 'nonsense') will end stickiness
 					Json::Value dialogStack( JsonHelpers::Resolve( pTopResult->m_Result, "conversation/context/system/dialog_stack" ) );
-					if ( dialogStack.isArray() && dialogStack.size() > 0 )
+					if ( dialogStack.isArray() && dialogStack.size() > 0 && dialogStack[0].isString() )
 					{
 						// Find out the stack node
 						std::string dialogNode = dialogStack[0].asString();
