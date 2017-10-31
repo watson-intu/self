@@ -3,6 +3,11 @@
 
 export TARGET=$1
 TC_NAME="${TARGET}"
+if [ "$TARGET" == "raspi" ]; then
+	JOBS=2
+else
+	JOBS=4
+fi
 
 if [ "$ACTION" == "" ]; then
 	ACTION=make
@@ -30,7 +35,7 @@ fi
 cd "$BUILD_DIR"
 qibuild configure -c "$TC_NAME"
 if [ $? -ne 0 ]; then exit 1; fi
-qibuild $ACTION -c "$TC_NAME" -j 4
+qibuild $ACTION -c "$TC_NAME" -j $JOBS
 if [ $? -ne 0 ]; then exit 1; fi
 
 "$DIR"/stage.sh $1 
